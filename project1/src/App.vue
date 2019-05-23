@@ -24,34 +24,43 @@ export default {
 html , body , #app , .index , .wrap{
   height: 100%;
   width: 100%;
-  margin: 0;
-  padding: 0;
+}
+
+.banner {
+  width: 100%;
+  height: 438px;
+  background: lightblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 * {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 1200px) and (min-width: 1024px) {
-  .header {
+  .header , main {
     width: 1024px;
     margin: 0 auto;
   }
 }
 @media screen and (max-width: 1024px) {
-  .header {
+  .header , main {
     width: 960px;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 1200px) {
-  .header {
+  .header , main {
     width: 1200px;
     margin: 0 auto;
   }
 }
-.header {
+.header{
     background: red;
-    height: 70px;
+    height: 75px;
 }
 </style>
