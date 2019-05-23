@@ -1,6 +1,11 @@
 <template>
-  <div class="wrap">
-      
+  <div class="trem">
+      <div class="banner">
+        <img src="" alt="">
+      </div>
+      <main>
+       
+      </main>
   </div>
 </template>
 
@@ -17,19 +22,33 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
+.trem {
+  width: 100%;
+  height: 100%;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.banner {
+  width: 100%;
+  height: 300px;
+  background: lightblue;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+@media screen and (max-width: 1200px) and (min-width: 1024px) {
+  main {
+    width: 1024px;
+    margin: 0 auto;
+  }
 }
-a {
-  color: #42b983;
+@media screen and (max-width: 1024px) {
+  main {
+    width: 960px;
+    margin: 0 auto;
+  }
 }
+@media screen and (min-width: 1200px) {
+  main {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
 </style>
 

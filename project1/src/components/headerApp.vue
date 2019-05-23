@@ -1,37 +1,22 @@
 <template>
-  <div id="app">
-    <Header/>
-    <router-view/>
-  </div>
+<div class="wrap">
+    <div class="header">
+
+    </div>
+</div>
+    
 </template>
 
 <script>
-import Header from './components/headerApp.vue'
 export default {
-  name: 'App',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  },
-  components : {
-    Header
-  }
+    
 }
 </script>
-
 <style>
-html , body , #app , .index , .wrap{
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+.wrap {
+    width: 100%;
+    height: 70px;;
 }
-
-* {
-  list-style: none;
-}
-
 @media screen and (max-width: 1200px) and (min-width: 1024px) {
   .header {
     width: 1024px;
