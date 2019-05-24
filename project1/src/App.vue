@@ -16,7 +16,10 @@ export default {
   },
   components : {
     Header
-  }
+  },
+  mounted() {
+    
+  },
 }
 </script>
 
