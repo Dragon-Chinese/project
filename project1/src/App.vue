@@ -19,7 +19,7 @@ export default {
     Header
   },
   async mounted() {
-    await axios.get('https://dragon-chinese.github.io/project/project1/src/Vip.json')
+    await axios.get(`https://dragon-chinese.github.io/project/project1/src/Vip.json?time=${+ new Date}`)
     .then(res => {
       this.show = res.data.show
     })
