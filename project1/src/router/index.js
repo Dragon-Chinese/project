@@ -3,6 +3,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Index from '@/components/Index'
 import Team from '@/components/Team'
+import VentiLife from '@/components/VentiLife'
 import Us from '@/components/Us'
 import Craeers from '@/components/Craeers'
 import Technology from '@/components/Technology';
@@ -24,6 +25,11 @@ export default new Router({
       name:'team',
       component:Team
     },{
+      path:'/ventiLife',
+      name:'ventiLife',
+      component: VentiLife
+    },
+    {
       path:'/craeers',
       name:'craeers',
       component:Craeers
