@@ -6,7 +6,7 @@
       </div>
       <main>
         <div class="main-top">
-          <p class="top-left">OUR FOUNDERS</p>
+          <p class="top-left">OUR FOUNDERS </p>
           <p class="top-right">
             <span>
               <img src="../assets/Heidi.png" alt="">
