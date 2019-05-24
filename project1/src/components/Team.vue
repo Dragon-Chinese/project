@@ -2,7 +2,7 @@
   <div class="index">
       <div class="banner">
           <p class="team">Dedicated Team</p>
-          <img class="banner-img" src="../assets/team.png" alt="">
+          <!-- <img class="banner-img" src="../assets/team.png" alt=""> -->
       </div>
       <main>
         <div class="main-top">
