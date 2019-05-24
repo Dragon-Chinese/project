@@ -72,6 +72,9 @@ export default {
             localStorage.setItem('defaulti18n', item.value)
         }
     },
+    mounted() {
+           this.label = localStorage.getItem('defaulti18n')
+    },
 }
 </script>
 <style lang="scss" scoped>
@@ -105,7 +108,8 @@ export default {
     h1 {
         width:43px;
         height:53px;
-        background: lightgreen;
+        background: url('../assets/logo.png') no-repeat;
+        background-size: contain;
     }
     ul {
         display: flex;
