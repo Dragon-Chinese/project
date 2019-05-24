@@ -24,7 +24,7 @@ export default {
             nav : [
                 {
                     title : 'message.header.txt1',
-                    link : '/'
+                    link : '/us'
                 },
                 {
                     title : 'message.header.txt2',
