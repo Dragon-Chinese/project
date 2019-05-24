@@ -1,31 +1,25 @@
 <template>
   <div class="index">
     <div class="banner">
-      <h2>Partnering for Explosive Growth</h2>
+      <h2>{{$t('message.parthers.txt0')}}</h2>
     </div>
     <main>
-      <div class="mainHead">OUR PARTNERS</div>
-      <div class="mainPower">Powerful, Strategic, Innovators</div>
-      <div class="mainHead mainCom">COMMUNITIES</div>
+      <div class="mainHead">{{$t('message.parthers.txt1')}}</div>
+      <div class="mainPower">{{$t('message.parthers.txt2')}}</div>
+      <div class="mainHead mainCom">{{$t('message.parthers.txt3')}}</div>
       <div class="mainSelf">
-        Self-driving vehicles will revolutionize transportation for people. In twenty years most people will not own cars; rather we will summon whatever kind of vehicle we want for
-        each journey. Rent a minibus for a birthday party or a shared taxi to go to work. Hire a private car for a business trip. Venti’s vehicles are cost-effective, beautiful, comfortable,
-        safe, and reliable. We are working with partners to build community-wide Safe Speed robo-taxi services.
+        {{$t('message.parthers.txt4')}}
       </div>
-      <div class="mainHead mainInd">INDUSTRIAL VEHICLES</div>
+      <div class="mainHead mainInd">{{$t('message.parthers.txt5')}}</div>
       <div class="mainHr"></div>
       <div class="mainContent">
         <div class="left">
-          <div class="mainHead mainSpe">SPECIALTY VEHICLES</div>
+          <div class="mainHead mainSpe">{{$t('message.parthers.txt6')}}</div>
           <div class="leftWork">
-            Working with the best of the best and most successful companies in China, Venti
-            has designed and powered six vehicle classes with more to come. Our Safe Speed
-            autonomy has benchmarked top in China and is poised to lead China’s huge
-            urbanization-driven markets.
-            Our partners include the nation’s number one insurance company, a top 10 real
-            estate builder, multiple leading vehicle manufacturers, and SIP, China’s best
-            industrial park, are pathways for explosive growth and AV leadership in moving
-            people and goods.
+            {{$t('message.parthers.txt7')}}
+          </div>
+          <div class="lefstWork">
+          {{$t('message.parthers.txt9')}}
           </div>
           <div class="leftImg">
             <div class="imgPart">
@@ -53,8 +47,7 @@
         </div>
         <div class="right">
           <div class="rightSize">
-            Specialty, safe speed industrial vehicles
-            that are ready for deployment
+            {{$t('message.parthers.txt8')}}
           </div>
           <div class="rightVideo">
             <video-player
@@ -167,6 +160,14 @@ main {
       width: 572px;
       .leftWork {
         margin-top: 46px;
+        font-size: 16px;
+        font-family: ProximaNova-Light;
+        font-weight: 300;
+        color: rgba(68, 68, 68, 1);
+        line-height: 24px;
+      }
+      .lefstWork{
+        margin-top: 20px;
         font-size: 16px;
         font-family: ProximaNova-Light;
         font-weight: 300;

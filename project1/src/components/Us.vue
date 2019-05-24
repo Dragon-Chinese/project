@@ -1,42 +1,26 @@
 <template>
   <div class="index">
       <div class="banner">
-        <p class="Up">VENTI IS</p>
+        <p class="Up">{{$t('message.us.txt0')}}</p>
       </div>
       <main>
-        <p>AN AUTONOMY LEADER.</p>
+        <p>{{$t('message.us.txt1')}}</p>
         <ul>
-          <li>A DISRUPTOR. </li>
-          <li>AN INNOVATOR. </li>
-          <li>AN ENABLER.</li>
-          <li>AN INTEGRATOR. </li>
-          <li>AN IMPLEMENTOR.</li>
+          <li>{{$t('message.us.txt2')}}</li>
+          <li>{{$t('message.us.txt3')}} </li>
+          <li>{{$t('message.us.txt4')}}</li>
+          <li>{{$t('message.us.txt5')}} </li>
+          <li>{{$t('message.us.txt7')}}</li>
         </ul>
         <hr>
         <footer>
-          <p>WHY VENTI</p>
+          <p>{{$t('message.us.txt6')}}</p>
           <div>
             <ul>
-              <li>
-                Venti combines the intellectual might of powerful technology with the power of Asia’s huge urbanization-driven markets. Our Safe
-                Speed autonomy has benchmarked top in China, and powered 6 vehicle classes.  Our vehicles had 0 software disengagements 
-                in 5,000 kilometers of testing and 0 incidents in 9 years of testing in China, US and Singapore.  Venti’s system is fast, mature, and
-                ready for large scale applications with a significant cost advantage over the competition
-              </li>
-              <li>
-                Our powerful strategic partners including China’s number one insurance company, two industrial partners, a top 10 real estate 
-                builder, multiple leading vehicle manufacturers, and SIP, China’s best industrial park, are pathways for explosive growth and AV 
-                leadership in moving people and goods.
-              </li>
-              <li>
-                Venti has an unsurpassed team, 56% of whom are MIT-trained; our best-in-class management team includes AI experts paired 
-                with seasoned automotive and business stars from leading automotive Tier-1 OEMs.
-              </li>
-              <li>
-                Our autonomy system has a modular design, leading 3D components and more powerful algorithms. These factors yield higher 
-                safety and reliability, deployment of a new vehicle class within a week, mapping a new area in a morning, and greater flexibility 
-                for initial application and modifications.    Come ride with us into the future. 
-              </li>
+              <li>{{$t('message.us.txt8')}}</li>
+              <li>{{$t('message.us.txt9')}}</li>
+              <li>{{$t('message.us.txt10')}}</li>
+              <li>{{$t('message.us.txt11')}}</li>
             </ul>
           </div>
         </footer>
