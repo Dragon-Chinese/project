@@ -34,7 +34,7 @@
                 </li>
                 <li>
                   <b>Tell us about yourself. *</b>
-                  <input type="text">
+                  <textarea></textarea>
                 </li>
               </ul>
               <button>SUBMIT</button>
@@ -136,6 +136,7 @@ footer{
   width:291px;
   height:45px;
   background:rgba(231,231,231,1);
+  text-indent: 1em;
   border:1px solid rgba(167,167,167,1);
 }
 
@@ -188,11 +189,12 @@ footer{
   line-height:21px;
   margin-bottom: 8px;
 }
-.rigth ul li:nth-child(3)>input{
+.rigth ul li:nth-child(3)> textarea{
   width:593px;
   height:129px;
   background:rgba(231,231,231,1);
   border:1px solid rgba(167,167,167,1);
+  text-indent: 1em;padding-top: 10px;
 }
 
 .rigth button {
@@ -206,6 +208,8 @@ footer{
   font-weight:400;
   color:rgba(10,10,10,1);
   line-height:21px;
+  outline: none;
+  cursor: pointer;
 }
 </style>
 
