@@ -6,8 +6,13 @@ import router from './router'
 import VueI18n from 'vue-i18n';
 import English from './static/English'
 import Chinese from './static/Chinese'
+import VideoPlayer from 'vue-video-player'
+require('video.js/dist/video-js.css')
+require('vue-video-player/src/custom-theme.css')
+
 Vue.config.productionTip = false
 Vue.use(VueI18n);
+Vue.use(VideoPlayer)
 const messages = {
   Eng: Object.assign(English),
   Cha: Object.assign(Chinese)

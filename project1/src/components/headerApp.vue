@@ -28,11 +28,11 @@ export default {
                 },
                 {
                     title : 'message.header.txt2',
-                    link : '/'
+                    link : '/Technology'
                 },
                 {
                     title : 'message.header.txt3',
-                    link : '/'
+                    link : '/parthers'
                 },
                 {
                     title : 'message.header.txt4',
