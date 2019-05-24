@@ -33,6 +33,32 @@ export default {
             "txt27": "IMPROVING PEOPLE’S LIVES THROUGH COST-EFFECTIVE,  RELAXING TRAN",
             "txt28": "NURTURING WILD LANDS AND WILD WATERS SO ANIMALS  CAN PROSPER",
             "txt29" : 'Venti Technologies'
+        },
+        technology : {
+            txt0: "Cheaper. Flexible. Accurate. Reliable.",
+            txt1: "AN AUTONOMY LEADER.",
+            txt2: "TECHNOLOGY APPLICATIONS",
+            txt3: "Venti’s technology is universal with applications in moving people andspecialty vehicles in moving goods. For people, our reliable and safevehicles are cost-effective, comfortable, convenient and calming.They give back time, so needed in our busy world. Happy rides forhappy people!",
+            txt4: "TECHNOLOGY ADVANTAGES",
+            txt5: "Our autonomy technologies are cost-effective solutions to manylogistics and specialty vehicle applications. Venti’s vehicles arecheaper, flexible, accurate, and reliable. They adapt to complex routeconditions and decrease operations costs for a variety of industrialneeds.",
+            txt6: "We can map a new area in half a day and add autonomy to a newvehicle within a week including the drive by wire hardware conveImportantly, our autonomy solution is cheaper than the competitioncause of the maturity of the underlying system. Our algorithms, ratherthan the sensors, do the heavy lifting, enabling a less expensivehardware design and lower costs for the customer."
+        },
+        careers : {
+            txt0: "Venti Technologies",
+            txt1: "Jobs",
+            txt2: "Our motto is Best-of-the-Best.  ",
+            txt3: "If you aspire to change the world through your job, if you want to work with top professionals, if excellence is your mantra—then Venti is your place.",
+            txt4: "You will be challenged. You will be your best self. You will build the future today.",
+            txt5: "We invite you to contact us.",
+            txt6: "Name *",
+            txt7: "First Name ",
+            txt8: "Last Name",
+            txt9: "Email Addres *",
+            txt10: "Tell us about yourself. *",
+            txt11: "SUBMIT"
+        },
+        ventiLife : {
+            txt0: "Experience Venti"
         }
     }
 }

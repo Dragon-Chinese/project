@@ -2,7 +2,7 @@
   <div class="index">
     <div class="banner">
         <!-- <img src="../assets/ventilife/ba440898a9c4ce92e73d02bdc0b7734.png" class="bannerImg" alt=""> -->
-        <h2>enti Technologies</h2>
+        <h2>{{$t('message.ventiLife.txt0')}}</h2>
     </div>
     <main>
       <div class="top">

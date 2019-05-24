@@ -1,17 +1,17 @@
 <template>
   <div class="index">
       <div class="banner">
-        <p class="Up">Venti Technologies</p>
+        <p class="Up">{{$t('message.careers.txt0')}}</p>
       </div>
       <main>
         <footer>
           <div class="left">
-            <h4>Jobs</h4>
-            <p>Our motto is Best-of-the-Best.  </p>
+            <h4>{{$t('message.careers.txt1')}}</h4>
+            <p>{{$t('message.careers.txt2')}}</p>
             <ul>
-              <li>If you aspire to change the world through your job, if you want to work with top professionals, if excellence is your mantra—then Venti is your place.  </li>
-              <li>You will be challenged. You will be your best self. You will build the future today.</li>
-              <li> We invite you to contact us.</li>
+              <li>{{$t('message.careers.txt3')}}</li>
+              <li>{{$t('message.careers.txt4')}}</li>
+              <li>{{$t('message.careers.txt5')}}</li>
             </ul>
           </div>
           <div class="rigth">
@@ -19,25 +19,25 @@
               <ul>
                 <li>
                   <div class="first">
-                    <b style="margin-bottom:12px;">Name *</b>
+                    <b style="margin-bottom:12px;">{{$t('message.careers.txt6')}}</b>
                     <input type="text">
-                    <b style="margin-top:5px;">First Name </b>
+                    <b style="margin-top:5px;">{{$t('message.careers.txt7')}}</b>
                   </div>
                   <div class="last">
                     <input type="text">
-                    <b style="margin-top:5px;">Last Name </b>
+                    <b style="margin-top:5px;">{{$t('message.careers.txt8')}}</b>
                   </div>
                 </li>
                 <li>
-                  <b>Email Addres *</b>
+                  <b>{{$t('message.careers.txt9')}}</b>
                   <input type="text">
                 </li>
                 <li>
-                  <b>Tell us about yourself. *</b>
+                  <b>{{$t('message.careers.txt10')}}</b>
                   <textarea></textarea>
                 </li>
               </ul>
-              <button>SUBMIT</button>
+              <button>{{$t('message.careers.txt11')}}</button>
             </form>
           </div>
         </footer>
