@@ -40,7 +40,7 @@ export default {
                 },
                 {
                     title : 'message.header.txt5',
-                    link : '/'
+                    link : '/craeers'
                 },
                 {
                     title : 'message.header.txt6',
