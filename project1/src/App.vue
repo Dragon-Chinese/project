@@ -38,7 +38,7 @@ html , body , #app , .index , .wrap{
 
 .banner {
   width: 100%;
-  height: 438px;
+  height: 700px;
   background: lightblue;
   display: flex;
   align-items: center;
