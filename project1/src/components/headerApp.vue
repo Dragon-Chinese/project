@@ -112,8 +112,8 @@ export default {
         margin-left: 65px;
         flex: 1;
         li {
-            margin-left: 9px;
-            font-size:8px;
+            margin-left: 15px;
+            font-size:15px;
             font-family:ProximaNova-Bold;
             font-weight:bold;
             color:rgba(156,156,156,1);

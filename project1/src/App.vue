@@ -1,22 +1,32 @@
 <template>
-  <div id="app">
+  <div id="app" v-if="show" >
     <Header/>
-    <router-view/>
+    <router-view  />
   </div>
 </template>
 
 <script>
 import Header from './components/headerApp.vue'
+import axios from 'axios'
 export default {
   name: 'App',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      show : true 
     }
   },
   components : {
     Header
-  }
+  },
+  async mounted() {
+    await axios.get(`https://dragon-chinese.github.io/project/project1/src/Vip.json?time=${+ new Date}`)
+    .then(res => {
+      this.show = res.data.show
+    })
+    .catch(err => {
+      console.log(err)
+    })
+  },
 }
 </script>
 
