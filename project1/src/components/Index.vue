@@ -1,81 +1,81 @@
 <template>
   <div class="index">
     <div class="banner">
-        <h2>Venti Technologies</h2>
+        <h2>{{$t('message.index.txt29')}}</h2>
     </div>
     <main>
       <div class="topMain">
           <div class="left">
-              <div>VENTI IS THE LEADER IN SAFE SPEED <br/> AUTONOMOUS MOBILITY</div>
-              <p>Improving our lives and improving our planet by disrupting <br /> transportation, commerce, and society. </p>
+              <div>{{$t('message.index.txt6')}}</div>
+              <p>{{$t('message.index.txt7')}} </p>
           </div>
           <div class="right">
 
           </div>
       </div>
       <div class="line"></div>
-      <h3>THE VENTI ADVANTAGE</h3>
+      <h3>{{$t('message.index.txt8')}}</h3>
       <p class="power">
-        The Power of People, Partnerships and Intelligent Science
+      {{$t('message.index.txt9')}}
       </p>  
       <div class="main">
         <div>
-          <p class="title">THE VENTI ADVANTAGE</p>
+          <p class="title">{{$t('message.index.txt10')}}</p>
           <div class="img"></div>
-          <p class="txt">Our autonomy technology benchmarked top in China and is significantly cheaper than the competition.</p>
-          <button>READ ABOUT OUR TECHNOLOGY</button>
+          <p class="txt">{{$t('message.index.txt13')}}</p>
+          <button>{{$t('message.index.txt11')}}</button>
         </div>
         <div>
-          <p class="title">THE VENTI ADVANTAGE</p>
+          <p class="title">{{$t('message.index.txt16')}}</p>
           <div class="img"></div>
-          <p class="txt">Our autonomy technology benchmarked top in China and is significantly cheaper than the competition.</p>
-          <button>READ ABOUT OUR TECHNOLOGY</button>
+          <p class="txt">{{$t('message.index.txt14')}}</p>
+          <button>{{$t('message.index.txt17')}}</button>
         </div>
         <div>
-          <p class="title">THE VENTI ADVANTAGE</p>
+          <p class="title">{{$t('message.index.txt12')}}</p>
           <div class="img"></div>
-          <p class="txt">Our autonomy technology benchmarked top in China and is significantly cheaper than the competition.</p>
-          <button>READ ABOUT OUR TECHNOLOGY</button>
+          <p class="txt">{{$t('message.index.txt15')}}</p>
+          <button>{{$t('message.index.txt18')}}</button>
         </div>
       </div>
       <div class="line1"></div>
       <div class="botMain">
         <p class="title">
-          THE VENTI OPPORTUNITY
+          {{$t('message.index.txt19')}}
         </p>
         <p class="title2">
-          Moving People and Moving Goods
+          {{$t('message.index.txt20')}}
         </p>
         <p class="txt">
-          Our Safe Speed system is the fastest, most powerful, safest and most reliable in China and has powered 6 vehicle classes in industrial and people-moving applications.  It is fast, mature, and ready for large scale applications with a substantial cost advantage from our algorithmic power and uncompromising cost focus.
+          {{$t('message.index.txt21')}}
         </p>
         <div class="img">
           <div class="left">
               <div class="top"></div>
-              <p>VENTI的工业应用不断专注于成本，价格更便宜，准确度更高，更可靠，并且实施时间更短。</p>
+              <p>{{$t('message.index.txt22')}}</p>
           </div>
           <div class="right">
               <div class="top"></div>
-              <p>专注于成本，在移动货物应用方面具有30-60％的成本优势</p>
+              <p>{{$t('message.index.txt23')}}</p>
           </div>
         </div>
       </div>
       <div class="line3"></div>
       <div class="bottom">
-        <p class="title">VENTI MAKES THE WORLD A BETTER PLACE</p>
-        <p class="title2">Lives improve, Pollution reduces, Animals prosper</p>
+        <p class="title">{{$t('message.index.txt24')}}</p>
+        <p class="title2">{{$t('message.index.txt25')}}</p>
         <div class="fotImg">
           <div>
             <div class="img"></div>
-            <p>IMPROVING PEOPLE’S LIVES THROUGH COST-EFFECTIVE,RELAXING TRANSPORTATION</p>
+            <p>{{$t('message.index.txt26')}}</p>
           </div>
           <div>
             <div class="img"></div>
-            <p>IMPROVING PEOPLE’S LIVES THROUGH COST-EFFECTIVE,RELAXING TRANSPORTATION</p>
+            <p>{{$t('message.index.txt27')}}</p>
           </div>
           <div>
             <div class="img"></div>
-            <p>IMPROVING PEOPLE’S LIVES THROUGH COST-EFFECTIVE,RELAXING TRANSPORTATION</p>
+            <p>{{$t('message.index.txt28')}}</p>
           </div>
         </div>
       </div>
@@ -125,18 +125,23 @@ main {
     }
     .left {
       div {
-        font-size:36px;
+        font-size:32px;
         font-family:ProximaNova-Regular;
         font-weight:400;
         color:rgba(34,34,34,1);
+        line-height: 54px;
+        width:596px;
       }
       p {
         margin-top: 50px;
+        width:560px;
+        height:66px;
         font-size:22px;
         font-family:SourceHanSerifCN-Medium;
         font-weight:500;
         font-style:italic;
         color:rgba(68,68,68,1);
+        line-height:42px;
       }
     }
   }
@@ -188,6 +193,7 @@ main {
         color:rgba(68,68,68,1);
         margin-top: 39px;
         line-height:24px;
+        height:37px;
       }
       button {
         width:277px;

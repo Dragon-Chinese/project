@@ -73,7 +73,7 @@ export default {
         }
     },
     mounted() {
-           this.label = localStorage.getItem('defaulti18n')
+           this.label = localStorage.getItem('defaulti18n') ? locationbar.getItem('defaulti18n') : 'Eng'
     },
 }
 </script>

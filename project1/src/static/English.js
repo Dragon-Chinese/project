@@ -7,6 +7,32 @@ export default {
             txt4 : 'TEAM',
             txt5 : 'CAREERS',
             txt6 : 'VENTILIFE'
+        },
+        index : {
+            "txt6": "VENTI IS THE LEADER IN SAFE SPEED AUTONOMOUS MOBILITY ",
+            "txt7": "Improving our lives and improving our planet by disrupting transportation, commerce, and society. ",
+            "txt8": "THE VENTI ADVANTAGE",
+            "txt9": "The Power of People, Partnerships and Intelligent Science",
+            "txt10": "Mature, Safe Technology",
+            "txt11": "READ ABOUT OUR TECHNOLOGY",
+            "txt12": "Best in Class Team",
+            "txt13": "Our autonomy technology benchmarked top in China and is significantly cheaper than the competition. ",
+            "txt14": "Venti Technologies is focused on commercialization with powerfu",
+            "txt15": "Best-of-the-Best team, more than half MIT-trained, combining AI",
+            "txt16": "READ ABOUT OUR TECHNOLOGY",
+            "txt17": "READ ABOUT OUR PARTNERS",
+            "txt18": "READ ABOUT OUR TEAM",
+            "txt19": "THE VENTI OPPORTUNITY",
+            "txt20": "Moving People and Moving Goods",
+            "txt21": "Our Safe Speed system is the fastest, most powerful, safest and",
+            "txt22": "VENTI industrial applications constantly focus on cost, are cheaper, more accurate, more reliable, and take less time to implement.",
+            "txt23": "VENTI Focus on cost, 30-60% cost advantage in mobile goods applications",
+            "txt24": "VENTI MAKES THE WORLD A BETTER PLACE",
+            "txt25": "Lives improve, Pollution reduces, Animals prosper",
+            "txt26": "REDUCING POLLUTION SO THE PLANET CAN BREATHE",
+            "txt27": "IMPROVING PEOPLE’S LIVES THROUGH COST-EFFECTIVE,  RELAXING TRAN",
+            "txt28": "NURTURING WILD LANDS AND WILD WATERS SO ANIMALS  CAN PROSPER",
+            "txt29" : 'Venti Technologies'
         }
     }
 }
