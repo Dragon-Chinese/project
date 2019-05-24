@@ -113,7 +113,7 @@ export default {
     }
     ul {
         display: flex;
-        margin-left: 65px;
+        margin-left: 35px;
         flex: 1;
         li {
             margin-left: 15px;
