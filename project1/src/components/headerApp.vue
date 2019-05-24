@@ -40,7 +40,7 @@ export default {
                 },
                 {
                     title : 'message.header.txt5',
-                    link : '/'
+                    link : '/craeers'
                 },
                 {
                     title : 'message.header.txt6',
@@ -71,6 +71,9 @@ export default {
             this.$i18n.locale = item.value
             localStorage.setItem('defaulti18n', item.value)
         }
+    },
+    mounted() {
+           this.label = localStorage.getItem('defaulti18n')
     },
 }
 </script>
@@ -105,11 +108,12 @@ export default {
     h1 {
         width:43px;
         height:53px;
-        background: lightgreen;
+        background: url('../assets/logo.png') no-repeat;
+        background-size: contain;
     }
     ul {
         display: flex;
-        margin-left: 65px;
+        margin-left: 35px;
         flex: 1;
         li {
             margin-left: 15px;
