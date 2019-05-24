@@ -1,17 +1,17 @@
 <template>
   <div class="index">
       <div class="banner">
-          <p class="team">Dedicated Team</p>
+          <p class="team">{{$t('message.team.txt0')}}</p>
           <!-- <img class="banner-img" src="../assets/team.png" alt=""> -->
       </div>
       <main>
         <div class="main-top">
-          <p class="top-left">OUR FOUNDERS </p>
+          <p class="top-left">{{$t('message.team.txt1')}}</p>
           <p class="top-right">
             <span>
               <img src="../assets/Heidi.png" alt="">
             </span>
-            <span>HEIDI WYLE, FOUNDER & CEO, VENTI TECHNOLOGIES; CHAIRMAN, VENTI CHINA</span>
+            <span>{{$t('message.team.txt2')}}</span>
           </p>
         </div>
         <div class="main-content">
@@ -20,36 +20,36 @@
                    <span>
                       <img src="../assets/daniela-headshot.png" alt="">
                     </span>
-                    <span class="content-one">DANIELA RUS, PH.D., FOUNDER, VENTI TECHNOLOGIES</span>
+                    <span class="content-one">{{$t('message.team.txt3')}}</span>
                 </li>
                 <li>
                     <span>
                       <img src="../assets/saman.png" alt="">
                     </span>
-                    <span>SAMAN AMARASINGHE, PH.D., FOUNDER, VENTI TECHNOLOGIES</span>
+                    <span>{{$t('message.team.txt4')}}</span>
                 </li>
                 <li>
                    <span>
                       <img src="../assets/XX+portrait.png" alt="">
                     </span>
-                    <span>XINXIN DU, PHD., FOUNDING TECHNOLOGY OFFICER</span>
+                    <span>{{$t('message.team.txt5')}}</span>
                 </li>
             </ul>
         </div>
         <div class="main-footer">
-              <p>OUR MANAGEMENT TEAM</p>
+              <p>{{$t('message.team.txt6')}}</p>
               <ul>
                   <li>
                       <span>
                         <img src="../assets/Shuyan+portrait.png" alt="">
                       </span>
-                      <span>SHUYAN ZHAO, PH.D., ACTING CEO VENTI CHINA & VP, ENGINEERING</span>
+                      <span>{{$t('message.team.txt7')}}</span>
                   </li>
                   <li>
                     <span>
                         <img src="../assets/saonan.png" alt="">
                       </span>
-                      <span>WU YANG, VP OF BUSINESS DEVELOPMENT</span>
+                      <span>{{$t('message.team.txt8')}}</span>
                   </li>
               </ul>
         </div>
