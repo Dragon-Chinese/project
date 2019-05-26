@@ -208,9 +208,9 @@ main {
         height: 312px;
         background:url('../assets/vedio.png') no-repeat;
         background-size: cover;
-        .video-js .vjs-big-play-button {
-        }
       }
+      .video-js .vjs-big-play-button {
+        }
     }
   }
 }
