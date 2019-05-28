@@ -23,25 +23,25 @@
           </div>
           <div class="leftImg">
             <div class="imgPart">
-              <img src="../assets/3伙伴/图层 9.png" alt>
+              <img src="../assets/9.png" alt>
             </div>
             <div class="imgPart">
-              <img src="../assets/3伙伴/图层 10.png" alt>
+              <img src="../assets/10.png" alt>
             </div>
             <div class="imgPart">
-              <img src="../assets/3伙伴/图层 11.png" alt>
+              <img src="../assets/11.png" alt>
             </div>
             <div class="imgPart">
-              <img src="../assets/3伙伴/图层 12.png" alt>
+              <img src="../assets/12.png" alt>
             </div>
             <div class="imgPart">
-              <img src="../assets/3伙伴/图层 13.png" alt>
+              <img src="../assets/13.png" alt>
             </div>
             <div class="imgPart">
-              <img src="../assets/3伙伴/图层 14.png" alt>
+              <img src="../assets/14.png" alt>
             </div>
             <div class="imgPart">
-              <img src="../assets/3伙伴/图层 15.png" alt>
+              <img src="../assets/15.png" alt>
             </div>
           </div>
         </div>

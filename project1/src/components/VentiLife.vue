@@ -1,28 +1,28 @@
 <template>
   <div class="index">
     <div class="banner">
-        <!-- <img src="../assets/ventilife/ba440898a9c4ce92e73d02bdc0b7734.png" class="bannerImg" alt=""> -->
+        <!-- <img src="../assets/ba440898a9c4ce92e73d02bdc0b7734.png" class="bannerImg" alt=""> -->
         <h2>{{$t('message.ventiLife.txt0')}}</h2>
     </div>
     <main>
       <div class="top">
-            <div class="topBox"><img src="../assets/ventilife/7caf85b2e1d98e0651b1887e0b47615.png" alt=""></div>
-            <div class="topBox"><img src="../assets/ventilife/b5bc4d7aca7255eb806263b7c53249c.png" alt=""></div>
-            <div class="topBox"><img src="../assets/ventilife/bff8c9b0eff49ff55e7fccea09dbe9fe.png" alt=""></div>
-            <div class="topBox"><img src="../assets/ventilife/d22c307ffed4a81b55b46e37b4c3d454.png" alt=""></div>
+            <div class="topBox"><img src="../assets/7caf85b2e1d98e0651b1887e0b47615.png" alt=""></div>
+            <div class="topBox"><img src="../assets/b5bc4d7aca7255eb806263b7c53249c.png" alt=""></div>
+            <div class="topBox"><img src="../assets/bff8c9b0eff49ff55e7fccea09dbe9fe.png" alt=""></div>
+            <div class="topBox"><img src="../assets/d22c307ffed4a81b55b46e37b4c3d454.png" alt=""></div>
       </div>
       <div class="bottom">
             <div class="bottomBox">
-                <div class="oneImg"><img src="../assets/ventilife/SkbEXPnEhz.png" alt=""></div>
-                <div class="twoImg"><img src="../assets/ventilife/rklUefa-z7.png" alt=""></div>
+                <div class="oneImg"><img src="../assets/SkbEXPnEhz.png" alt=""></div>
+                <div class="twoImg"><img src="../assets/rklUefa-z7.png" alt=""></div>
             </div>
             <div class="bottomBox">
-                <div class="threeImg"><img src="../assets/ventilife/8ea0c7157eeb60d2dd413fe23edfc6f5.png" alt=""></div>
-                <div class="fourImg"><img src="../assets/ventilife/3323f593e69d4c444285142edd9576f.png" alt=""></div>
+                <div class="threeImg"><img src="../assets/8ea0c7157eeb60d2dd413fe23edfc6f5.png" alt=""></div>
+                <div class="fourImg"><img src="../assets/3323f593e69d4c444285142edd9576f.png" alt=""></div>
             </div>
             <div class="bottomBox">
-                <div class="oneImg"><img src="../assets/ventilife/a5e37110bf29c206d148700a02e8133.png" alt=""></div>
-                <div class="twoImg"><img src="../assets/ventilife/890f3ad6cfc09fce07eee3d7a13214d.png" alt=""></div>
+                <div class="oneImg"><img src="../assets/a5e37110bf29c206d148700a02e8133.png" alt=""></div>
+                <div class="twoImg"><img src="../assets/890f3ad6cfc09fce07eee3d7a13214d.png" alt=""></div>
             </div>
       </div>
     </main>
@@ -84,11 +84,9 @@ main {
         .twoImg,.threeImg{
             width: 100%;
             height: 296px;
-            background: lightpink;
         }
         .fourImg{
             margin-top:30px;
-            background: lightpink;
         }
       }
   }

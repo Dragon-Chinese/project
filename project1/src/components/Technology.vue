@@ -69,7 +69,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 .banner {
-  background: url("../assets/2/header.png") no-repeat;
+  background: url("../assets/header.png") no-repeat;
   background-size: cover;
   h2 {
     font-size: 60px;
