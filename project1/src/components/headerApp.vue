@@ -117,17 +117,17 @@ export default {
         flex: 1;
         li {
             margin-left: 15px;
-            font-size:15px;
+            font-size:12px;
             font-family:ProximaNova-Bold;
             font-weight:bold;
             color:rgba(156,156,156,1);
             cursor: pointer;
         }
         li:hover {
-            color: lightskyblue;
+            color: #000;
         }
         li.active {
-            color: lightskyblue;
+            color: #000;
         }
     }
     .lang {

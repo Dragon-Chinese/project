@@ -1,7 +1,7 @@
 export default {
     message: {
         header : {
-            txt1 : 'About us',
+            txt1 : 'ABOUT US',
             txt2 : 'TECHNOLOGY',
             txt3 : 'PARTNERS',
             txt4 : 'TEAM',

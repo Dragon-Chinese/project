@@ -114,6 +114,12 @@ export default {
       }
     }
   },
+  mounted() {
+    setTimeout(() => {
+      document.querySelector('.line9').style.display = 'block'
+    }, 1000);
+    
+  },
   components: {
     Header
   }
@@ -151,9 +157,9 @@ main {
     }
     .left {
       div {
-        font-size: 32px;
+        font-size: 36px;
         font-family: ProximaNova-Regular;
-        font-weight: 400;
+        font-weight: 100;
         color: rgba(34, 34, 34, 1);
         line-height: 54px;
         width: 596px;
@@ -162,9 +168,9 @@ main {
         margin-top: 50px;
         width: 560px;
         height: 66px;
-        font-size: 22px;
+        font-size: 28px;
         font-family: SourceHanSerifCN-Medium;
-        font-weight: 500;
+        font-weight: 100;
         font-style: italic;
         color: rgba(68, 68, 68, 1);
         line-height: 42px;
@@ -180,14 +186,14 @@ main {
   h3 {
     font-size: 36px;
     font-family: ProximaNova-Regular;
-    font-weight: 400;
+    font-weight: 100;
     color: rgba(34, 34, 34, 1);
     margin-top: 60px;
   }
   .power {
     font-size: 28px;
     font-family: Bodoni-Normal-Italic;
-    font-weight: 400;
+    font-weight: 100;
     font-style: italic;
     color: rgba(34, 34, 34, 1);
     margin-top: 48px;
@@ -234,6 +240,10 @@ main {
         color: rgba(0, 0, 0, 1);
         margin-top: 44px;
       }
+      button:hover {
+        background: #000;
+        color: #fff;
+      }
     }
     > div:nth-child(1) {
       .img {
@@ -264,16 +274,17 @@ main {
     .title {
       font-size: 36px;
       font-family: ProximaNova-Regular;
-      font-weight: 400;
+      font-weight: 100;
       color: rgba(34, 34, 34, 1);
       margin-top: 65px;
     }
     .title2 {
       font-family: Bodoni-Normal-Italic;
-      font-weight: 400;
+      font-weight: 100;
       font-style: italic;
       color: rgba(34, 34, 34, 1);
       margin-top: 38px;
+      font-size: 28px;
     }
     .txt {
       font-size: 13px;
@@ -297,7 +308,7 @@ main {
         p {
           font-size: 12px;
           font-family: ProximaNova-Regular;
-          font-weight: 400;
+          font-weight: 100;
           color: rgba(68, 68, 68, 1);
           margin-top: 21px;
         }
@@ -329,13 +340,13 @@ main {
     .title {
       font-size: 36px;
       font-family: ProximaNova-Regular;
-      font-weight: 400;
+      font-weight: 100;
       color: rgba(34, 34, 34, 1);
       margin-top: 65px;
     }
     .title2 {
       font-family: Bodoni-Normal-Italic;
-      font-weight: 400;
+      font-weight: 100;
       font-style: italic;
       color: rgba(34, 34, 34, 1);
       margin-top: 38px;

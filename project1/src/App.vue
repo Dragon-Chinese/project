@@ -2,6 +2,7 @@
   <div id="app" v-if="show" >
     <Header/>
     <router-view  />
+    <div class="line9"></div>
   </div>
 </template>
 
@@ -32,7 +33,7 @@ export default {
 
 <style>
 html , body , #app , .index , .wrap{
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 
@@ -48,6 +49,7 @@ html , body , #app , .index , .wrap{
   list-style: none;
   margin: 0;
   padding: 0;
+  font-family: PROXIMA-NOVA;
 }
 
 @media screen and (max-width: 1200px) and (min-width: 1024px) {
@@ -71,5 +73,13 @@ html , body , #app , .index , .wrap{
 .header{
     background: red;
     height: 75px;
+}
+.line9 {
+    width: 100%;
+    height: 1px;
+    background: rgba(232, 232, 232, 1);
+    margin-top: 100px;
+    margin-bottom: 48px;
+    display: none;
 }
 </style>

@@ -18,7 +18,7 @@ const messages = {
   Cha: Object.assign(Chinese)
 };
 /* eslint-disable no-new */
-let defaulti18n = localStorage.getItem('defaulti18n')
+let defaulti18n = window.localStorage.getItem('defaulti18n')
 
 const i18n = new VueI18n({
   //定义默认语言
