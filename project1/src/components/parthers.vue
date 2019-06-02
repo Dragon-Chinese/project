@@ -65,6 +65,7 @@
 
 <script>
 import Header from '../components/headerApp.vue'
+import Mp from '../assets/v1.webm'
 export default {
   name: 'HelloWorld',
   data() {
@@ -72,7 +73,7 @@ export default {
       msg: 'Welcome to Your Vue.js App',
       playerOptions: {
         playbackRates: [0.7, 1.0, 1.5, 2.0], //播放速度
-        autoplay: false, //如果true,浏览器准备好时开始回放。
+        autoplay: true, //如果true,浏览器准备好时开始回放。
         muted: false, // 默认情况下将会消除任何音频。
         loop: false, // 导致视频一结束就重新开始。
         preload: 'auto', // 建议浏览器在<video>加载元素后是否应该开始下载视频数据。auto浏览器选择最佳行为,立即开始加载视频（如果浏览器支持）
@@ -82,7 +83,7 @@ export default {
         sources: [
           {
             type: '',
-            src: '' //url地址
+            src: Mp //url地址
           }
         ],
         poster: '../../static/images/test.jpg', //你的封面地址
@@ -202,15 +203,15 @@ main {
         color: rgba(68, 68, 68, 1);
         line-height: 42px;
       }
-      .rightVideo {
-        margin-top: 48px;
-        width: 480px;
-        height: 312px;
-        background:url('../assets/vedio.png') no-repeat;
-        background-size: cover;
-      }
-      .video-js .vjs-big-play-button {
-        }
+      // .rightVideo {
+      //   margin-top: 48px;
+      //   width: 480px;
+      //   height: 312px;
+      //   background:url('../assets/vedio.png') no-repeat;
+      //   background-size: cover;
+      // }
+      // .video-js .vjs-big-play-button {
+      //   }
     }
   }
 }
