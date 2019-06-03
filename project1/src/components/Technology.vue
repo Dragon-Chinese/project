@@ -46,7 +46,7 @@ export default {
         sources: [
           {
             type: '',
-            src: Mp //url地址
+            src: '' //url地址
           }
         ],
         poster: '../../static/images/test.jpg', //你的封面地址
