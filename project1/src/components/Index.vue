@@ -1,13 +1,15 @@
 <template>
   <div class="index">
     <div class="banner">
-      <!-- <h2>{{$t('message.index.txt29')}}</h2> -->
-      <video-player
+      <h2>{{$t('message.index.txt29')}}</h2>
+      <!-- <video-player
             class="video-player vjs-custom-skin"
             ref="videoPlayer"
             :playsinline="true"
             :options="playerOptions1"
-          ></video-player>
+          ></video-player> -->
+          <video src="../assets/v1.webm" style="width:100%" autoplay loop muted playsinline>
+          </video>
     </div>
     <main>
       <div class="topMain">
@@ -98,7 +100,7 @@ export default {
         playbackRates: [0.7, 1.0, 1.5, 2.0], //播放速度
         autoplay: true, //如果true,浏览器准备好时开始回放。
         muted: true, // 默认情况下将会消除任何音频。
-        loop: false, // 导致视频一结束就重新开始。
+        loop: true, // 导致视频一结束就重新开始。
         preload: 'auto', // 建议浏览器在<video>加载元素后是否应该开始下载视频数据。auto浏览器选择最佳行为,立即开始加载视频（如果浏览器支持）
         language: 'zh-CN',
         aspectRatio: '16:9', // 将播放器置于流畅模式，并在计算播放器的动态大小时使用该值。值应该代表一个比例 - 用冒号分隔的两个数字（例如"16:9"或"4:3"）
@@ -162,17 +164,27 @@ export default {
 .banner {
   // background: url('../assets/indexbanner.png') no-repeat;
   // background-size: cover;
-  .video-player {
-    height: 100%;
+  position:relative;
+    padding-bottom:56.25%;    /*需要用padding来维持16:9比例,也就是9除以16*/
+    height: 0;
+  video {
+    position: absolute;
+    top:0;
+    left: 0;
     width: 100%;
+    height: 100%
   }
   h2 {
+    position: absolute;
     font-size: 60px;
     font-family: ProximaNova-Regular;
     font-weight: 400;
     color: rgba(254, 254, 254, 1);
     text-align: center;
     margin: 0;
+    z-index: 999;
+    top: 50%;
+    margin-top: -24px;
   }
 }
 main {

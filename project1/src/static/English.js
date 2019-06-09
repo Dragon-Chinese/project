@@ -17,9 +17,9 @@ export default {
             "txt11": "READ ABOUT OUR TECHNOLOGY",
             "txt12": "Best in Class Team",
             "txt13": "Our autonomy technology benchmarked top in China and is significantly cheaper than the competition. ",
-            "txt14": "Venti Technologies is focused on commercialization with powerfu",
-            "txt15": "Best-of-the-Best team, more than half MIT-trained, combining AI",
-            "txt16": "READ ABOUT OUR TECHNOLOGY",
+            "txt14": "Venti Technologies is focused on commercialization with powerful, strategic partners for explosive growth",
+            "txt15": "Best-of-the-Best team, more than half MIT-trained, combining AI world experts with seasoned automotive managers.",
+            "txt16": "Powerful Leading Partners",
             "txt17": "READ ABOUT OUR PARTNERS",
             "txt18": "READ ABOUT OUR TEAM",
             "txt19": "THE VENTI OPPORTUNITY",
@@ -32,11 +32,11 @@ export default {
             "txt26": "REDUCING POLLUTION SO THE PLANET CAN BREATHE",
             "txt27": "IMPROVING PEOPLE’S LIVES THROUGH COST-EFFECTIVE,  RELAXING TRAN",
             "txt28": "NURTURING WILD LANDS AND WILD WATERS SO ANIMALS  CAN PROSPER",
-            "txt29" : 'Venti Technologies'
+            "txt29" : 'Work with Us'
         },
         technology : {
             txt0: "Cheaper. Flexible. Accurate. Reliable.",
-            txt1: "AN AUTONOMY LEADER.",
+            txt1: "WATCH OUR TECHNOLOGY IN ACTION",
             txt2: "TECHNOLOGY APPLICATIONS",
             txt3: "Venti’s technology is universal with applications in moving people andspecialty vehicles in moving goods. For people, our reliable and safevehicles are cost-effective, comfortable, convenient and calming.They give back time, so needed in our busy world. Happy rides forhappy people!",
             txt4: "TECHNOLOGY ADVANTAGES",
@@ -69,10 +69,10 @@ export default {
             txt5: "AN INTEGRATOR. ",
             txt6: "WHY VENTI",
             txt7: "AN IMPLEMENTOR.",
-            txt8: "Venti combines the intellectual might of powerful technology with the power of Asia’s huge urbanization-driven markets. Our SafeSpeed autonomy has benchmarked top in China, and powered 6 vehicle classes.  Our vehicles had 0 software disengagementsin 5,000 kilometers of testing and 0 incidents in 9 years of testing in China, US and Singapore.  Venti’s system is fast, mature, andready for large scale applications with a significant cost advantage over the competition ",
-            txt9: "Our powerful strategic partners including China’s number one insurance company, two industrial partners, a top 10 real estate builder, multiple leading vehicle manufacturers, and SIP, China’s best industrial park, are pathways for explosive growth and AV leadership in moving people and goods.",
-            txt10: "Venti has an unsurpassed team, 56% of whom are MIT-trained; our best-in-class management team includes AI experts paired with seasoned automotive and business stars from leading automotive Tier-1 OEMs. ",
-            txt11: "Our autonomy system has a modular design, leading 3D components and more powerful algorithms. These factors yield higher safety and reliability, deployment of a new vehicle class within a week, mapping a new area in a morning, and greater flexibility for initial application and modifications.    Come ride with us into the future. "
+            txt8: "Venti combines the intellectual might of intelligent science and world-leading technology with the power of Asia’s huge urbanization-driven markets. Our Safe Speed autonomy has benchmarked top in China and powered six vehicle classes.  Our vehicles had zero software system disengagements in 5,000 kilometers of testing and zero incidents in nine years of development in China, US and Singapore.  Venti’s system is fast, mature, and ready for large scale applications with a significant cost advantage over the competition.",
+            txt9: "Our powerful strategic partners including China’s number one insurance company, two industrial partners, a top 10 real estate builder, multiple leading vehicle manufacturers, and SIP, China’s best industrial park, are pathways for explosive growth and driverless vehicle leadership in moving people and goods.",
+            txt10: "Venti has an unsurpassed team, over half of whom are MIT-trained; our best-in-class management team includes AI experts paired with seasoned automotive and business stars from leading automotive Tier-1 companies. ",
+            txt11: "Our autonomy system has a modular design, leading 3D components, and supremely powerful algorithms. These factors yield higher safety and reliability, deployment of a new vehicle class within a week, mapping of a new area in a morning, and greater flexibility for initial application and modifications.  \n\n\n Come ride with us into the future."
         },
         parthers: {
             txt0: "Partnering for Explosive Growth",
@@ -81,7 +81,7 @@ export default {
             txt3: "COMMUNITIES",
             txt4: "Self-driving vehicles will revolutionize transportation for people.  In twenty years most people will not own cars; rather we will summon whatever kind of vehicle we want for each journey.  Rent a minibus for a birthday party or a shared taxi to go to work. Hire a private car for a business trip.  Venti’s vehicles are cost-effective, beautiful, comfortable, safe, and reliable.  We are working with partners to build community-wide Safe Speed robo-taxi services.   ",
             txt5: "INDUSTRIAL VEHICLES",
-            txt6: "SPECIALTY VEHICLES",
+            txt6: "INDUSTRY",
             txt7: "Working with the best of the best and most successful companies in China, Venti has designed and powered six vehicle classes with more to come. Our Safe Speedautonomy has benchmarked top in China and is poised to lead China’s huge urbanization-driven markets. ",
             txt8: " Specialty, safe speed industrial vehicles that are ready for deployment",
             txt9: "Our partners include the nation’s number one insurance company, a top 10 real estate builder, multiple leading vehicle manufacturers, and SIP, China’s best industrial park, are pathways for explosive growth and AV leadership in moving people and goods."
@@ -93,7 +93,7 @@ export default {
             txt3: "DANIELA RUS, PH.D., FOUNDER, VENTI TECHNOLOGIES",
             txt4: "SAMAN AMARASINGHE, PH.D., FOUNDER, VENTI TECHNOLOGIES",
             txt5: "XINXIN DU, PHD., FOUNDING TECHNOLOGY OFFICER",
-            txt6: "OUR MANAGEMENT TEAM",
+            txt6: "OUR TEAM",
             txt7: "SHUYAN ZHAO, PH.D., ACTING CEO VENTI CHINA & VP, ENGINEERING",
             txt8: " WU YANG, VP OF BUSINESS DEVELOPMENT"
         }

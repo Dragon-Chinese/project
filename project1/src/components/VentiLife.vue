@@ -4,7 +4,7 @@
         <!-- <img src="../assets/ba440898a9c4ce92e73d02bdc0b7734.png" class="bannerImg" alt=""> -->
         <h2>{{$t('message.ventiLife.txt0')}}</h2>
     </div>
-    <main>
+    <!-- <main>
       <div class="top">
             <div class="topBox"><img src="../assets/7caf85b2e1d98e0651b1887e0b47615.png" alt=""></div>
             <div class="topBox"><img src="../assets/b5bc4d7aca7255eb806263b7c53249c.png" alt=""></div>
@@ -25,7 +25,7 @@
                 <div class="twoImg"><img src="../assets/890f3ad6cfc09fce07eee3d7a13214d.png" alt=""></div>
             </div>
       </div>
-    </main>
+    </main> -->
   </div>
 </template>
 
