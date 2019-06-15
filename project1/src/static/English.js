@@ -6,7 +6,8 @@ export default {
             txt3 : 'PARTNERS',
             txt4 : 'TEAM',
             txt5 : 'CAREERS',
-            txt6 : 'VENTILIFE'
+            txt6 : 'VENTILIFE',
+            txt7 : 'News'
         },
         index : {
             "txt6": "VENTI IS THE LEADER IN SAFE SPEED AUTONOMOUS MOBILITY ",
@@ -96,6 +97,13 @@ export default {
             txt6: "OUR TEAM",
             txt7: "SHUYAN ZHAO, PH.D., ACTING CEO VENTI CHINA & VP, ENGINEERING",
             txt8: " WU YANG, VP OF BUSINESS DEVELOPMENT"
+        },
+        news : {
+            txt0 : 'Venti in the News',
+            txt1 : 'LINK TO THE SIP VIDEO',
+            txt2 : 'I don’t know what the article says. Somebody needs to write the blurb and add a picture.',
+            txt3 : 'VENTI NAMED ONE OF 50 WOMEN-LED START UPS THAT ARE CRUSHING TECH',
+            txt4 : 'In a tech driven economy where women-led firms continue to be overlooked, CEO, Heidi Wyle, PhD. pushes the frontiers of innovation.'
         }
     }
 }

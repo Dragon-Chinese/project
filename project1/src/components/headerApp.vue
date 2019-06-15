@@ -45,6 +45,10 @@ export default {
                 {
                     title : 'message.header.txt6',
                     link : '/ventiLife'
+                },
+                {
+                    title : 'message.header.txt7',
+                    link : '/news'
                 }
             ],
             options: [

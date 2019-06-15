@@ -6,7 +6,8 @@ export default {
             txt3 : '合作',
             txt4 : '团队',
             txt5 : '招聘',
-            txt6 : 'VENTILIFE'
+            txt6 : 'VENTILIFE',
+            txt7 : '新闻'
         },
         index : {
             "txt6": "VENTI是安全速度自主移动领域的领导者",
@@ -96,6 +97,13 @@ export default {
             txt6: "我们的管理团队",
             txt7: "赵淑艳，博士，代理首席执行官VENTI中国和工程副总裁",
             txt8: "吴阳，业务发展副总裁"
-        }
+        },
+        news : {
+            txt0 : 'Venti 新闻',
+            txt1 : '链接到SIP视频',
+            txt2 : '我不知道这篇文章说什么。有人需要写简介并添加图片。',
+            txt3 : 'VENTI列举了50家女性领导的初创公司，这些公司正在颠覆科技行业',
+            txt4 : '在科技驱动的经济中，女性主导的公司继续被忽视。推动创新的前沿。'
+        },
     }
 }
