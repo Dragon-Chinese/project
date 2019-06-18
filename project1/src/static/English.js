@@ -33,7 +33,7 @@ export default {
             "txt26": "REDUCING POLLUTION SO THE PLANET CAN BREATHE",
             "txt27": "IMPROVING PEOPLE’S LIVES THROUGH COST-EFFECTIVE,  RELAXING TRAN",
             "txt28": "NURTURING WILD LANDS AND WILD WATERS SO ANIMALS  CAN PROSPER",
-            "txt29" : 'Work with Us'
+            "txt29" : 'Venti Technologies'
         },
         technology : {
             txt0: "Cheaper. Flexible. Accurate. Reliable.",
