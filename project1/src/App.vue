@@ -2,7 +2,15 @@
   <div id="app" v-if="show" >
     <Header/>
     <router-view  />
-    <div class="line9"></div>
+    <div class="line9">
+        <div class="wrap">
+          <p>©Venti Tevhnologies,Inc.</p>
+          <p>info@ventitechnologies.com</p>
+        </div>
+        <div class="top" @click="top">
+          TOP
+        </div>
+    </div>
   </div>
 </template>
 
@@ -28,10 +36,16 @@ export default {
       console.log(err)
     })
   },
+  methods: {
+    top () {
+    window.scroll(0 , 0)
+  }
+  },
+  
 }
 </script>
 
-<style>
+<style lang="scss">
 html , body , #app , .index , .wrap{
   height: auto;
   width: 100%;
@@ -76,10 +90,35 @@ html , body , #app , .index , .wrap{
 }
 .line9 {
     width: 100%;
-    height: 1px;
-    background: rgba(232, 232, 232, 1);
-    margin-top: 100px;
-    margin-bottom: 48px;
+    height: 70px;
+    border-top: 1px solid rgba(232, 232, 232, 1);
     display: none;
+    position: relative;
+    margin-top: 100px;
+    .wrap {
+      width: 700px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      line-height: 70px;
+      p {
+        font-size:12px;
+        font-family:MicrosoftYaHei;
+        font-weight:400;
+        color:rgba(68,68,67,1);
+      }
+    }
+    .top {
+      height: 30px;
+      width: 30px;
+      position: absolute;
+      right: 40px;
+      top: 20px;
+      background:rgba(221,217,216,1);
+      text-align: center;
+      line-height: 30px;
+      font-size: 13px;
+      cursor: pointer;
+    }
 }
 </style>

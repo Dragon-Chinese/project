@@ -59,7 +59,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .banner{
-  background-image: url('../assets/0f341017ecf47ade970da842108765c.png')
+  background: url('../assets/0f341017ecf47ade970da842108765c.png') no-repeat center;
+  background-size: 100%;
 }
 
 /* .banner>img{
@@ -76,7 +77,7 @@ export default {
   color:rgba(255,255,255,1);
 }
 footer{
-  height: 884px;
+  height: 684px;
 }
 
 .left{
@@ -135,7 +136,7 @@ footer{
 .rigth ul li:nth-child(1) .first>input{
   width:291px;
   height:45px;
-  background:rgba(231,231,231,1);
+  background:rgba(250,250,250,1);
   text-indent: 1em;
   border:1px solid rgba(167,167,167,1);
 }
@@ -159,7 +160,7 @@ footer{
 .rigth ul li:nth-child(1) .last>input{
   width:291px;
   height:45px;
-  background:rgba(231,231,231,1);
+  background:rgba(250,250,250,1);
   border:1px solid rgba(167,167,167,1);
 }
 
@@ -175,7 +176,7 @@ footer{
 .rigth ul li:nth-child(2)>input{
   width: 593px;
   height:45px;
-  background:rgba(231,231,231,1);
+  background:rgba(250,250,250,1);
   border:1px solid rgba(167,167,167,1);
 }
 
@@ -192,7 +193,7 @@ footer{
 .rigth ul li:nth-child(3)> textarea{
   width:593px;
   height:129px;
-  background:rgba(231,231,231,1);
+  background:rgba(250,250,250,1);
   border:1px solid rgba(167,167,167,1);
   text-indent: 1em;padding-top: 10px;
 }

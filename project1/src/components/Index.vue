@@ -176,7 +176,7 @@ export default {
   }
   h2 {
     position: absolute;
-    font-size: 60px;
+    font-size: 62px;
     font-family: ProximaNova-Regular;
     font-weight: 400;
     color: rgba(254, 254, 254, 1);

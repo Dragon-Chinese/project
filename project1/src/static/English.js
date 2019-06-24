@@ -7,7 +7,7 @@ export default {
             txt4 : 'TEAM',
             txt5 : 'CAREERS',
             txt6 : 'VENTILIFE',
-            txt7 : 'News'
+            txt7 : 'NEWS'
         },
         index : {
             "txt6": "VENTI IS THE LEADER IN SAFE SPEED AUTONOMOUS MOBILITY ",
@@ -19,20 +19,20 @@ export default {
             "txt12": "Best in Class Team",
             "txt13": "Our autonomy technology benchmarked top in China and is significantly cheaper than the competition. ",
             "txt14": "Venti Technologies is focused on commercialization with powerful, strategic partners for explosive growth",
-            "txt15": "Best-of-the-Best team, more than half MIT-trained, combining AI world experts with seasoned automotive managers.",
-            "txt16": "Powerful Leading Partners",
+            "txt15": "Best-of-the-Best team, more than half MIT-trained, combining AI world experts with seasoned automotive managers. ",
+            "txt16": "READ ABOUT OUR TECHNOLOGY",
             "txt17": "READ ABOUT OUR PARTNERS",
             "txt18": "READ ABOUT OUR TEAM",
             "txt19": "THE VENTI OPPORTUNITY",
             "txt20": "Moving People and Moving Goods",
-            "txt21": "Our Safe Speed system is the fastest, most powerful, safest and",
-            "txt22": "VENTI industrial applications constantly focus on cost, are cheaper, more accurate, more reliable, and take less time to implement.",
-            "txt23": "VENTI Focus on cost, 30-60% cost advantage in mobile goods applications",
-            "txt24": "VENTI MAKES THE WORLD A BETTER PLACE",
-            "txt25": "Lives improve, Pollution reduces, Animals prosper",
+            "txt21": "Our Safe Speed system is the fastest, most powerful, safest and most reliable in China and has powered 6 vehicle classes in industrial and people-moving applications.  It is fast, mature, and ready for large scale applications with a substantial cost advantage from our algorithmic power and uncompromising cost focus.",
+            "txt22": "READY FOR HIGH VOLUME DEPLOYMENT, VENTI VEHICLES REDUCE TRAFFIC AND EMISSIONS, INCREASE SAFETY, AND PROVIDE BETTER HEALTH & MORE TIME FOR YOU.",
+            "txt23": "RELENTLY FOCUSED ON COSTS, VENTI HAS A 30 - 60% COST ADVANTAGE IN MOVING GOODS APPLICATIONS",
+            "txt24": "VENTI IS MAKING THE WORLD A BETTER PLACE",
+            "txt25": "Lives improve, Pollution decreases, Animals prosper",
             "txt26": "REDUCING POLLUTION SO THE PLANET CAN BREATHE",
-            "txt27": "IMPROVING PEOPLE’S LIVES THROUGH COST-EFFECTIVE,  RELAXING TRAN",
-            "txt28": "NURTURING WILD LANDS AND WILD WATERS SO ANIMALS  CAN PROSPER",
+            "txt27": "IMPROVING PEOPLE’S LIVES THROUGH COST-EFFECTIVE, RELAXING TRANSPORTATION",
+            "txt28": "URTURING WILD LANDS AND WILD WATERS SO ANIMALS CAN PROSPER",
             "txt29" : 'Venti Technologies'
         },
         technology : {

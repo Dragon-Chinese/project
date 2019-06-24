@@ -97,7 +97,7 @@ hr{
 }
 
 footer {
-  height: 647px;
+  height: 447px;
 }
 
 footer>p{
