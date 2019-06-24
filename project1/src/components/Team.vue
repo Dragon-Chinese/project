@@ -51,6 +51,12 @@
                       </span>
                       <span>{{$t('message.team.txt8')}}</span>
                   </li>
+                  <li>
+                    <span>
+                        <img src="../assets/teams.jpg" alt="">
+                      </span>
+                      <span>{{$t('message.team.txt9')}}</span>
+                  </li>
               </ul>
         </div>
       </main>
@@ -143,7 +149,7 @@ export default {
 }
 .main-content ul li{
   width: 380px;
-  margin-left: 30px;
+  margin-right: 30px;
 }
 .main-content ul li span:nth-child(1){
   width:380px;
@@ -186,12 +192,22 @@ export default {
   display: flex;
 }
 .main-footer ul li{
-  width: 380px;
-  margin-left: 30px;
+  width: 275px;
+  margin-right: 39px;
+}
+
+.main-footer ul li:nth-child(3){
+  width: 577px;
+  height: 274px;
+}
+.main-footer ul li:nth-child(3) span:nth-child(1){
+  width: 577px;
+  height: 274px;
+  display: block;
 }
 .main-footer ul li span:nth-child(1){
-  width:380px;
-  height:355px;
+  width:274px;
+  height:274px;
   display: block;
 }
 .main-footer ul li:nth-child(1) span:nth-child(2){
@@ -219,5 +235,6 @@ export default {
     line-height:21px;
     margin-top:22px;
 }
+
 </style>
 

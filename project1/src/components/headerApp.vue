@@ -45,6 +45,10 @@ export default {
                 {
                     title : 'message.header.txt6',
                     link : '/ventiLife'
+                },
+                {
+                    title : 'message.header.txt7',
+                    link : '/news'
                 }
             ],
             options: [
@@ -58,7 +62,7 @@ export default {
                 }
             ],
             label : 'Eng',
-            active : 6
+            active : 100
         }
     },
     methods: {

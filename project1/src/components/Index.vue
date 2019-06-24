@@ -1,14 +1,15 @@
 <template>
   <div class="index">
     <div class="banner">
-      <!-- <h2>{{$t('message.index.txt29')}}</h2> -->
-      <video-player
+      <h2>{{$t('message.index.txt29')}}</h2>
+      <!-- <video-player
             class="video-player vjs-custom-skin"
             ref="videoPlayer"
             :playsinline="true"
             :options="playerOptions1"
-            style="height : 700px !important"
-          ></video-player>
+          ></video-player> -->
+          <video src="../assets/v1.webm" style="width:100%" autoplay loop muted playsinline>
+          </video>
     </div>
     <main>
       <div class="topMain">
@@ -165,20 +166,27 @@ export default {
 .banner {
   // background: url('../assets/indexbanner.png') no-repeat;
   // background-size: cover;
-  .video-player {
-    height: 100%;
+  position:relative;
+    padding-bottom:56.25%;    /*需要用padding来维持16:9比例,也就是9除以16*/
+    height: 0;
+  video {
+    position: absolute;
+    top:0;
+    left: 0;
     width: 100%;
-    .video-js {
-      height : 700px !important;
-    }
+    height: 100%
   }
   h2 {
+    position: absolute;
     font-size: 60px;
     font-family: ProximaNova-Regular;
     font-weight: 400;
     color: rgba(254, 254, 254, 1);
     text-align: center;
     margin: 0;
+    z-index: 999;
+    top: 50%;
+    margin-top: -24px;
   }
 }
 main {
