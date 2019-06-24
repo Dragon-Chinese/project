@@ -39,7 +39,8 @@ html , body , #app , .index , .wrap{
 
 .banner {
   width: 100%;
-  height: 700px;
+  height: auto;
+  min-height: 700px;
   display: flex;
   align-items: center;
   justify-content: center;

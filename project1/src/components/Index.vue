@@ -7,6 +7,7 @@
             ref="videoPlayer"
             :playsinline="true"
             :options="playerOptions1"
+            style="height : 700px !important"
           ></video-player>
     </div>
     <main>
@@ -98,7 +99,7 @@ export default {
         playbackRates: [0.7, 1.0, 1.5, 2.0], //播放速度
         autoplay: true, //如果true,浏览器准备好时开始回放。
         muted: true, // 默认情况下将会消除任何音频。
-        loop: false, // 导致视频一结束就重新开始。
+        loop: true, // 导致视频一结束就重新开始。
         preload: 'auto', // 建议浏览器在<video>加载元素后是否应该开始下载视频数据。auto浏览器选择最佳行为,立即开始加载视频（如果浏览器支持）
         language: 'zh-CN',
         aspectRatio: '16:9', // 将播放器置于流畅模式，并在计算播放器的动态大小时使用该值。值应该代表一个比例 - 用冒号分隔的两个数字（例如"16:9"或"4:3"）
@@ -113,10 +114,10 @@ export default {
         // width: document.documentElement.clientWidth,
         notSupportedMessage: '此视频暂无法播放，请稍后再试', //允许覆盖Video.js无法播放媒体源时显示的默认信息。
         controlBar: {
-          timeDivider: true,
-          durationDisplay: true,
+          timeDivider: false,
+          durationDisplay: false,
           remainingTimeDisplay: false,
-          fullscreenToggle: true //全屏按钮
+          fullscreenToggle: false //全屏按钮
         }
       },
       playerOptions: {
@@ -147,8 +148,10 @@ export default {
     }
   },
   mounted() {
+    
     setTimeout(() => {
       document.querySelector('.line9').style.display = 'block'
+      document.querySelector('.video-js').style.height = '700px'
     }, 1000);
   },
   components: {
@@ -165,6 +168,9 @@ export default {
   .video-player {
     height: 100%;
     width: 100%;
+    .video-js {
+      height : 700px !important;
+    }
   }
   h2 {
     font-size: 60px;
