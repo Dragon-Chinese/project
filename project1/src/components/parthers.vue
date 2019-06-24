@@ -116,8 +116,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 .banner {
-  background-image: url("../assets/par.png");
-  background-size: cover;
+  background: url("../assets/par.png") no-repeat center;
+  // background-size: cover;
   h2 {
     font-size: 60px;
     font-family: ProximaNova-Regular;

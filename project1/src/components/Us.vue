@@ -50,7 +50,7 @@ export default {
 }
 .banner{
   position: relative;
-  background-image: url('../assets/0f341017ecf47ade970da8429898.png')
+  background: url('../assets/0f341017ecf47ade970da8429898.png') no-repeat center;
 }
 .banner>img{
   width: 100%;

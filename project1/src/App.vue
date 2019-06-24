@@ -93,7 +93,7 @@ html , body , #app , .index , .wrap{
     width: 100%;
     height: 70px;
     border-top: 1px solid rgba(232, 232, 232, 1);
-    display: none;
+    // display: none;
     position: relative;
     margin-top: 100px;
     .wrap {

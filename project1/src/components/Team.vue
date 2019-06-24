@@ -84,8 +84,7 @@ export default {
 }
 .banner{
   position: relative;
-  background-image: url('../assets/team.png');
-  background-size: 100% 100%;
+  background: url('../assets/team.png') no-repeat center;
 }
 .banner .team{
   position: absolute;

@@ -50,8 +50,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 .banner {
-    background: url('../assets/ventiLifea.png') no-repeat 0 0  ;
-    background-size: cover;
+    background: url('../assets/ventiLifea.png') no-repeat center  ;
   h2 {
     font-size:60px;
     font-family:ProximaNova-Regular;
