@@ -5,7 +5,10 @@
         <h2>{{$t('message.ventiLife.txt0')}}</h2>
     </div>
     <main>
-      <div class="top">
+      <div class="venImg">
+        <div class="topBox"><img src="../assets/venImg.jpg" alt=""></div>
+      </div>
+      <!-- <div class="top">
             <div class="topBox"><img src="../assets/7caf85b2e1d98e0651b1887e0b47615.png" alt=""></div>
             <div class="topBox"><img src="../assets/b5bc4d7aca7255eb806263b7c53249c.png" alt=""></div>
             <div class="topBox"><img src="../assets/bff8c9b0eff49ff55e7fccea09dbe9fe.png" alt=""></div>
@@ -24,7 +27,7 @@
                 <div class="oneImg"><img src="../assets/a5e37110bf29c206d148700a02e8133.png" alt=""></div>
                 <div class="twoImg"><img src="../assets/890f3ad6cfc09fce07eee3d7a13214d.png" alt=""></div>
             </div>
-      </div>
+      </div> -->
     </main>
   </div>
 </template>
@@ -59,6 +62,15 @@ export default {
   }
 }
 main {
+  .venImg{
+    width: 100%;
+    height: 895px;
+    margin-top:195px;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
   .top{
       margin-top:155px;
       display: flex;
