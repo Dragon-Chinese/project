@@ -115,10 +115,10 @@ export default {
         // width: document.documentElement.clientWidth,
         notSupportedMessage: '此视频暂无法播放，请稍后再试', //允许覆盖Video.js无法播放媒体源时显示的默认信息。
         controlBar: {
-          timeDivider: true,
-          durationDisplay: true,
+          timeDivider: false,
+          durationDisplay: false,
           remainingTimeDisplay: false,
-          fullscreenToggle: true //全屏按钮
+          fullscreenToggle: false //全屏按钮
         }
       },
       playerOptions: {
@@ -149,8 +149,10 @@ export default {
     }
   },
   mounted() {
+    
     setTimeout(() => {
       document.querySelector('.line9').style.display = 'block'
+      document.querySelector('.video-js').style.height = '700px'
     }, 1000);
   },
   components: {

@@ -4,6 +4,9 @@
       <h2>{{$t('message.technology.txt0')}}</h2>
     </div>
     <main>
+      <div class='swiper'>
+        <img src="../assets/swiper.jpg" alt>
+      </div>
       <div class="toMain">{{$t('message.technology.txt1')}}</div>
       <div class="content">
         <div class="right">
@@ -83,6 +86,16 @@ export default {
 }
 main {
   margin-top: 134px;
+  .swiper{
+    width: 100%;
+    height:106px;
+    margin-top:-100px;
+    margin-bottom: 30px;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
   .toMain {
     font-size: 28px;
     font-family: Bodoni-Normal-Italic;

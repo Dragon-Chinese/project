@@ -62,18 +62,19 @@ export default {
             txt0: "Experience Venti"
         },
         us: {
-            txt0: "VENTI IS",
+            txt0: "VENTI IS ",
             txt1: "AN AUTONOMY LEADER.",
             txt2: "A DISRUPTOR. ",
             txt3: "AN INNOVATOR. ",
             txt4: "AN ENABLER.",
             txt5: "AN INTEGRATOR. ",
-            txt6: "WHY VENTI",
-            txt7: "AN IMPLEMENTOR.",
-            txt8: "Venti combines the intellectual might of intelligent science and world-leading technology with the power of Asia’s huge urbanization-driven markets. Our Safe Speed autonomy has benchmarked top in China and powered six vehicle classes.  Our vehicles had zero software system disengagements in 5,000 kilometers of testing and zero incidents in nine years of development in China, US and Singapore.  Venti’s system is fast, mature, and ready for large scale applications with a significant cost advantage over the competition.",
-            txt9: "Our powerful strategic partners including China’s number one insurance company, two industrial partners, a top 10 real estate builder, multiple leading vehicle manufacturers, and SIP, China’s best industrial park, are pathways for explosive growth and driverless vehicle leadership in moving people and goods.",
-            txt10: "Venti has an unsurpassed team, over half of whom are MIT-trained; our best-in-class management team includes AI experts paired with seasoned automotive and business stars from leading automotive Tier-1 companies. ",
-            txt11: "Our autonomy system has a modular design, leading 3D components, and supremely powerful algorithms. These factors yield higher safety and reliability, deployment of a new vehicle class within a week, mapping of a new area in a morning, and greater flexibility for initial application and modifications.  \n\n\n Come ride with us into the future."
+            txt6:"AN IMPLEMENTOR.",
+            txt7: "WHY VENTI",
+            txt8: "AN IMPLEMENTOR.",
+            txt9: "Venti combines the intellectual might of intelligent science and world-leading technology with the power of Asia’s huge urbanization-driven markets. Our Safe Speed autonomy has benchmarked top in China and powered six vehicle classes.  Our vehicles had zero software system disengagements in 5,000 kilometers of testing and zero incidents in nine years of development in China, US and Singapore.  Venti’s system is fast, mature, and ready for large scale applications with a significant cost advantage over the competition.",
+            txt10: "Our powerful strategic partners including China’s number one insurance company, two industrial partners, a top 10 real estate builder, multiple leading vehicle manufacturers, and SIP, China’s best industrial park, are pathways for explosive growth and driverless vehicle leadership in moving people and goods.",
+            txt11: "Venti has an unsurpassed team, over half of whom are MIT-trained; our best-in-class management team includes AI experts paired with seasoned automotive and business stars from leading automotive Tier-1 companies. ",
+            txt12: "Our autonomy system has a modular design, leading 3D components, and supremely powerful algorithms. These factors yield higher safety and reliability, deployment of a new vehicle class within a week, mapping of a new area in a morning, and greater flexibility for initial application and modifications."
         },
         parthers: {
             txt0: "Partnering for Explosive Growth",
@@ -90,13 +91,14 @@ export default {
         team: {
             txt0: "Dedicated Team",
             txt1: "OUR FOUNDERS",
-            txt2: "HEIDI WYLE, FOUNDER & CEO, VENTI TECHNOLOGIES; CHAIRMAN, VENTI CHINA",
+            txt2: "HEIDI WYLE, PH.D., FOUNDER & CEO, VENTI TECHNOLOGIES; CHAIRMAN, VENTI CHINA",
             txt3: "DANIELA RUS, PH.D., FOUNDER, VENTI TECHNOLOGIES",
             txt4: "SAMAN AMARASINGHE, PH.D., FOUNDER, VENTI TECHNOLOGIES",
-            txt5: "XINXIN DU, PHD., FOUNDING TECHNOLOGY OFFICER",
+            txt5: "XINXIN DU, PHD., FOUNDING CHIEF TECHNOLOGY OFFICER",
             txt6: "OUR TEAM",
             txt7: "SHUYAN ZHAO, PH.D., ACTING CEO VENTI CHINA & VP, ENGINEERING",
-            txt8: " WU YANG, VP OF BUSINESS DEVELOPMENT"
+            txt8: " WU YANG, VP OF BUSINESS DEVELOPMENT",
+            txt9: "THE VENTI TEAM"
         },
         news : {
             txt0 : 'Venti in the News',

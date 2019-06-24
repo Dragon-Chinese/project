@@ -9,10 +9,14 @@
       <div class="mainHead mainCom">{{ $t("message.parthers.txt3") }}</div>
       <div class="mainSelf">
         <div class="selfImg">
-          <img src="../assets/img2.jpg" alt="" />
+          <img src="../assets/partherLeft.png" alt="" />
         </div>
         <div class="selfImg">
           {{ $t("message.parthers.txt4") }}
+          <img src="../assets/partherRight.jpg" alt="" class="partherImg"/>
+        </div>
+        <div>
+          
         </div>
       </div>
       <!-- <div class="mainHead mainInd">{{ $t("message.parthers.txt5") }}</div> -->
@@ -42,7 +46,7 @@
         </div>
       </div>
       <div class="leftImg">
-        <div class="imgPart">
+        <!-- <div class="imgPart">
           <img src="../assets/13.png" alt />
         </div>
         <div class="imgPart">
@@ -56,7 +60,7 @@
         </div>
         <div class="imgPart">
           <img src="../assets/9.png" alt />
-        </div>
+        </div> -->
         <!-- <div class="imgPart">
           <img src="../assets/14.png" alt />
         </div>
@@ -157,6 +161,11 @@ main {
       img {
         width: 100%;
         height: 100%;
+      }
+      .partherImg{
+        width: 100%;
+        height: 219px;
+        margin-top:16px;
       }
     }
   }
