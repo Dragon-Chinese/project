@@ -51,6 +51,7 @@ export default {
 <style lang="scss" scoped>
 .banner {
     background: url('../assets/ventiLifea.png') no-repeat center  ;
+    background-size:100% 100%;
   h2 {
     font-size:60px;
     font-family:ProximaNova-Regular;

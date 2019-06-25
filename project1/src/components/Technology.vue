@@ -72,8 +72,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
+@font-face {
+  font-family: 'v1';
+  src: url('../assets/gbk.ttf');
+}
 .banner {
   background: url("../assets/header.png") no-repeat center;
+  background-size:100% 100%;
   h2 {
     font-size: 60px;
     font-family: ProximaNova-Regular;
@@ -97,7 +102,7 @@ main {
   }
   .toMain {
     font-size: 28px;
-    font-family: Bodoni-Normal-Italic;
+    font-family: v1;
     font-weight: 400;
     color: rgba(68, 68, 68, 1);
   }
@@ -124,7 +129,7 @@ main {
       .leftSize {
         width: 100%;
         font-size: 28px;
-        font-family: Bodoni-Normal-Italic;
+        font-family: v1;
         font-weight: 400;
         color: rgba(68, 68, 68, 1);
       }
@@ -141,7 +146,7 @@ main {
       .leftSizes {
         width: 100%;
         font-size: 28px;
-        font-family: Bodoni-Normal-Italic;
+        font-family: v1;
         font-weight: 400;
         color: rgba(68, 68, 68, 1);
       }

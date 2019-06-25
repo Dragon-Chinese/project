@@ -10,11 +10,11 @@
           <li>{{$t('message.us.txt3')}} </li>
           <li>{{$t('message.us.txt4')}}</li>
           <li>{{$t('message.us.txt5')}} </li>
-          <li>{{$t('message.us.txt7')}}</li>
+          <li>{{$t('message.us.txt6')}}</li>
         </ul>
         <hr>
         <footer>
-          <p>{{$t('message.us.txt6')}}</p>
+          <p>{{$t('message.us.txt7')}}</p>
           <div>
             <ul>
               <li>{{$t('message.us.txt8')}}</li>
@@ -41,7 +41,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+@font-face {
+  font-family: 'v1';
+  src: url('../assets/gbk.ttf');
+}
 .index {
   margin: 0;
   padding: 0;
@@ -51,6 +54,7 @@ export default {
 .banner{
   position: relative;
   background: url('../assets/0f341017ecf47ade970da8429898.png') no-repeat center;
+  background-size:100% 100%;
 }
 .banner>img{
   width: 100%;
@@ -82,11 +86,11 @@ ul{
 ul li {
   margin-bottom: 46px;
   font-size:28px;
-  font-family:Bodoni-Normal-Italic;
+  font-family:v1;
   font-weight:400;
   color:rgba(68,68,68,1);
+  font-style: italic;
 }
-
 li:nth-last-child() {
   margin: 0;
 }

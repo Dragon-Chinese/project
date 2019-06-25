@@ -46,6 +46,7 @@ export default {
 <style lang="scss" scoped>
 .banner {
   background: url('../assets/news.png') no-repeat center;
+  background-size:100% 100%;
   // background-size: cover;
  h2 {
     font-size: 60px;

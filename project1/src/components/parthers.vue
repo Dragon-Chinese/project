@@ -115,9 +115,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
+@font-face {
+  font-family: 'v1';
+  src: url('../assets/gbk.ttf');
+}
 .banner {
   background: url("../assets/par.png") no-repeat center;
-  // background-size: cover;
+  background-size:100% 100%;
+  // background-attachment:fixed;
   h2 {
     font-size: 60px;
     font-family: ProximaNova-Regular;
