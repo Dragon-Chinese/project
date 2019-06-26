@@ -9,8 +9,8 @@
           <div class="swiper-slide" style="width : auto"><img src="../assets/11.png" alt=""></div>
           <div class="swiper-slide" style="width : 200px"><img src="../assets/22.jpg" alt=""></div>
           <div class="swiper-slide" style="width : auto"><img src="../assets/33.jpg" alt=""></div>
-          <div class="swiper-slide" style="width : auto"><img src="../assets/44.jpg" alt=""></div>
-          <div class="swiper-slide" style="width : auto"><img src="../assets/55.jpg" alt=""></div>
+          <div class="swiper-slide" style="width : auto"><img src="../assets/11.png" alt=""></div>
+          <div class="swiper-slide" style="width : auto"><img src="../assets/77.jpg" alt=""></div>
           <div class="swiper-slide" style="width : 151px"><img src="../assets/66.png" alt=""></div>
           <div class="swiper-slide" style="width : auto"><img src="../assets/77.jpg" alt=""></div>
         </div>
@@ -113,9 +113,10 @@ main {
   }
   .toMain {
     font-size: 28px;
-    font-family: v1;
+    font-family: ProximaNova-Light;
     font-weight: 400;
     color: rgba(68, 68, 68, 1);
+    
   }
   .content {
     margin-top: 70px;
@@ -144,7 +145,7 @@ main {
       .leftSize {
         width: 100%;
         font-size: 28px;
-        font-family: v1;
+        font-family: ProximaNova-Light;
         font-weight: 400;
         color: rgba(68, 68, 68, 1);
       }
@@ -161,7 +162,7 @@ main {
       .leftSizes {
         width: 100%;
         font-size: 28px;
-        font-family: v1;
+        font-family: ProximaNova-Light;
         font-weight: 400;
         color: rgba(68, 68, 68, 1);
       }
