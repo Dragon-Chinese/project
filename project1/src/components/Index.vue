@@ -8,8 +8,9 @@
             :playsinline="true"
             :options="playerOptions1"
           ></video-player> -->
-          <video src="../assets/v1.webm" style="width:100%" autoplay loop muted playsinline>
+          <video src="http://www.myzhangyao.com/static/Loop_Home_cover_video.webm" style="width:100%" autoplay loop muted playsinline>
           </video>
+          <div class="meng"></div>
     </div>
     <main>
       <div class="topMain">
@@ -18,7 +19,7 @@
           <p>{{$t('message.index.txt7')}}</p>
         </div>
         <div class="right">
-           <video src="https://yiweisandu.oss-cn-beijing.aliyuncs.com/videos/Venti_Chinalife_Short_Final_Version.m4v" autoplay loop muted playsinline controls></video>
+           <video src="http://www.myzhangyao.com/static/Venti_Chinalife_Short_Final_Version.mp4" autoplay loop muted playsinline controls></video>
         </div>
       </div>
       <div class="line"></div>
@@ -29,19 +30,19 @@
           <p class="title">{{$t('message.index.txt10')}}</p>
           <div class="img"></div>
           <p class="txt">{{$t('message.index.txt13')}}</p>
-          <button>{{$t('message.index.txt11')}}</button>
+          <button  @click="$router.push('/Technology')">{{$t('message.index.txt11')}}</button>
         </div>
         <div>
           <p class="title">{{$t('message.index.txt16')}}</p>
           <div class="img"></div>
           <p class="txt">{{$t('message.index.txt14')}}</p>
-          <button>{{$t('message.index.txt17')}}</button>
+          <button @click="$router.push('/parthers')">{{$t('message.index.txt17')}}</button>
         </div>
         <div>
           <p class="title">{{$t('message.index.txt12')}}</p>
           <div class="img"></div>
           <p class="txt">{{$t('message.index.txt15')}}</p>
-          <button>{{$t('message.index.txt18')}}</button>
+          <button  @click="$router.push('/team')">{{$t('message.index.txt18')}}</button>
         </div>
       </div>
       <div class="line1"></div>
@@ -91,31 +92,6 @@ export default {
   data() {
     return {
       msg: '',
-      playerOptions: {
-        playbackRates: [0.7, 1.0, 1.5, 2.0], //播放速度
-        autoplay: false, //如果true,浏览器准备好时开始回放。
-        muted: false, // 默认情况下将会消除任何音频。
-        loop: false, // 导致视频一结束就重新开始。
-        preload: 'auto', // 建议浏览器在<video>加载元素后是否应该开始下载视频数据。auto浏览器选择最佳行为,立即开始加载视频（如果浏览器支持）
-        language: 'zh-CN',
-        aspectRatio: '16:9', // 将播放器置于流畅模式，并在计算播放器的动态大小时使用该值。值应该代表一个比例 - 用冒号分隔的两个数字（例如"16:9"或"4:3"）
-        fluid: true, // 当true时，Video.js player将拥有流体大小。换句话说，它将按比例缩放以适应其容器。
-        sources: [
-          {
-            type: 'video/*',
-            src:'https://yiweisandu.oss-cn-beijing.aliyuncs.com/videos/Venti_Chinalife_Short_Final_Version.m4v' //url地址
-          }
-        ],
-        poster: '', //你的封面地址
-        // width: document.documentElement.clientWidth,
-        notSupportedMessage: '此视频暂无法播放，请稍后再试', //允许覆盖Video.js无法播放媒体源时显示的默认信息。
-        controlBar: {
-          timeDivider: false,
-          durationDisplay: false,
-          remainingTimeDisplay: false,
-          fullscreenToggle: true //全屏按钮
-        }
-      },
     }
   },
   mounted() {
@@ -140,12 +116,22 @@ export default {
   position:relative;
     padding-bottom:56.25%;    /*需要用padding来维持16:9比例,也就是9除以16*/
     height: 0;
+    .meng {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, .5);
+      left: 0;
+      top: 0;
+      z-index: 99;
+    }
   video {
     position: absolute;
     top:0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height:100%;
+    // background: red; 
   }
   h2 {
     position: absolute;
@@ -158,6 +144,7 @@ export default {
     z-index: 999;
     top: 50%;
     margin-top: -24px;
+    z-index: 9999;
   }
 }
 main {

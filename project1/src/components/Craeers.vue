@@ -60,7 +60,7 @@ export default {
 <style scoped>
 .banner{
   background: url('../assets/0f341017ecf47ade970da842108765c.png') no-repeat center;
-  background-size:100% 100%;
+  background-size:100%;
   /* background-size: 100%; */
 }
 

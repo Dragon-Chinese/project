@@ -50,7 +50,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 .banner {
-    background: url('../assets/ventiLifea.png') no-repeat center  ;
+    background: url('../assets/par.jpg') no-repeat center  ;
     background-size:100% 100%;
   h2 {
     font-size:60px;
@@ -65,7 +65,7 @@ main {
   .venImg{
     width: 100%;
     height: 895px;
-    margin-top:195px;
+    margin-top:95px;
     img{
       width: 100%;
       height: 100%;

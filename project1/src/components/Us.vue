@@ -17,7 +17,7 @@
           <p>{{$t('message.us.txt7')}}</p>
           <div>
             <ul>
-              <li>{{$t('message.us.txt8')}}</li>
+              <!-- <li>{{$t('message.us.txt8')}}</li> -->
               <li>{{$t('message.us.txt9')}}</li>
               <li>{{$t('message.us.txt10')}}</li>
               <li>{{$t('message.us.txt11')}}</li>
@@ -76,6 +76,7 @@ main>p {
   font-family:Bodoni-Normal-Italic;
   font-weight:400;
   color:rgba(68,68,68,1);
+  font-style: italic;
 }
 
 ul{
@@ -138,6 +139,7 @@ footer>div ul li{
   line-height:24px;
   line-height: 24px;
   margin-bottom: 20px;
+  font-style: normal;
 }
 
 </style>

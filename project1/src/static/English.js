@@ -6,7 +6,7 @@ export default {
             txt3 : 'PARTNERS',
             txt4 : 'TEAM',
             txt5 : 'CAREERS',
-            txt6 : 'VENTILIFE',
+            txt6 : 'VENTI LIFE',
             txt7 : 'NEWS'
         },
         index : {
@@ -18,7 +18,7 @@ export default {
             "txt11": "READ ABOUT OUR TECHNOLOGY",
             "txt12": "Best in Class Team",
             "txt13": "Our autonomy technology benchmarked top in China and is significantly cheaper than the competition. ",
-            "txt14": "Venti Technologies is focused on commercialization with powerful, strategic partners for explosive growth",
+            "txt14": "Venti Technologies is focused on commercialization with powerful, strategic partners for explosive growth.",
             "txt15": "Best-of-the-Best team, more than half MIT-trained, combining AI world experts with seasoned automotive managers. ",
             "txt16": "Powerful Leading Partners",
             "txt17": "READ ABOUT OUR PARTNERS",
@@ -32,7 +32,7 @@ export default {
             "txt25": "Lives improve, Pollution decreases, Animals prosper",
             "txt26": "REDUCING POLLUTION SO THE PLANET CAN BREATHE",
             "txt27": "IMPROVING PEOPLE’S LIVES THROUGH COST-EFFECTIVE, RELAXING TRANSPORTATION",
-            "txt28": "URTURING WILD LANDS AND WILD WATERS SO ANIMALS CAN PROSPER",
+            "txt28": "Nurturing WILD LANDS AND WILD WATERS SO ANIMALS CAN PROSPER",
             "txt29" : 'Venti Technologies'
         },
         technology : {

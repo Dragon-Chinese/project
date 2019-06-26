@@ -54,7 +54,7 @@ html , body , #app , .index , .wrap{
 .banner {
   width: 100%;
   height: auto;
-  min-height: 700px;
+  min-height: 468px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,7 +97,7 @@ html , body , #app , .index , .wrap{
     position: relative;
     margin-top: 100px;
     .wrap {
-      width: 700px;
+      width: 450px;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
