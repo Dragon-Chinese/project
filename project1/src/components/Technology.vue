@@ -14,8 +14,8 @@
           <div class="swiper-slide" style="width : 151px"><img src="../assets/66.png" alt=""></div>
           <div class="swiper-slide" style="width : auto"><img src="../assets/77.jpg" alt=""></div>
         </div>
-         <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev l"></div>
+          <div class="swiper-button-next l"></div>
       </div>
       <div class="toMain">{{$t('message.technology.txt1')}}</div>
       <div class="content">
@@ -46,22 +46,24 @@ export default {
     };
   },
   mounted() {
-     new Swiper ('.swiper-container', {
-       autoplay: {
-        delay: 1000,
-        stopOnLastSlide: false,
-        disableOnInteraction: false,
-      },
-      loop: true,
-      // 如果需要分页器
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-       loopedSlides: 5,
-      //  slidesPerView : 2,
-      slidesPerView : 'auto',
-      //slidesPerView : 3.7,
+    this.$nextTick(() => {
+      new Swiper ('.swiper-container', {
+        autoplay: {
+          delay: 1000,
+          stopOnLastSlide: false,
+          disableOnInteraction: false,
+        },
+        loop: true,
+        // 如果需要分页器
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        loopedSlides: 5,
+        //  slidesPerView : 2,
+        slidesPerView : 'auto',
+        //slidesPerView : 3.7,
+      }) 
     }) 
   },
   components: {
@@ -90,6 +92,12 @@ export default {
 }
 main {
   margin-top: 134px;
+  .l {
+    height: 60px;
+    width: 44px;
+        background-color: rgba(0,0,0,.12);
+        color: #aaa;
+  }
   .swiper{
     width: 100%;
     height:200px;
