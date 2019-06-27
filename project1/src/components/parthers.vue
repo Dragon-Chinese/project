@@ -36,7 +36,7 @@
         </div>
         <div class="right">
           <div class="rightVideo">
-            <video src="http://www.myzhangyao.com/static/Venti_ChinaLife_Short19.mp4" autoplay loop muted playsinline controls></video>
+            <video src="http://www.myzhangyao.com/static/Venti_ChinaLife_Short19.mp4" muted playsinline controls></video>
           </div>
         </div>
       </div>

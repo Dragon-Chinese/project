@@ -5,17 +5,17 @@
     </div>
     <main>
       <li>
-        <img src="../assets/saman.png" alt>
+        <img src="../assets/jr.png" alt>
         <div class="txt">
-          <h4>{{$t('message.news.txt1')}}</h4>
+          <h4><a href="https://www.toutiao.com/i6697850819087172107/?wxshare_count=5&from=singlemessage&pbid=6631041144397104644&isappinstalled=0">{{$t('message.news.txt1')}}</a></h4>
           <p>{{$t('message.news.txt2')}}</p>
-          <p><a href="https://www.toutiao.com/i6697850819087172107/?wxshare_count=5&from=singlemessage&pbid=6631041144397104644&isappinstalled=0" target="_blank" rel="noopener noreferrer">https://www.toutiao.com/i6697850819087172107/?wxshare_count=5&from=singlemessage&pbid=6631041144397104644&isappinstalled=0</a></p>
+          <!-- <p><a href="https://www.toutiao.com/i6697850819087172107/?wxshare_count=5&from=singlemessage&pbid=6631041144397104644&isappinstalled=0" target="_blank" rel="noopener noreferrer">https://www.toutiao.com/i6697850819087172107/?wxshare_count=5&from=singlemessage&pbid=6631041144397104644&isappinstalled=0</a></p> -->
         </div>
       </li>
       <li>
         <img src="../assets/girl.png" alt>
         <div class="txt">
-          <h4>{{$t('message.news.txt3')}}</h4>
+          <h4><a href="https://www.forbes.com/sites/allysonkapin/2019/02/20/50-women-led-startups-who-are-crushing-tech/#701e0e3152b3">{{$t('message.news.txt3')}}</a></h4>
           <p>{{$t('message.news.txt4')}}</p>
         </div>
       </li>

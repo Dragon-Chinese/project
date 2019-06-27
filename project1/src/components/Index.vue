@@ -19,7 +19,7 @@
           <p>{{$t('message.index.txt7')}}</p>
         </div>
         <div class="right">
-           <video src="http://www.myzhangyao.com/static/Venti_Chinalife_Short_Final_Version.mp4" autoplay loop muted playsinline controls></video>
+           <video src="http://www.myzhangyao.com/static/Venti_Chinalife_Short_Final_Version.mp4" muted playsinline controls></video>
         </div>
       </div>
       <div class="line"></div>
@@ -341,7 +341,7 @@ display: none;
         p {
           font-size: 12px;
           font-family: ProximaNova-Regular;
-          font-weight: 400;
+          font-weight: 100;
           color: rgba(68, 68, 68, 1);
           margin-top: 21px;
         }

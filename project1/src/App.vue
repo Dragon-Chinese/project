@@ -4,7 +4,7 @@
     <router-view  />
     <div class="line9">
         <div class="wrap">
-          <p>©Venti Tevhnologies,Inc.</p>
+          <p>©Venti Technologies,Inc.</p>
           <p>info@ventitechnologies.com</p>
         </div>
         <div class="top" @click="top">

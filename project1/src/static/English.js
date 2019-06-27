@@ -32,7 +32,7 @@ export default {
             "txt25": "Lives improve, Pollution decreases, Animals prosper",
             "txt26": "REDUCING POLLUTION SO THE PLANET CAN BREATHE",
             "txt27": "IMPROVING PEOPLE’S LIVES THROUGH COST-EFFECTIVE, RELAXING TRANSPORTATION",
-            "txt28": "Nurturing WILD LANDS AND WILD WATERS SO ANIMALS CAN PROSPER",
+            "txt28": "NURTURING WILD LANDS AND WILD WATERS SO ANIMALS CAN PROSPER",
             "txt29" : 'Venti Technologies'
         },
         technology : {
@@ -102,8 +102,8 @@ export default {
         },
         news : {
             txt0 : 'Venti in the News',
-            txt1 : 'LINK TO THE SIP VIDEO',
-            txt2 : 'I don’t know what the article says. Somebody needs to write the blurb and add a picture.',
+            txt1 : 'VENTI PARTNERS WITH SIP',
+            txt2 : 'Partnering with Suzhou Industrial Park to optimize innovation and entrepreneurship.',
             txt3 : 'VENTI NAMED ONE OF 50 WOMEN-LED START UPS THAT ARE CRUSHING TECH',
             txt4 : 'In a tech driven economy where women-led firms continue to be overlooked, CEO, Heidi Wyle, PhD. pushes the frontiers of innovation.'
         }
