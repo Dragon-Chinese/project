@@ -68,7 +68,7 @@ export default {
   height: 100%;
 }
 .fontTxt{
-  font-family:FZS3JW--GB1-0;
+  font-family: Bodoni-Normal-Italic;
 }
 .Up{
   position: absolute;
@@ -101,7 +101,7 @@ main>p {
   font-weight:400;
   color:rgba(68,68,68,1);
   font-style: italic;
-  font-family: FZS3JW--GB1-0;
+  font-family: Bodoni-Normal-Italic;
 }
 li:nth-last-child() {
   margin: 0;

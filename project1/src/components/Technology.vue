@@ -125,16 +125,18 @@ main {
     font-weight:400;
     color:rgba(68,68,68,1);
     font-style: oblique;
+    width: 200px;;
   }
   .content {
     margin-top: 70px;
     display: flex;
     .right {
-      width: 686px;
-      height: 446px;
+      flex: 1;
       video {
         height: 100%;
         width: 100%;
+        outline: none;
+        margin-top: -100px;
       }
       // .video-player {
       //   margin-top: 48px;
@@ -147,7 +149,7 @@ main {
       // }
     }
     .left {
-      margin-top: 26px;
+      // margin-top: 26px;
       margin-left: 35px;
       flex: 1;
       .leftSize {

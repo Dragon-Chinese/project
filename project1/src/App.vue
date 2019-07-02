@@ -49,12 +49,12 @@ export default {
 html , body , #app , .index , .wrap{
   height: auto;
   width: 100%;
+  min-width: 1300px;
 }
 
 .banner {
   width: 100%;
-  height: 700px;
-  min-height: 468px;
+  min-height: 700px;
   min-width: 1300px;
   display: flex;
   align-items: center;
@@ -82,7 +82,7 @@ html , body , #app , .index , .wrap{
 }
 @media screen and (min-width: 1200px) {
   .header , main {
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
   }
 }

@@ -78,7 +78,10 @@ main {
       h4 {
         font-size: 19px;
         font-family: FZLTHK--GBK1-0;
-        font-weight: 400;
+        margin-top: -15px;
+        a {
+           font-weight: 600;
+        }
         color: rgba(10, 10, 10, 1);
         line-height: 38px;
       }

@@ -107,6 +107,7 @@ export default {
   height: 509px;
   margin-top: 118px;
   display: flex;
+  justify-content: space-between;
 }
 .main-top .top-left{
   width:343px;
@@ -116,13 +117,13 @@ export default {
   font-weight:300;
   color:rgba(10,10,10,1);
   line-height:57px;
-  margin: 14px 203px 0 0;
+  margin: 14px 10px 0 0;
 }
 .top-right{
 }
 .top-right span:nth-child(1){
-   width:651px;
-    height:478px;
+   width:848px;
+    /* height:478px; */
     display: block;
   margin: 0 0 22px 1px;
     
@@ -144,16 +145,17 @@ export default {
 .main-content{
   width: 100%;
   height: 406px;
-  margin: 44px 0 71px 0;
+  margin: 200px 0 71px 0;
 }
 .main-content ul{
   width: 100%;
   height: 100%;
   display: flex;
+  justify-content: space-between;
 }
 .main-content ul li{
   width: 380px;
-  margin-right: 30px;
+  /* margin-right: 30px; */
 }
 .main-content ul li span:nth-child(1){
   width:380px;

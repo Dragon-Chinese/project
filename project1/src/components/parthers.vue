@@ -8,10 +8,10 @@
       <div class="mainPower">{{ $t("message.parthers.txt2") }}</div>
       <div class="mainHead mainCom">{{ $t("message.parthers.txt3") }}</div>
       <div class="mainSelf">
-        <div class="selfImg">
+        <div class="selfImg one">
           <img src="../assets/partherLeft.png" alt="" />
         </div>
-        <div class="selfImg">
+        <div class="selfImg two">
           {{ $t("message.parthers.txt4") }}
           <img src="../assets/partherRight.jpg" alt="" class="partherImg"/>
         </div>
@@ -138,10 +138,11 @@ main {
     color: rgba(68, 68, 68, 1);
     line-height: 24px;
     display: flex;
+    justify-content: space-between;
     .selfImg {
-      width: 580px;
-      height: 378px;
-      margin-right: 32px;
+      width:560px;
+      height:377px;
+      // margin-right: 32px;
       img {
         width: 100%;
         height: 100%;
@@ -152,6 +153,7 @@ main {
         margin-top:16px;
       }
     }
+
   }
   .mainInd {
     margin-top: 120px;
@@ -165,9 +167,9 @@ main {
   .mainContent {
     margin-top: 63px;
     display: flex;
+    justify-content: space-between;
     .left {
-      // width: 572px;
-      flex: 1;
+     width:560px;
       .leftSize {
         font-size: 25px;
         font-family: Bodoni-Normal-Italic;
@@ -177,7 +179,7 @@ main {
         font-style: oblique;
       }
       .leftWork {
-        margin-top: 46px;
+        margin-top: 10px;
         font-size: 16px;
         font-family: ProximaNova-Light;
         font-weight: 300;
@@ -185,7 +187,7 @@ main {
         line-height: 24px;
       }
       .lefstWork {
-        margin-top: 20px;
+        margin-top: 10px;
         font-size: 16px;
         font-family: ProximaNova-Light;
         font-weight: 300;
@@ -194,8 +196,9 @@ main {
       }
     }
     .right {
-      flex: 1;
-      margin-left: 32px;
+      width:600px;
+      height:370px;
+      // margin-left: 44px;
       video {
         height: 100%;
         width: 100%;

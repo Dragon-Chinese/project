@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="line"></div>
-      <h3 style="font-family:jian">{{$t('message.index.txt8')}}</h3>
+      <h3 >{{$t('message.index.txt8')}}</h3>
       <p class="power">{{$t('message.index.txt9')}}</p>
       <div class="main">
         <div>
@@ -184,7 +184,7 @@ display: none;
     .left {
       div {
         font-size: 36px;
-        font-family: jian;
+        font-family: ProximaNova-Regular;
         font-weight: 100;
         color: rgba(34, 34, 34, 1);
         line-height: 54px;
@@ -194,11 +194,11 @@ display: none;
         margin-top: 50px;
         width: 560px;
         height: 66px;
-        font-size: 28px;
+           font-size: 28px;
         font-family: hua;
+        font-weight: 100;
         font-style: oblique;
-        font-weight: 400;
-        color: rgba(68, 68, 68, 1);
+        color: #222222;
         line-height: 42px;
       }
     }
@@ -213,7 +213,7 @@ display: none;
     font-size: 36px;
     font-family: ProximaNova-Regular;
     font-weight: 100;
-    color: rgba(34, 34, 34, 1);
+    color: #222;
     margin-top: 60px;
   }
   .power {
@@ -365,7 +365,7 @@ display: none;
   .bottom {
     .title {
       font-size: 36px;
-      font-family: jian;
+      font-family: ProximaNova-Regular;
       font-weight: 100;
       color: rgba(34, 34, 34, 1);
       margin-top: 65px;

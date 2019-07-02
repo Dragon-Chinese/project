@@ -7,7 +7,7 @@ import VueI18n from 'vue-i18n';
 import English from './static/English'
 import Chinese from './static/Chinese'
 import VideoPlayer from 'vue-video-player'
-// import 'swiper/dist/css/swiper.css';
+import 'swiper/dist/css/swiper.css';
 
 Vue.config.productionTip = false
 Vue.use(VueI18n);
