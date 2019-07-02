@@ -53,14 +53,7 @@ export default {
   // background: url('../assets/news.png') no-repeat center;
   // background-size:100% 100%;
   // background-size: cover;
- h2 {
-    font-size: 60px;
-    font-family: jian;
-    font-weight: 400;
-    color: rgba(254, 254, 254, 1);
-    text-align: center;
-    margin: 0;
-  }
+  position: relative;
 }
 main {
   width: 95%;

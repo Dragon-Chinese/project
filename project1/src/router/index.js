@@ -9,6 +9,7 @@ import Craeers from '@/components/Craeers'
 import Technology from '@/components/Technology';
 import Parthers from '@/components/Parthers'
 import News from '@/components/News'
+import De from '@/components/de'
 Vue.use(Router)
 
 export default new Router({
@@ -47,6 +48,11 @@ export default new Router({
       path:'/news',
       name:'news',
       component:News
+    },
+    {
+      path:'/team-descriptions',
+      name:'de',
+      component:De
     }
   ]
 })

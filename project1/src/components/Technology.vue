@@ -90,14 +90,7 @@ export default {
 .banner {
   // background: url("../assets/header.jpg") no-repeat center;
   // background-size:100% 100%;
-  h2 {
-    font-size: 60px;
-    font-family: jian;
-    font-weight: 400;
-    color: rgba(254, 254, 254, 1);
-    text-align: center;
-    margin: 0;
-  }
+  position: relative;
 }
 main {
   margin-top: 134px;

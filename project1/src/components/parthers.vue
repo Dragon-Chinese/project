@@ -102,14 +102,7 @@ export default {
   // background: url("../assets/par.png") no-repeat center;
   // background-size:100% ;
   // background-attachment:fixed;
-  h2 {
-    font-size: 60px;
-    font-family: jian;
-    font-weight: 400;
-    color: rgba(254, 254, 254, 1);
-    text-align: center;
-    margin: 0;
-  }
+ position: relative;
 }
 main {
   margin-top: 115px;
@@ -155,6 +148,10 @@ main {
       }
     }
 
+    .two {
+      margin-left: 80px;
+      flex: 1;
+    }
   }
   .mainInd {
     margin-top: 120px;

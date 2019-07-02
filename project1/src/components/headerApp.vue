@@ -49,7 +49,11 @@ export default {
                 {
                     title : 'message.header.txt7',
                     link : '/news'
-                }
+                },
+                // {
+                //     title : 'team-descriptions',
+                //     link : '/team-descriptions'
+                // }
             ],
             options: [
                 {

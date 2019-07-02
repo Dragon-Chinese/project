@@ -3,7 +3,7 @@
     <Header/>
     <router-view  />
     <div class="line9">
-        <div class="wrap">
+        <div class="wrapp">
           <p>©Venti Technologies,Inc.</p>
           <p>info@ventitechnologies.com</p>
         </div>
@@ -94,11 +94,19 @@ html , body , #app , .index , .wrap{
     width: 960px;
     margin: 0 auto;
   }
+   main {
+    padding: 0 30px;
+  }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
   .header , main {
     width: 1300px;
     margin: 0 auto;
+    
+  }
+  main {
+    box-sizing: border-box;
+    padding: 0 30px;
   }
 }
 @media screen and (min-width: 2200px) {
@@ -130,8 +138,8 @@ html , body , #app , .index , .wrap{
     // display: none;
     position: relative;
     margin-top: 100px;
-    .wrap {
-      width: 450px;
+    .wrapp {
+      width: 450px !important;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;

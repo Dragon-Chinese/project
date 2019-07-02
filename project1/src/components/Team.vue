@@ -8,28 +8,28 @@
       <main>
         <div class="main-top">
           <p class="top-left">{{$t('message.team.txt1')}}</p>
-          <p class="top-right">
+          <p class="top-right" @click="$router.push('/team-descriptions')">
             <span>
               <img src="../assets/Heidi.png" alt="">
             </span>
             <span>{{$t('message.team.txt2')}}</span>
           </p>
         </div>
-        <div class="main-content">
+        <div class="main-content" >
             <ul>
-                <li>
+                <li @click="$router.push('/team-descriptions')">
                    <span>
                       <img src="../assets/daniela-headshot.png" alt="">
                     </span>
                     <span class="content-one">{{$t('message.team.txt3')}}</span>
                 </li>
-                <li>
+                <li @click="$router.push('/team-descriptions')">
                     <span>
                       <img src="../assets/saman.png" alt="">
                     </span>
                     <span>{{$t('message.team.txt4')}}</span>
                 </li>
-                <li>
+                <li @click="$router.push('/team-descriptions')">
                    <span>
                       <img src="../assets/XX+portrait.png" alt="">
                     </span>
@@ -40,19 +40,19 @@
         <div class="main-footer">
               <p>{{$t('message.team.txt6')}}</p>
               <ul>
-                  <li>
+                  <li @click="$router.push('/team-descriptions')">
                       <span>
                         <img src="../assets/Shuyan+portrait.png" alt="">
                       </span>
                       <span>{{$t('message.team.txt7')}}</span>
                   </li>
-                  <li>
+                  <li @click="$router.push('/team-descriptions')">
                     <span>
                         <img src="../assets/saonan.png" alt="">
                       </span>
                       <span>{{$t('message.team.txt8')}}</span>
                   </li>
-                  <li>
+                  <li @click="$router.push('/team-descriptions')">
                     <span>
                         <img src="../assets/teams.jpg" alt="">
                       </span>
@@ -71,7 +71,10 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
-  }
+  },
+  mounted() {
+    location.href
+  },
 }
 </script>
 
@@ -127,6 +130,7 @@ export default {
     /* height:478px; */
     display: block;
   margin: 0 0 22px 1px;
+  cursor: pointer;
     
 } 
 .top-right span:nth-child(1)>img{
@@ -156,6 +160,7 @@ export default {
 }
 .main-content ul li{
   width: 380px;
+  cursor: pointer;
   /* margin-right: 30px; */
 }
 .main-content ul li span:nth-child(1){
@@ -201,6 +206,7 @@ export default {
 .main-footer ul li{
   width: 275px;
   margin-right: 39px;
+  cursor: pointer;
 }
 
 .main-footer ul li:nth-child(3){
