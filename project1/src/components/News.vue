@@ -2,6 +2,7 @@
   <div class="index">
     <div class="banner">
       <h2>{{$t('message.news.txt0')}}</h2>
+      <img src="../assets/news.png" alt="">
     </div>
     <main>
       <li>
@@ -49,8 +50,8 @@ export default {
   src: url('../assets/jian.ttf');
 }
 .banner {
-  background: url('../assets/news.png') no-repeat center;
-  background-size:100% 100%;
+  // background: url('../assets/news.png') no-repeat center;
+  // background-size:100% 100%;
   // background-size: cover;
  h2 {
     font-size: 60px;
@@ -75,6 +76,7 @@ main {
     }
     .txt {
       margin-left: 47px;
+      padding-top: 43px;
       h4 {
         font-size: 19px;
         font-family: FZLTHK--GBK1-0;
@@ -87,7 +89,7 @@ main {
       }
 
       p , a{
-        margin-top: 30px;
+        margin-top: 10px;
         font-size: 14px;
         font-family: FZLTHK--GBK1-0;
         font-weight: 400;

@@ -1,7 +1,8 @@
 <template>
   <div class="index">
       <div class="banner">
-        <p class="Up">{{$t('message.us.txt0')}}</p>
+        <h2>{{$t('message.us.txt0')}}</h2>
+        <img src="../assets/0f341017ecf47ade970da8429898.png" alt="">
       </div>
       <main>
         <p class="fontTxt">{{$t('message.us.txt1')}}</p>
@@ -60,8 +61,8 @@ export default {
 }
 .banner{
   position: relative;
-  background: url('../assets/0f341017ecf47ade970da8429898.png') no-repeat center;
-  background-size:100% 100%;
+  /* background: url('../assets/0f341017ecf47ade970da8429898.png') no-repeat center;
+  background-size:100% 100%; */
 }
 .banner>img{
   width: 100%;

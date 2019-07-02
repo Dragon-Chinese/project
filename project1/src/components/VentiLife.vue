@@ -3,6 +3,7 @@
     <div class="banner">
         <!-- <img src="../assets/ba440898a9c4ce92e73d02bdc0b7734.png" class="bannerImg" alt=""> -->
         <h2>{{$t('message.ventiLife.txt0')}}</h2>
+        <img src="../assets/par.jpg" alt="">
     </div>
     <main>
       <div class="venImg">
@@ -54,8 +55,8 @@ export default {
   src: url('../assets/jian.ttf');
 }
 .banner {
-    background: url('../assets/par.jpg') no-repeat center  ;
-    background-size:100% 100%;
+    // background: url('../assets/par.jpg') no-repeat center  ;
+    // background-size:100% 100%;
   h2 {
     font-size:60px;
     font-family:jian;

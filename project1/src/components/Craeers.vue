@@ -1,7 +1,8 @@
 <template>
   <div class="index">
       <div class="banner">
-        <p class="Up">{{$t('message.careers.txt0')}}</p>
+        <h2>{{$t('message.careers.txt0')}}</h2>
+        <img src="../assets/0f341017ecf47ade970da842108765c.png" alt="">
       </div>
       <main>
         <footer>
@@ -59,16 +60,25 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .banner{
-  background: url('../assets/0f341017ecf47ade970da842108765c.png') no-repeat center;
-  background-size:100%;
+  /* background: url('../assets/0f341017ecf47ade970da842108765c.png') no-repeat center; */
+  /* background-size:100%; */
   /* background-size: 100%; */
+  position: relative;
+}
+h2 {
+  position: absolute;
+  top: 50%;
+  margin-top: -45px;
+}
+.banner img {
+  width: 100%;
 }
 
 /* .banner>img{
   width: 100%;
   height: 100%;
 } */
-.Up{
+/* .Up{
   position: absolute;
   z-index: 999;
   height:42px;
@@ -76,7 +86,7 @@ export default {
   font-family:ProximaNova-Regular;
   font-weight:400;
   color:rgba(255,255,255,1);
-}
+} */
 footer{
   height: 684px;
 }

@@ -55,10 +55,25 @@ html , body , #app , .index , .wrap{
 .banner {
   width: 100%;
   min-height: 700px;
+  height: auto;
   min-width: 1300px;
   display: flex;
   align-items: center;
   justify-content: center;
+  h2 {
+    font-size:60px;
+    font-family:jian;
+    font-weight:400;
+    color:rgba(254,254,254,1);
+    line-height:90px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    margin-top: -45px;
+  }
+ img {
+    width: 100%;
+  }
 }
 
 * {
@@ -84,6 +99,24 @@ html , body , #app , .index , .wrap{
   .header , main {
     width: 1300px;
     margin: 0 auto;
+  }
+}
+@media screen and (min-width: 2200px) {
+  .header , main {
+    width: 1300px;
+    margin: 0 auto;
+  }
+  .banner {
+    height: 1100px;
+  }
+}
+@media screen and (min-width: 2400px) {
+  .header , main {
+    width: 1300px;
+    margin: 0 auto;
+  }
+   .banner {
+    height: 1200px;
   }
 }
 .header{

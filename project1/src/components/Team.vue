@@ -3,6 +3,7 @@
       <div class="banner">
           <p class="team">{{$t('message.team.txt0')}}</p>
           <!-- <img class="banner-img" src="../assets/team.png" alt=""> -->
+          <img src="../assets/team.png" alt="">
       </div>
       <main>
         <div class="main-top">
@@ -88,8 +89,8 @@ export default {
 }
 .banner{
   position: relative;
-  background: url('../assets/team.png') no-repeat center;
-  background-size:100% 100%;
+  /* background: url('../assets/team.png') no-repeat center;
+  background-size:100% 100%; */
 }
 .banner .team{
   position: absolute;

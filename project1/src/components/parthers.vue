@@ -2,6 +2,7 @@
   <div class="index">
     <div class="banner">
       <h2>{{ $t("message.parthers.txt0") }}</h2>
+      <img src="../assets/par.png" alt="">
     </div>
     <main>
       <div class="mainHead">{{ $t("message.parthers.txt1") }}</div>
@@ -98,8 +99,8 @@ export default {
   src: url('../assets/SourceHanSerifCN-Light.otf');
 }
 .banner {
-  background: url("../assets/par.png") no-repeat center;
-  background-size:100% ;
+  // background: url("../assets/par.png") no-repeat center;
+  // background-size:100% ;
   // background-attachment:fixed;
   h2 {
     font-size: 60px;

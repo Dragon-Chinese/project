@@ -2,6 +2,7 @@
   <div class="index">
     <div class="banner">
       <h2>{{$t('message.technology.txt0')}}</h2>
+      <img src="../assets/header.jpg" alt="">
     </div>
     <main>
       <div class="swiper swiper-container">
@@ -87,8 +88,8 @@ export default {
   src: url('../assets/SourceHanSerifCN-Light.otf');
 }
 .banner {
-  background: url("../assets/header.jpg") no-repeat center;
-  background-size:100% 100%;
+  // background: url("../assets/header.jpg") no-repeat center;
+  // background-size:100% 100%;
   h2 {
     font-size: 60px;
     font-family: jian;
