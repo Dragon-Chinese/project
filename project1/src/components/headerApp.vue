@@ -86,6 +86,10 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+@font-face {
+  font-family: 'zzz';
+  src: url('../assets/bx.ttf');
+}
 .wrap {
     width: 100%;
     height: 99px;
@@ -127,7 +131,8 @@ export default {
         li {
             margin-left: 15px;
             font-size:12px;
-            font-family:ProximaNova-Bold;
+            font-family:zzz !important;
+            letter-spacing: 1px;
             font-weight:bold;
             color:rgba(156,156,156,1);
             cursor: pointer;

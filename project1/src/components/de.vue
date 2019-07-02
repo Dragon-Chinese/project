@@ -92,7 +92,7 @@ main {
             font-size: 21px;
             text-transform: none;
             letter-spacing: .03em;
-            font-weight: 800;
+            font-weight: 100;
             font-style: normal;
         }
         p {

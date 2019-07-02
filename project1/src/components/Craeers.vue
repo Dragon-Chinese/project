@@ -65,14 +65,7 @@ export default {
   /* background-size: 100%; */
   position: relative;
 }
-h2 {
-  position: absolute;
-  top: 50%;
-  margin-top: -45px;
-}
-.banner img {
-  width: 100%;
-}
+
 
 /* .banner>img{
   width: 100%;
@@ -142,11 +135,13 @@ footer{
   color:rgba(10,10,10,1);
   line-height:21px;
 }
-
+.rigth ul li:nth-child(1) .first b:nth-of-type(2) {
+    font-size:13px !important;
+}
 .rigth ul li:nth-child(1) .first>input{
   width:291px;
   height:45px;
-  background:rgba(250,250,250,1);
+  background:#f5f5f5;
   text-indent: 1em;
   border:1px solid rgba(167,167,167,1);
 }
@@ -161,6 +156,10 @@ footer{
   line-height:21px;
 }
 
+.rigth ul li:nth-child(1) .last b:nth-of-type(1) {
+    font-size:13px !important;
+}
+
 .rigth ul li:nth-child(1) .last{
   margin-top: 33px;
   width: 291px;
@@ -170,7 +169,7 @@ footer{
 .rigth ul li:nth-child(1) .last>input{
   width:291px;
   height:45px;
-  background:rgba(250,250,250,1);
+  background:#f5f5f5;
   border:1px solid rgba(167,167,167,1);
 }
 
@@ -186,7 +185,7 @@ footer{
 .rigth ul li:nth-child(2)>input{
   width: 593px;
   height:45px;
-  background:rgba(250,250,250,1);
+  background:#f5f5f5;
   border:1px solid rgba(167,167,167,1);
 }
 
@@ -203,7 +202,7 @@ footer{
 .rigth ul li:nth-child(3)> textarea{
   width:593px;
   height:129px;
-  background:rgba(250,250,250,1);
+  background:#f5f5f5;
   border:1px solid rgba(167,167,167,1);
   text-indent: 1em;padding-top: 10px;
 }
@@ -213,7 +212,7 @@ footer{
   width:146px;
   height:53px;
   background:rgba(255,255,255,1);
-  border:1px solid rgba(23,23,23,1);
+  border:3px solid rgba(23,23,23,1);
   font-size:20px;
   font-family:ProximaNova-Regular;
   font-weight:400;

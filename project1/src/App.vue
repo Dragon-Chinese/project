@@ -46,6 +46,12 @@ export default {
 </script>
 
 <style lang="scss">
+
+@font-face {
+  font-family: 'zzz';
+  src: url('./assets/bx.ttf');
+}
+
 html , body , #app , .index , .wrap{
   height: auto;
   width: 100%;
@@ -62,14 +68,15 @@ html , body , #app , .index , .wrap{
   justify-content: center;
   h2 {
     font-size:60px;
-    font-family:jian;
-    font-weight:400;
+    font-family:zzz !important;
+    font-weight:400 !important;
     color:rgba(254,254,254,1);
     line-height:90px;
     text-align: center;
     position: absolute;
     top: 50%;
     margin-top: -45px;
+    letter-spacing: 3px;
   }
  img {
     width: 100%;

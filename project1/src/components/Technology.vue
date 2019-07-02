@@ -8,11 +8,11 @@
       <div class="swiper swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide" style="width : auto"><img src="../assets/11.png" alt=""></div>
-          <div class="swiper-slide" style="width : 200px"><img src="../assets/22.jpg" alt=""></div>
+          <div class="swiper-slide" style="width : 300px"><img src="../assets/22.jpg" alt=""></div>
           <div class="swiper-slide" style="width : auto"><img src="../assets/33.jpg" alt=""></div>
           <div class="swiper-slide" style="width : auto"><img src="../assets/11.png" alt=""></div>
           <div class="swiper-slide" style="width : auto"><img src="../assets/77.jpg" alt=""></div>
-          <div class="swiper-slide" style="width : 151px"><img src="../assets/66.png" alt=""></div>
+          <div class="swiper-slide" style="width : 300px"><img src="../assets/66.png" alt=""></div>
           <div class="swiper-slide" style="width : auto"><img src="../assets/77.jpg" alt=""></div>
         </div>
          <div class="swiper-button-prev l"></div>
@@ -119,7 +119,7 @@ main {
     font-weight:400;
     color:rgba(68,68,68,1);
     font-style: oblique;
-    width: 200px;;
+    // width: 200px;;
   }
   .content {
     margin-top: 70px;
@@ -127,10 +127,10 @@ main {
     .right {
       flex: 1;
       video {
-        height: 100%;
+        // height: 100%;
         width: 100%;
         outline: none;
-        margin-top: -100px;
+        // margin-top: -100px;
       }
       // .video-player {
       //   margin-top: 48px;

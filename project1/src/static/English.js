@@ -62,7 +62,7 @@ export default {
             txt0: "Experience Venti"
         },
         us: {
-            txt0: "VENTI IS ",
+            txt0: "VENTI  IS ",
             txt1: "AN AUTONOMY LEADER.",
             txt2: "A DISRUPTOR. ",
             txt3: "AN INNOVATOR. ",

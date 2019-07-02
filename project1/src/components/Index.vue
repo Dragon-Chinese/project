@@ -265,6 +265,7 @@ display: none;
         font-weight: bold;
         color: rgba(0, 0, 0, 1);
         margin-top: 44px;
+        background: #fff;
       }
       button:hover {
         background: #000;

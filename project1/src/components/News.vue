@@ -72,10 +72,10 @@ main {
       padding-top: 43px;
       h4 {
         font-size: 19px;
-        font-family: FZLTHK--GBK1-0;
+        font-family: jian !important;
         margin-top: -15px;
         a {
-           font-weight: 600;
+           font-weight: 400;
         }
         color: rgba(10, 10, 10, 1);
         line-height: 38px;
@@ -84,8 +84,8 @@ main {
       p , a{
         margin-top: 10px;
         font-size: 14px;
-        font-family: FZLTHK--GBK1-0;
-        font-weight: 400;
+        font-family: jian !important;
+        font-weight: 200;
         color: rgba(10, 10, 10, 1);
         line-height: 20px;
         white-space: nowrap;
@@ -93,7 +93,7 @@ main {
       }
       p:nth-child(3) {
           font-size:14px;
-            font-family:FZLTHK--GBK1-0;
+            font-family:jian !important;
             font-weight:400;
             color:rgba(82,79,78,1);
             line-height:20px;
