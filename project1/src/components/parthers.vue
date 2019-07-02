@@ -89,13 +89,21 @@ export default {
   font-family: 'v1';
   src: url('../assets/gbk.ttf');
 }
+@font-face {
+  font-family: 'jian';
+  src: url('../assets/jian.ttf');
+}
+@font-face {
+  font-family: 'Bodoni-Normal-Italic';
+  src: url('../assets/SourceHanSerifCN-Light.otf');
+}
 .banner {
   background: url("../assets/par.png") no-repeat center;
   background-size:100% ;
   // background-attachment:fixed;
   h2 {
     font-size: 60px;
-    font-family: ProximaNova-Regular;
+    font-family: jian;
     font-weight: 400;
     color: rgba(254, 254, 254, 1);
     text-align: center;
@@ -117,6 +125,7 @@ main {
     font-weight: 400;
     color: rgba(68, 68, 68, 1);
     line-height: 42px;
+    font-style: oblique;
   }
   .mainCom {
     margin-top: 60px;
@@ -165,6 +174,7 @@ main {
         font-weight: 400;
         color: rgba(68, 68, 68, 1);
         line-height: 42px;
+        font-style: oblique;
       }
       .leftWork {
         margin-top: 46px;

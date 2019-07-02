@@ -45,7 +45,7 @@ export default {
             txt6: "We can map a new area in half a day and add autonomy to a newvehicle within a week including the drive by wire hardware conveImportantly, our autonomy solution is cheaper than the competitioncause of the maturity of the underlying system. Our algorithms, ratherthan the sensors, do the heavy lifting, enabling a less expensivehardware design and lower costs for the customer."
         },
         careers : {
-            txt0: "Venti Technologies",
+            txt0: "Work with Us",
             txt1: "Jobs",
             txt2: "Our motto is Best-of-the-Best.  ",
             txt3: "If you aspire to change the world through your job, if you want to work with top professionals, if excellence is your mantra—then Venti is your place.",

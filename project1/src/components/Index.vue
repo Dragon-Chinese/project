@@ -15,7 +15,7 @@
     <main>
       <div class="topMain">
         <div class="left">
-          <div>{{$t('message.index.txt6')}}</div>
+          <div class="fontTxt">{{$t('message.index.txt6')}}</div>
           <p>{{$t('message.index.txt7')}}</p>
         </div>
         <div class="right">
@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="line"></div>
-      <h3>{{$t('message.index.txt8')}}</h3>
+      <h3 style="font-family:jian">{{$t('message.index.txt8')}}</h3>
       <p class="power">{{$t('message.index.txt9')}}</p>
       <div class="main">
         <div>
@@ -109,6 +109,14 @@ export default {
   font-family: 'v1';
   src: url('../assets/gbk.ttf');
 }
+@font-face {
+  font-family: 'hua';
+  src: url('../assets/hua.otf');
+}
+@font-face {
+  font-family: 'jian';
+  src: url('../assets/jian.ttf');
+}
 .banner {
   min-height: 0;
   // background: url('../assets/indexbanner.png') no-repeat;
@@ -176,7 +184,7 @@ display: none;
     .left {
       div {
         font-size: 36px;
-        font-family: ProximaNova-Regular;
+        font-family: jian;
         font-weight: 100;
         color: rgba(34, 34, 34, 1);
         line-height: 54px;
@@ -187,9 +195,9 @@ display: none;
         width: 560px;
         height: 66px;
         font-size: 28px;
-        font-family: v1;
+        font-family: hua;
+        font-style: oblique;
         font-weight: 400;
-        font-style: italic;
         color: rgba(68, 68, 68, 1);
         line-height: 42px;
       }
@@ -210,9 +218,9 @@ display: none;
   }
   .power {
     font-size: 28px;
-    font-family: v1;
+    font-family: hua;
     font-weight: 100;
-    font-style: italic;
+    font-style: oblique;
     color: rgba(34, 34, 34, 1);
     margin-top: 48px;
   }
@@ -297,7 +305,7 @@ display: none;
       margin-top: 65px;
     }
     .title2 {
-      font-family: v1;
+      font-family: hua;
       font-weight: 100;
       font-style: italic;
       color: rgba(34, 34, 34, 1);
@@ -357,15 +365,16 @@ display: none;
   .bottom {
     .title {
       font-size: 36px;
-      font-family: ProximaNova-Regular;
+      font-family: jian;
       font-weight: 100;
       color: rgba(34, 34, 34, 1);
       margin-top: 65px;
     }
     .title2 {
-      font-family: v1;
+      font-size: 28px;
+      font-family: hua;
       font-weight: 100;
-      font-style: italic;
+      font-style: oblique;
       color: rgba(34, 34, 34, 1);
       margin-top: 38px;
     }

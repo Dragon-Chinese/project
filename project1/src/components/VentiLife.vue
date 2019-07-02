@@ -49,12 +49,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
+@font-face {
+  font-family: 'jian';
+  src: url('../assets/jian.ttf');
+}
 .banner {
     background: url('../assets/par.jpg') no-repeat center  ;
     background-size:100% 100%;
   h2 {
     font-size:60px;
-    font-family:ProximaNova-Regular;
+    font-family:jian;
     font-weight:400;
     color:rgba(254,254,254,1);
     line-height:90px;

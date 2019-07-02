@@ -4,15 +4,14 @@
         <p class="Up">{{$t('message.us.txt0')}}</p>
       </div>
       <main>
-        <p>{{$t('message.us.txt1')}}</p>
-        <ul>
-          <li>{{$t('message.us.txt2')}}</li>
-          <li>{{$t('message.us.txt3')}} </li>
-          <li>{{$t('message.us.txt4')}}</li>
-          <li>{{$t('message.us.txt5')}} </li>
-          <li>{{$t('message.us.txt6')}}</li>
+        <p class="fontTxt">{{$t('message.us.txt1')}}</p>
+        <ul class="font">
+          <li class="fontTxt">{{$t('message.us.txt2')}}</li>
+          <li class="fontTxt">{{$t('message.us.txt3')}} </li>
+          <li class="fontTxt">{{$t('message.us.txt4')}}</li>
+          <li class="fontTxt">{{$t('message.us.txt5')}} </li>
+          <li class="fontTxt">{{$t('message.us.txt6')}}</li>
         </ul>
-        <hr>
         <footer>
           <p>{{$t('message.us.txt7')}}</p>
           <div>
@@ -45,6 +44,14 @@ export default {
   font-family: 'v1';
   src: url('../assets/gbk.ttf');
 }
+@font-face {
+  font-family: 'jian';
+  src: url('../assets/jian.ttf');
+}
+@font-face {
+  font-family: 'Bodoni-Normal-Italic';
+  src: url('../assets/SourceHanSerifCN-Light.otf');
+}
 .index {
   margin: 0;
   padding: 0;
@@ -60,12 +67,15 @@ export default {
   width: 100%;
   height: 100%;
 }
+.fontTxt{
+  font-family:FZS3JW--GB1-0;
+}
 .Up{
   position: absolute;
   z-index: 999;
   height:42px;
   font-size:62px;
-  font-family:ProximaNova-Regular;
+  font-family:jian;
   font-weight:400;
   color:rgba(255,255,255,1);
 }
@@ -79,29 +89,28 @@ main>p {
   font-style: italic;
 }
 
-ul{
+.font{
   margin: 0px;
   padding: 0px;
 }
 
-ul li {
+.font>li {
   margin-bottom: 46px;
   font-size:28px;
   font-family:v1;
   font-weight:400;
   color:rgba(68,68,68,1);
   font-style: italic;
+  font-family: FZS3JW--GB1-0;
 }
 li:nth-last-child() {
   margin: 0;
 }
 
-hr{
-  margin-top: 68px;
-  background:rgba(232,232,232,1);
-}
 
 footer {
+  border-top: 1px solid #E8E8E8;
+   margin-top: 68px;
   height: 447px;
 }
 
@@ -133,7 +142,7 @@ footer div ul {
 footer>div ul li{
   
   font-size:16px;
-  font-family:ProximaNova-Light;
+  font-family:jian;
   font-weight:300;
   color:rgba(68,68,68,1);
   line-height:24px;

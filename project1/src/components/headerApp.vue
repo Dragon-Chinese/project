@@ -66,11 +66,11 @@ export default {
         }
     },
     methods: {
-        go ({...item} , index) {
+        go (item , index) {
             this.active = index
             this.$router.push(item.link)
         },
-        tabLang ({...item}) {
+        tabLang (item) {
             this.label = item.value
             this.$i18n.locale = item.value
             localStorage.setItem('defaulti18n', item.value)
@@ -84,7 +84,8 @@ export default {
 <style lang="scss" scoped>
 .wrap {
     width: 100%;
-    height: 75px;;
+    height: 99px;
+    padding-top: 21px;
 }
 @media screen and (max-width: 1200px) and (min-width: 1024px) {
   .header {
@@ -106,12 +107,12 @@ export default {
 }
 .header {
     background:rgba(255,255,255,1);
-    height: 75px;
+    // height: 120px;
     display: flex;
     align-items: center;
     h1 {
-        width:43px;
-        height:53px;
+        width:69px;
+        height:84px;
         background: url('../assets/logo.png') no-repeat;
         background-size: contain;
     }

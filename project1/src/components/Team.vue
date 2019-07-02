@@ -76,6 +76,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@font-face {
+  font-family: 'jian';
+  src: url('../assets/jian.ttf');
+}
 .index {
   margin: 0;
   padding: 0;
@@ -92,7 +96,7 @@ export default {
   z-index: 999;
   height:41px;
   font-size:60px;
-  font-family:ProximaNova-Regular;
+  font-family:jian;
   font-weight:400;
   color:rgba(254,254,254,1);
   line-height:90px;
@@ -132,8 +136,8 @@ export default {
   width:456px;
   height:9px;
   font-size:11px;
-  font-family:ProximaNova-Bold;
-  font-weight:bold;
+  font-family:jian;
+  font-weight:400;
   color:rgba(10,10,10,1);
   line-height:26px;
 }
@@ -165,8 +169,8 @@ export default {
     width:100%;
     height:9px;
     font-size:11px;
-    font-family:ProximaNova-Bold;
-    font-weight:bold;
+    font-family:jian;
+    font-weight:400;
     color:rgba(10,10,10,1);
     line-height:21px;
     margin-top:22px;
@@ -215,8 +219,8 @@ export default {
   width:282px;
   height:30px;
   font-size:11px;
-  font-family:ProximaNova-Bold;
-  font-weight:bold;
+  font-family:jian;
+  font-weight:400;
   color:rgba(10,10,10,1);
   line-height:21px;
 }
@@ -229,8 +233,8 @@ export default {
     width:302px;
     height:9px;
     font-size:11px;
-    font-family:ProximaNova-Bold;
-    font-weight:bold;
+    font-family:jian;
+    font-weight:400;
     color:rgba(10,10,10,1);
     line-height:21px;
     margin-top:22px;

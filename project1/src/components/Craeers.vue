@@ -87,17 +87,16 @@ footer{
 }
 .left h4 {
   margin-top: 126px;
-  font-size:46px;
-  font-family:ProximaNova-Bold;
-  font-weight:bold;
+  font-size:36px;
+  font-family:DengXian-Regular;
+  font-weight:400;
   color:rgba(10,10,10,1);
   line-height:85px;
 }
 .left p{
-  margin-top: 40px;
   font-size:21px;
-  font-family:ProximaNova-Bold;
-  font-weight:bold;
+  font-family:DengXian-Regular;
+  font-weight:400;
   color:rgba(10,10,10,1);
   line-height:40px;
 }

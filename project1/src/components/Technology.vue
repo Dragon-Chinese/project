@@ -78,12 +78,20 @@ export default {
   font-family: 'v1';
   src: url('../assets/gbk.ttf');
 }
+@font-face {
+  font-family: 'jian';
+  src: url('../assets/jian.ttf');
+}
+@font-face {
+  font-family: 'Bodoni-Normal-Italic';
+  src: url('../assets/SourceHanSerifCN-Light.otf');
+}
 .banner {
   background: url("../assets/header.jpg") no-repeat center;
   background-size:100% 100%;
   h2 {
     font-size: 60px;
-    font-family: ProximaNova-Regular;
+    font-family: jian;
     font-weight: 400;
     color: rgba(254, 254, 254, 1);
     text-align: center;
@@ -112,11 +120,11 @@ main {
     }
   }
   .toMain {
-    font-size: 28px;
-    font-family: ProximaNova-Light;
-    font-weight: 400;
-    color: rgba(68, 68, 68, 1);
-    
+    font-size:28px;
+    font-family:Bodoni-Normal-Italic;
+    font-weight:400;
+    color:rgba(68,68,68,1);
+    font-style: oblique;
   }
   .content {
     margin-top: 70px;
@@ -145,9 +153,10 @@ main {
       .leftSize {
         width: 100%;
         font-size: 28px;
-        font-family: ProximaNova-Light;
+        font-family: Bodoni-Normal-Italic;
         font-weight: 400;
         color: rgba(68, 68, 68, 1);
+        font-style: oblique;
       }
       .leftCont {
         width: 100%;
@@ -162,9 +171,10 @@ main {
       .leftSizes {
         width: 100%;
         font-size: 28px;
-        font-family: ProximaNova-Light;
+        font-family: Bodoni-Normal-Italic;
         font-weight: 400;
         color: rgba(68, 68, 68, 1);
+        font-style: oblique;
       }
     }
   }
