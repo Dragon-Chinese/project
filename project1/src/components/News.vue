@@ -75,7 +75,7 @@ main {
         font-family: jian !important;
         margin-top: -15px;
         a {
-           font-weight: 400;
+           font-weight: 600;
         }
         color: rgba(10, 10, 10, 1);
         line-height: 38px;

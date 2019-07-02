@@ -133,7 +133,7 @@ export default {
             font-size:12px;
             font-family:zzz !important;
             letter-spacing: 1px;
-            font-weight:bold;
+            font-weight:800;
             color:rgba(156,156,156,1);
             cursor: pointer;
         }

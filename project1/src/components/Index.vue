@@ -382,7 +382,7 @@ display: none;
     .fotImg {
       display: flex;
       justify-content: space-between;
-      margin-top: 97px;
+      margin-top: 60px;
       > div {
         width: 376px;
         .img {

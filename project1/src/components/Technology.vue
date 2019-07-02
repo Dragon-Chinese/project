@@ -10,10 +10,10 @@
           <div class="swiper-slide" style="width : auto"><img src="../assets/11.png" alt=""></div>
           <div class="swiper-slide" style="width : 300px"><img src="../assets/22.jpg" alt=""></div>
           <div class="swiper-slide" style="width : auto"><img src="../assets/33.jpg" alt=""></div>
-          <div class="swiper-slide" style="width : auto"><img src="../assets/11.png" alt=""></div>
+          <!-- <div class="swiper-slide" style="width : auto"><img src="../assets/11.png" alt=""></div> -->
           <div class="swiper-slide" style="width : auto"><img src="../assets/77.jpg" alt=""></div>
-          <div class="swiper-slide" style="width : 300px"><img src="../assets/66.png" alt=""></div>
-          <div class="swiper-slide" style="width : auto"><img src="../assets/77.jpg" alt=""></div>
+          <div class="swiper-slide" style="width : 100px"><img src="../assets/66.png" alt=""></div>
+          <!-- <div class="swiper-slide" style="width : auto"><img src="../assets/77.jpg" alt=""></div> -->
         </div>
          <div class="swiper-button-prev l"></div>
           <div class="swiper-button-next l"></div>
@@ -122,7 +122,7 @@ main {
     // width: 200px;;
   }
   .content {
-    margin-top: 70px;
+    margin-top: 30px;
     display: flex;
     .right {
       flex: 1;
@@ -156,7 +156,7 @@ main {
       }
       .leftCont {
         width: 100%;
-        margin-top: 42px;
+        margin-top: 20px;
         margin-bottom: 16px;
         font-size: 16px;
         font-family: ProximaNova-Light;
