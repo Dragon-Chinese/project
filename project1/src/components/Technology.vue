@@ -93,7 +93,10 @@ export default {
   position: relative;
 }
 main {
+    margin: 0 auto;
   margin-top: 134px;
+  width: 95%;
+
   .l {
     height: 60px;
     width: 44px;

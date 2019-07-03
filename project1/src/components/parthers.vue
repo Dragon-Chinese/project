@@ -105,6 +105,8 @@ export default {
  position: relative;
 }
 main {
+  width: 95%;
+  margin: 0 auto;
   margin-top: 115px;
   .mainHead {
     font-size: 36px;

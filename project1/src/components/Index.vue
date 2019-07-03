@@ -156,6 +156,7 @@ export default {
   }
 }
 main {
+  width: 99%;
   .topMain {
     margin-top: 104px;
     // background: red;

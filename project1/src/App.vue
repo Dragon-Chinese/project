@@ -101,9 +101,9 @@ html , body , #app , .index , .wrap{
     width: 960px;
     margin: 0 auto;
   }
-   main {
-    padding: 0 30px;
-  }
+  //  main {
+  //   padding: 0 30px;
+  // }
 }
 @media screen and (min-width: 1300px) {
   .header , main {
@@ -111,28 +111,28 @@ html , body , #app , .index , .wrap{
     margin: 0 auto;
     
   }
-  main {
-    box-sizing: border-box;
-    padding: 0 30px;
-  }
+  // main {
+  //   box-sizing: border-box;
+  //   padding: 0 30px;
+  // }
 }
 @media screen and (min-width: 2200px) {
   .header , main {
     width: 1300px;
     margin: 0 auto;
   }
-  .banner {
-    height: 1100px;
-  }
+  // .banner {
+  //   height: 1100px;
+  // }
 }
 @media screen and (min-width: 2400px) {
   .header , main {
     width: 1300px;
     margin: 0 auto;
   }
-   .banner {
-    height: 1200px;
-  }
+  //  .banner {
+  //   height: 1200px;
+  // }
 }
 .header{
     background: red;

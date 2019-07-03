@@ -136,6 +136,7 @@ export default {
             font-weight:800;
             color:rgba(156,156,156,1);
             cursor: pointer;
+            white-space: nowrap;
         }
         li:hover {
             color: #000;
