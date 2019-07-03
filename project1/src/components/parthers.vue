@@ -183,9 +183,10 @@ main {
         color: rgba(68, 68, 68, 1);
         line-height: 42px;
         font-style: oblique;
+        margin-top: 30px;
       }
       .leftWork {
-        margin-top: 10px;
+        margin-top: 35px;
         font-size: 16px;
         font-family: ProximaNova-Light;
         font-weight: 300;
@@ -193,7 +194,7 @@ main {
         line-height: 24px;
       }
       .lefstWork {
-        margin-top: 10px;
+        margin-top: 35px;
         font-size: 16px;
         font-family: ProximaNova-Light;
         font-weight: 300;

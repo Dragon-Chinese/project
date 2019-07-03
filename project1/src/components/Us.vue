@@ -88,7 +88,7 @@ export default {
   }
 main .wr>p {
   margin-top: 134px;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
   font-size:28px;
   font-family:Bodoni-Normal-Italic;
   font-weight:400;
@@ -102,7 +102,7 @@ main .wr>p {
 }
 
 .font>li {
-  margin-bottom: 46px;
+  margin-bottom: 35px;
   font-size:28px;
   font-family:v1;
   font-weight:400;
