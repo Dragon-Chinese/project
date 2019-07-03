@@ -6,6 +6,7 @@
           <img src="../assets/team.png" alt="">
       </div>
       <main>
+        <div class="wr">
         <div class="main-top">
           <p class="top-left">{{$t('message.team.txt1')}}</p>
           <p class="top-right" @click="$router.push('/team-descriptions')">
@@ -60,7 +61,9 @@
                   </li>
               </ul>
         </div>
+        </div>
       </main>
+      
   </div>
 </template>
 
@@ -105,7 +108,10 @@ export default {
   color:rgba(254,254,254,1);
   line-height:90px;
 }
-
+.wr {
+    width: 1250px;
+    margin: 0 auto;
+  }
 .main-top{
   width: 100%;
   height: 509px;

@@ -5,6 +5,7 @@
       <img src="../assets/header.jpg" alt="">
     </div>
     <main>
+      <div class="wr">
       <div class="swiper swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide" style="width : auto"><img src="../assets/11.png" alt=""></div>
@@ -30,6 +31,7 @@
           <div class="leftCont">{{$t('message.technology.txt5')}}</div>
           <div class="leftCont">{{$t('message.technology.txt6')}}</div>
         </div>
+      </div>
       </div>
     </main>
   </div>
@@ -95,8 +97,11 @@ export default {
 main {
     margin: 0 auto;
   margin-top: 134px;
-  width: 95%;
-
+  // width: 95%;
+.wr {
+    width: 1250px;
+    margin: 0 auto;
+  }
   .l {
     height: 60px;
     width: 44px;

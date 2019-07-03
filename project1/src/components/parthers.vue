@@ -5,6 +5,7 @@
       <img src="../assets/par.png" alt="">
     </div>
     <main>
+      <div class="wr">
       <div class="mainHead">{{ $t("message.parthers.txt1") }}</div>
       <div class="mainPower">{{ $t("message.parthers.txt2") }}</div>
       <div class="mainHead mainCom">{{ $t("message.parthers.txt3") }}</div>
@@ -64,6 +65,7 @@
           <img src="../assets/15.png" alt />
         </div> -->
       </div>
+      </div>
     </main>
   </div>
 </template>
@@ -105,9 +107,13 @@ export default {
  position: relative;
 }
 main {
-  width: 95%;
+  // width: 95%;
   margin: 0 auto;
   margin-top: 115px;
+  .wr {
+    width: 1250px;
+    margin: 0 auto;
+  }
   .mainHead {
     font-size: 36px;
     font-family: ProximaNova-Light;

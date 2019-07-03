@@ -13,6 +13,9 @@
           <div class="meng"></div>
     </div>
     <main>
+      <div class="wr">
+
+      
       <div class="topMain">
         <div class="left">
           <div class="fontTxt">{{$t('message.index.txt6')}}</div>
@@ -79,6 +82,7 @@
             <p>{{$t('message.index.txt28')}}</p>
           </div>
         </div>
+      </div>
       </div>
     </main>
   </div>
@@ -156,7 +160,11 @@ export default {
   }
 }
 main {
-  width: 99%;
+  // width: 99%;
+  .wr {
+    width: 1250px;
+    margin: 0 auto;
+  }
   .topMain {
     margin-top: 104px;
     // background: red;

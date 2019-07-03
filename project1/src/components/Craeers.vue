@@ -5,6 +5,7 @@
         <img src="../assets/0f341017ecf47ade970da842108765c.png" alt="">
       </div>
       <main>
+        <div class="wr">
         <footer>
           <div class="left">
             <h4>{{$t('message.careers.txt1')}}</h4>
@@ -42,6 +43,7 @@
             </form>
           </div>
         </footer>
+        </div>
       </main>
   </div>
 </template>
@@ -66,7 +68,10 @@ export default {
   position: relative;
 }
 
-
+.wr {
+    width: 1250px;
+    margin: 0 auto;
+  }
 /* .banner>img{
   width: 100%;
   height: 100%;

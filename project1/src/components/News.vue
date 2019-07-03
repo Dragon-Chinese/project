@@ -5,6 +5,7 @@
       <img src="../assets/news.png" alt="">
     </div>
     <main>
+      <div class="wr">
       <li>
         <img src="../assets/jr.png" alt>
         <div class="txt">
@@ -20,6 +21,7 @@
           <p>{{$t('message.news.txt4')}}</p>
         </div>
       </li>
+      </div>
     </main>
   </div>
 </template>
@@ -56,9 +58,13 @@ export default {
   position: relative;
 }
 main {
-  width: 95%;
+
   margin: 0 auto;
   padding-top: 143px;
+  .wr {
+    width: 1250px;
+    margin: 0 auto;
+  }
   li {
     display: flex;
     height: 136px;

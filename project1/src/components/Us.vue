@@ -5,6 +5,7 @@
         <img src="../assets/0f341017ecf47ade970da8429898.png" alt="">
       </div>
       <main>
+        <div class="wr">
         <p class="fontTxt">{{$t('message.us.txt1')}}</p>
         <ul class="font">
           <li class="fontTxt">{{$t('message.us.txt2')}}</li>
@@ -24,6 +25,7 @@
             </ul>
           </div>
         </footer>
+        </div>
       </main>
   </div>
 </template>
@@ -80,7 +82,11 @@ export default {
   font-weight:400;
   color:rgba(255,255,255,1);
 }
-main>p {
+.wr {
+    width: 1250px;
+    margin: 0 auto;
+  }
+main .wr>p {
   margin-top: 134px;
   margin-bottom: 45px;
   font-size:28px;

@@ -109,31 +109,9 @@ html , body , #app , .index , .wrap{
   .header , main {
     width: 1300px;
     margin: 0 auto;
-    
   }
-  // main {
-  //   box-sizing: border-box;
-  //   padding: 0 30px;
-  // }
 }
-@media screen and (min-width: 2200px) {
-  .header , main {
-    width: 1300px;
-    margin: 0 auto;
-  }
-  // .banner {
-  //   height: 1100px;
-  // }
-}
-@media screen and (min-width: 2400px) {
-  .header , main {
-    width: 1300px;
-    margin: 0 auto;
-  }
-  //  .banner {
-  //   height: 1200px;
-  // }
-}
+
 .header{
     background: red;
     height: 75px;

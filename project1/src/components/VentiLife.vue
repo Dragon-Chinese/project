@@ -6,6 +6,7 @@
         <img src="../assets/par.jpg" alt="">
     </div>
     <main>
+      <div class="wr">
       <div class="venImg">
         <div class="topBox"><img src="../assets/venImg.jpg" alt=""></div>
       </div>
@@ -29,6 +30,7 @@
                 <div class="twoImg"><img src="../assets/890f3ad6cfc09fce07eee3d7a13214d.png" alt=""></div>
             </div>
       </div> -->
+      </div>
     </main>
   </div>
 </template>
@@ -60,6 +62,10 @@ export default {
   position: relative;
 }
 main {
+  .wr {
+    width: 1250px;
+    margin: 0 auto;
+  }
   .venImg{
     width: 100%;
     height: 895px;
