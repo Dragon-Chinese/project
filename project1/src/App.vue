@@ -55,14 +55,14 @@ export default {
 html , body , #app , .index , .wrap{
   height: auto;
   width: 100%;
-  min-width: 1300px;
+  // min-width: 1300px;
 }
 
 .banner {
   width: 100%;
   min-height: 700px;
   height: auto;
-  min-width: 1300px;
+  // min-width: 1300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,13 +92,13 @@ html , body , #app , .index , .wrap{
 
 @media screen and (max-width: 1200px) and (min-width: 1024px) {
   .header , main {
-    width: 1024px;
+    width: 1300px;
     margin: 0 auto;
   }
 }
 @media screen and (max-width: 1024px) {
   .header , main {
-    width: 960px;
+    width: 1300px;
     margin: 0 auto;
   }
   //  main {

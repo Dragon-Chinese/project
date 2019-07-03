@@ -10,11 +10,14 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide" style="width : auto"><img src="../assets/11.png" alt=""></div>
           <div class="swiper-slide" style="width : 300px"><img src="../assets/22.jpg" alt=""></div>
-          <div class="swiper-slide" style="width : auto"><img src="../assets/33.jpg" alt=""></div>
-          <!-- <div class="swiper-slide" style="width : auto"><img src="../assets/11.png" alt=""></div> -->
-          <div class="swiper-slide" style="width : auto"><img src="../assets/77.jpg" alt=""></div>
           <div class="swiper-slide" style="width : 100px"><img src="../assets/66.png" alt=""></div>
-          <!-- <div class="swiper-slide" style="width : auto"><img src="../assets/77.jpg" alt=""></div> -->
+          <!-- <div class="swiper-slide" style="width : auto"><img src="../assets/33.jpg" alt=""></div> -->
+          <div class="swiper-slide" style="width : auto"><img src="../assets/44.jpg" alt=""></div>
+          
+            <div class="swiper-slide" style="width : 300px"><img src="../assets/99.jpg" alt=""></div>
+          <div class="swiper-slide" style="width : auto"><img src="../assets/77.jpg" alt=""></div>
+          <div class="swiper-slide" style="width : auto"><img src="../assets/55.jpg" alt=""></div>
+         
         </div>
          <div class="swiper-button-prev l"></div>
           <div class="swiper-button-next l"></div>
@@ -31,8 +34,7 @@
           <div class="leftCont">{{$t('message.technology.txt5')}}</div>
           <div class="leftCont">{{$t('message.technology.txt6')}}</div>
         </div>
-      </div>
-      </div>
+      </div></div>
     </main>
   </div>
 </template>
@@ -53,16 +55,16 @@ export default {
       new Swiper ('.swiper-container', {
         autoplay: {
           delay: 1000,
-          stopOnLastSlide: false,
-          disableOnInteraction: false,
+            // stopOnLastSlide: false,
+            // disableOnInteraction: false,
         },
-        loop: true,
+        // loop: true,
         // 如果需要分页器
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
-        loopedSlides: 5,
+        // loopedSlides: 5,
         //  slidesPerView : 2,
         slidesPerView : 'auto',
         //slidesPerView : 3.7,
