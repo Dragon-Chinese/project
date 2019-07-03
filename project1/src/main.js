@@ -25,6 +25,7 @@ const i18n = new VueI18n({
   fallbackLocale: defaulti18n ? defaulti18n : 'Eng',
   messages
 })
+
 new Vue({
   el: '#app',
   router,

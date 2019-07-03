@@ -202,7 +202,7 @@ main {
       }
     }
     .right {
-      width:600px;
+      width:610px;
       height:370px;
       // margin-left: 44px;
       video {
