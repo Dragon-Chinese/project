@@ -56,13 +56,13 @@
         <div class="img">
           <div class="left">
             <div class="top">
-              
+
             </div>
             <p>{{$t('message.index.txt22')}}</p>
           </div>
           <div class="right">
             <div class="top">
-              <!-- <img src="../assets/123.gif" alt=""> -->
+              <img src="../assets/123.gif" alt="">
             </div>
             <p>{{$t('message.index.txt23')}}</p>
           </div>
@@ -357,12 +357,17 @@ display: none;
         .top {
           width: 480px;
           height: 536px;
-          // img {
-          //   height: 100%;
-          //   width: 100%;
-          // }
-          background: url('../assets/234.jpg') no-repeat;
-          background-size: cover;
+          position: relative;
+          overflow: hidden;
+          img {
+                left: -74.0978%;
+    top: 0%;
+    width: 248.196%;
+    height: 100%;
+    position: absolute;
+          }
+          // background: url('../assets/234.jpg') no-repeat;
+          // background-size: cover;
         }
         p {
           font-size: 12px;
