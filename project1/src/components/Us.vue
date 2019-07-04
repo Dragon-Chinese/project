@@ -83,7 +83,7 @@ export default {
   color:rgba(255,255,255,1);
 }
 .wr {
-    width: 1250px;
+    width: 1210px;
     margin: 0 auto;
   }
 main .wr>p {

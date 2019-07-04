@@ -101,7 +101,7 @@ main {
   margin-top: 134px;
   // width: 95%;
 .wr {
-    width: 1250px;
+    width: 1210px;
     margin: 0 auto;
   }
   .l {

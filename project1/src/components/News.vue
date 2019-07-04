@@ -62,7 +62,7 @@ main {
   margin: 0 auto;
   padding-top: 143px;
   .wr {
-    width: 1250px;
+    width: 1210px;
     margin: 0 auto;
   }
   li {

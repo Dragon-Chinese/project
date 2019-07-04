@@ -109,7 +109,7 @@ export default {
   line-height:90px;
 }
 .wr {
-    width: 1250px;
+    width: 1210px;
     margin: 0 auto;
   }
 .main-top{

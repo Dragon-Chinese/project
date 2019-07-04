@@ -63,7 +63,7 @@ export default {
 }
 main {
   .wr {
-    width: 1250px;
+    width: 1210px;
     margin: 0 auto;
   }
   .venImg{

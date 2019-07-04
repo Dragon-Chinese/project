@@ -21,7 +21,7 @@
           <div class="fontTxt">{{$t('message.index.txt6')}}</div>
           <p>{{$t('message.index.txt7')}}</p>
         </div>
-        <div class="right">
+        <div class="right" @contextmenu="false">
            <video src="http://www.myzhangyao.com/static/Venti_Chinalife_Short_Final_Version.mp4" muted playsinline controls></video>
         </div>
       </div>
@@ -104,6 +104,12 @@ export default {
   },
   mounted() {
 
+
+  },
+  methods: {
+    fa () {
+      return false;
+    }
   },
   components: {
     Header
@@ -166,7 +172,7 @@ export default {
 main {
   // width: 99%;
   .wr {
-    width: 1250px;
+    width: 1210px;
     margin: 0 auto;
   }
   .topMain {
