@@ -9,16 +9,16 @@
       <li>
         <img src="../assets/jr.png" alt>
         <div class="txt">
-          <h4><a href="https://www.toutiao.com/i6697850819087172107/?wxshare_count=5&from=singlemessage&pbid=6631041144397104644&isappinstalled=0">{{$t('message.news.txt1')}}</a></h4>
-          <p>{{$t('message.news.txt2')}}</p>
+          <h4><a href="https://www.toutiao.com/i6697850819087172107/?wxshare_count=5&from=singlemessage&pbid=6631041144397104644&isappinstalled=0">{{$t('message.ls.txt18')}}</a></h4>
+          <p>{{$t('message.ls.txt19')}}</p>
           <!-- <p><a href="https://www.toutiao.com/i6697850819087172107/?wxshare_count=5&from=singlemessage&pbid=6631041144397104644&isappinstalled=0" target="_blank" rel="noopener noreferrer">https://www.toutiao.com/i6697850819087172107/?wxshare_count=5&from=singlemessage&pbid=6631041144397104644&isappinstalled=0</a></p> -->
         </div>
       </li>
       <li>
         <img src="../assets/girl.png" alt>
         <div class="txt">
-          <h4><a href="https://www.forbes.com/sites/allysonkapin/2019/02/20/50-women-led-startups-who-are-crushing-tech/#701e0e3152b3">{{$t('message.news.txt3')}}</a></h4>
-          <p>{{$t('message.news.txt4')}}</p>
+          <h4><a href="https://www.forbes.com/sites/allysonkapin/2019/02/20/50-women-led-startups-who-are-crushing-tech/#701e0e3152b3">{{$t('message.ls.txt20')}}</a></h4>
+          <p>{{$t('message.ls.txt21')}}</p>
         </div>
       </li>
       </div>

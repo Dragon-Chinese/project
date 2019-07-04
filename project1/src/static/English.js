@@ -106,6 +106,30 @@ export default {
             txt2 : 'Partnering with Suzhou Industrial Park to optimize innovation and entrepreneurship.',
             txt3 : 'VENTI NAMED ONE OF 50 WOMEN-LED START UPS THAT ARE CRUSHING TECH',
             txt4 : 'In a tech driven economy where women-led firms continue to be overlooked, CEO, Heidi Wyle, PhD. pushes the frontiers of innovation.'
+        },
+        ls :{
+            "txt0": "Saman Amarasinghe, Ph.D., FOUNDER, VENTI TECHNOLOGIES",
+            "txt1": "Professor Saman Amarasinghe",
+            "txt2": "is a Professor of Electrical Engineering and Computer Science at MIT and Associate Department Head of that department. He is a member of CSAIL, and an advisor to the President of Sri Lanka on STEM education. He is a world leader in high performance domain-specific languages. His team has developed domain-specific languages providing unprecedented performance for target applications such as image processing, flow computing and graphics analysis. He is a successful entrepreneur having founded the software company Determina which was acquired by VMWare.",
+            "txt3": "Xinxin Du, PhD., FOUNDING CHIEF TECHNOLOGY OFFICER",
+            "txt4": "Dr. Du",
+            "txt5": "holds a Ph.D from the National University of Singapore and worked as a Postdoctoral Fellow in the Singapore-MIT Alliance for Research and Technology Centre focusing on autonomous vehicles. He holds a Bachelor degree from Nanyang Technological University. He worked for six years doing leading research in AV technologies; Daniela Rus was his postdoctoral supervisor at SMART. He is a leading figure in the commercialization of driverless technology.",
+            "txt6": "Daniela Rus, Ph.D., FOUNDER, VENTI TECHNOLOGIES",
+            "txt7": "Professor Daniela Rus",
+            "txt8": "is a pioneer of driverless technology and Global AI, having started work in 2008. Rus is a Professor of Electrical Engineering and Computer Science at MIT and Director of MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL), MIT”s largest lab with over 1,000 people. She is a member of the National Academy of Engineering and the American Academy of Arts and Sciences. Rus has won numerous awards and speaks globally; she has twice attended Davos and presented on AI. Prizes: 2017, Joseph Engelberger prize (the Nobel Prize in robotics science); 2002, MacArthur fellowship; 1996, NSF outstanding young professor award",
+            "txt9": "Heidi Wyle, Ph.D., FOUNDER & CEO, VENTI TECHNOLOGIES; CHAIRMAN, VENTI CHINA",
+            "txt10": "Heidi Wyle, Ph.D.",
+            "txt11": "has founded three companies including Computational Biology Corporation which was acquired by Agilent; she worked in venture capital with Bessemer. She is an expert in tech entrepreneurship and a sought-after speaker, mentor and advisor. Dr. Wyle holds a B.S. from Brown, a Ph.D. from MIT, and an M.B.A. from Harvard Business School as a Baker Scholar. Her Board service includes MIT, Harvard Medical School, Brown Medical School, the Brigham and Women’s Hospital Venture Advisory Board and Connors Center for Women’s Health, and MIT’s Koch Institute for Integrative Cancer Research. Board Member of the Massachusetts Women’s Forum. Fellow of the Royal Canadian Geographical Society.",
+            "txt12": "Wu Yang, VP of Business Development",
+            "txt13": "Wu Yang",
+            "txt14": "holds a Master of Automotive Engineering from Tsinghua University and an MBA from CEIBS. He has 12 years experience in the automotive industry and mobility in Bosch, Ford, and Byton. He led Bosch’s Park Pilot China business during which time it grew from zero to 20+ programs with 10+ OEMs. He was a founding member of Ford AP Smart Mobility and Byton Mobility in which positions he led strategy, partnership setup, and key program implementation.",
+            "txt15": "Shuyan Zhao, Ph.D., Acting CEO Venti China & VP, Engineering",
+            "txt16": "Dr. Zhao",
+            "txt17": "has a PhD in Computer Vision and Machine Learning from the Hamburg University of Technology, Germany. Prior to joining Venti she was Senior Director of Bosch China. She led new product development from concept to mass production and was responsible for the development of Bosch’s ADAS product and the AD business unit from idea through achievement of the number one position in the China market; the product had a share of over 40% in China’s vision products market.",
+            "txt18": "VENTI PARTNERS WITH SIP",
+            "txt19": "Partnering with Suzhou Industrial Park to optimize innovation and entrepreneurship.",
+            "txt20": "VENTI NAMED ONE OF 50 WOMEN-LED START UPS THAT ARE CRUSHING TECH",
+            "txt21": "In a tech driven economy where women-led firms continue to be overlooked, CEO, Heidi Wyle, PhD. pushes the frontiers of innovation."
         }
     }
 }

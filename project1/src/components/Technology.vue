@@ -16,8 +16,9 @@
           
             <div class="swiper-slide" style="width : 300px"><img src="../assets/99.jpg" alt=""></div>
           <div class="swiper-slide" style="width : auto"><img src="../assets/77.jpg" alt=""></div>
-          <div class="swiper-slide" style="width : auto"><img src="../assets/55.jpg" alt=""></div>
-         
+          <div class="swiper-slide" style="width : 290px"><img src="../assets/55.jpg" alt=""></div>
+          <div class="swiper-slide" style="width : 300px"><img src="../assets/100.png" alt=""></div>
+          <div class="swiper-slide" style="width :200px"><img src="../assets/101.png" alt=""></div>
         </div>
          <div class="swiper-button-prev l"></div>
           <div class="swiper-button-next l"></div>

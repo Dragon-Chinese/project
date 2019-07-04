@@ -6,45 +6,45 @@
     </div>
     <main>
         <li>
-            <h2>Saman Amarasinghe, Ph.D., FOUNDER, VENTI TECHNOLOGIES</h2>
+            <h2>{{$t('message.ls.txt0')}}</h2>
             <p>
-                <strong>Professor Saman Amarasinghe</strong>
-                is a Professor of Electrical Engineering and Computer Science at MIT and Associate Department Head of that department.  He is a member of CSAIL, and an advisor to the President of Sri Lanka on STEM education. He is a world leader in high performance domain-specific languages. His team has developed domain-specific languages providing unprecedented performance for target applications such as image processing, flow computing and graphics analysis.  He is a successful entrepreneur having founded the software company Determina which was acquired by VMWare.
+                <strong>{{$t('message.ls.txt1')}}</strong>
+                {{$t('message.ls.txt2')}}
             </p>
         </li>
         <li>
-            <h2>Xinxin Du, PhD., FOUNDING CHIEF TECHNOLOGY OFFICER</h2>
+            <h2>{{$t('message.ls.txt3')}}</h2>
             <p>
-                <strong>Dr. Du </strong>
-                holds a Ph.D from the National University of Singapore and worked as a Postdoctoral Fellow in the Singapore-MIT Alliance for Research and Technology Centre focusing on autonomous vehicles.  He holds a Bachelor degree from Nanyang Technological University.  He worked for six years doing leading research in AV technologies; Daniela Rus was his postdoctoral supervisor at SMART. He is a leading figure in the commercialization of driverless technology.
+                <strong>{{$t('message.ls.txt4')}}</strong>
+                {{$t('message.ls.txt5')}}
             </p>
         </li>
          <li>
-            <h2>Daniela Rus, Ph.D., FOUNDER, VENTI TECHNOLOGIES</h2>
+            <h2>{{$t('message.ls.txt6')}}</h2>
             <p>
-                <strong>Professor Daniela Rus</strong>
-                is a pioneer of driverless technology and Global AI, having started work in 2008. Rus is a Professor of Electrical Engineering and Computer Science at MIT and Director of MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL), MIT”s largest lab with over 1,000 people. She is a member of the National Academy of Engineering and the American Academy of Arts and Sciences. Rus has won numerous awards and speaks globally; she has twice attended Davos and presented on AI.  Prizes: 2017, Joseph Engelberger prize (the Nobel Prize in robotics science); 2002, MacArthur fellowship; 1996, NSF outstanding young professor award
+                <strong>{{$t('message.ls.txt7')}}</strong>
+                {{$t('message.ls.txt8')}}
             </p>
         </li>
          <li>
-            <h2>Heidi Wyle, Ph.D., FOUNDER & CEO, VENTI TECHNOLOGIES; CHAIRMAN, VENTI CHINA</h2>
+            <h2>{{$t('message.ls.txt9')}}</h2>
             <p>
-                <strong>Heidi Wyle, Ph.D.</strong>
-                has founded three companies including Computational Biology Corporation which was acquired by Agilent; she worked in venture capital with Bessemer. She is an expert in tech entrepreneurship and a sought-after speaker, mentor and advisor. Dr. Wyle holds a B.S. from Brown, a Ph.D. from MIT, and an M.B.A. from Harvard Business School as a Baker Scholar. Her Board service includes MIT, Harvard Medical School, Brown Medical School, the Brigham and Women’s Hospital Venture Advisory Board and Connors Center for Women’s Health, and MIT’s Koch Institute for Integrative Cancer Research. Board Member of the Massachusetts Women’s Forum. Fellow of the Royal Canadian Geographical Society. 
+                <strong>{{$t('message.ls.txt10')}}</strong>
+                {{$t('message.ls.txt11')}}
             </p>
         </li>
          <li>
-            <h2>Wu Yang, VP of Business Development</h2>
+            <h2>{{$t('message.ls.txt12')}}</h2>
             <p>
-                <strong>Wu Yang</strong>
-                holds a Master of Automotive Engineering from Tsinghua University and an MBA from CEIBS. He has 12 years experience in the automotive industry and mobility in Bosch, Ford, and Byton. He led Bosch’s Park Pilot China business during which time it grew from zero to 20+ programs with 10+ OEMs.  He was a founding member of Ford AP Smart Mobility and Byton Mobility in which positions he led strategy, partnership setup, and key program implementation.
+                <strong>{{$t('message.ls.txt13')}}</strong>
+                {{$t('message.ls.txt14')}}
             </p>
         </li>
          <li>
-            <h2>Shuyan Zhao, Ph.D., Acting CEO Venti China & VP, Engineering</h2>
+            <h2>{{$t('message.ls.txt15')}}</h2>
             <p>
-                <strong>Dr. Zhao </strong>
-                has a PhD in Computer Vision and Machine Learning from the Hamburg University of Technology, Germany.  Prior to joining Venti she was Senior Director of Bosch China. She led new product development from concept to mass production and was responsible for the development of Bosch’s ADAS product and the AD business unit from idea through achievement of the number one position in the China market; the product had a share of over 40% in China’s vision products market.
+                <strong>{{$t('message.ls.txt16')}}</strong>
+                {{$t('message.ls.txt17')}}
             </p>
         </li>
     </main>
