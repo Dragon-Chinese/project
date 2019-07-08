@@ -5,6 +5,20 @@
       <img src="../assets/n.jpg" alt="">
     </div>
     <main>
+         <li>
+            <h2>{{$t('message.ls.txt9')}}</h2>
+            <p>
+                <strong>{{$t('message.ls.txt10')}}</strong>
+                {{$t('message.ls.txt11')}}
+            </p>
+        </li>
+        <li>
+            <h2>{{$t('message.ls.txt6')}}</h2>
+            <p>
+                <strong>{{$t('message.ls.txt7')}}</strong>
+                {{$t('message.ls.txt8')}}
+            </p>
+        </li>
         <li>
             <h2>{{$t('message.ls.txt0')}}</h2>
             <p>
@@ -19,31 +33,21 @@
                 {{$t('message.ls.txt5')}}
             </p>
         </li>
+         
+        
          <li>
-            <h2>{{$t('message.ls.txt6')}}</h2>
+           <h2>{{$t('message.ls.txt15')}}</h2>
             <p>
-                <strong>{{$t('message.ls.txt7')}}</strong>
-                {{$t('message.ls.txt8')}}
-            </p>
-        </li>
-         <li>
-            <h2>{{$t('message.ls.txt9')}}</h2>
-            <p>
-                <strong>{{$t('message.ls.txt10')}}</strong>
-                {{$t('message.ls.txt11')}}
-            </p>
-        </li>
-         <li>
-            <h2>{{$t('message.ls.txt12')}}</h2>
-            <p>
-                <strong>{{$t('message.ls.txt13')}}</strong>
+                
+                <strong>{{$t('message.ls.txt16')}}</strong>
                 {{$t('message.ls.txt14')}}
             </p>
         </li>
          <li>
-            <h2>{{$t('message.ls.txt15')}}</h2>
+            
+             <h2>{{$t('message.ls.txt12')}}</h2>
             <p>
-                <strong>{{$t('message.ls.txt16')}}</strong>
+                <strong>{{$t('message.ls.txt13')}}</strong>
                 {{$t('message.ls.txt17')}}
             </p>
         </li>

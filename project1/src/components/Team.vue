@@ -43,13 +43,13 @@
               <ul>
                   <li @click="$router.push('/team-descriptions')">
                       <span>
-                        <img src="../assets/Shuyan+portrait.png" alt="">
+                        <img src="../assets/zm.jpg" alt="">
                       </span>
                       <span>{{$t('message.team.txt7')}}</span>
                   </li>
                   <li @click="$router.push('/team-descriptions')">
                     <span>
-                        <img src="../assets/saonan.png" alt="">
+                        <img src="../assets/yw.jpg" alt="">
                       </span>
                       <span>{{$t('message.team.txt8')}}</span>
                   </li>

@@ -62,7 +62,8 @@
           </div>
           <div class="right">
             <div class="top">
-              <img src="../assets/123.gif" alt="">
+              <!-- <img src="../assets/123.gif" alt=""> -->
+              <img src="../assets/99.jpg" alt="">
             </div>
             <p>{{$t('message.index.txt23')}}</p>
           </div>
@@ -366,11 +367,13 @@ display: none;
           position: relative;
           overflow: hidden;
           img {
-                left: -74.0978%;
-    top: 0%;
-    width: 248.196%;
-    height: 100%;
-    position: absolute;
+            width: 100%;
+            height: 100%;;
+    //             left: -74.0978%;
+    // top: 0%;
+    // width: 248.196%;
+    // height: 100%;
+    // position: absolute;
           }
           // background: url('../assets/234.jpg') no-repeat;
           // background-size: cover;
