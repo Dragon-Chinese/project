@@ -33,22 +33,19 @@
                 {{$t('message.ls.txt5')}}
             </p>
         </li>
-         
-        
-         <li>
-           <h2>{{$t('message.ls.txt15')}}</h2>
-            <p>
-                
-                <strong>{{$t('message.ls.txt16')}}</strong>
-                {{$t('message.ls.txt14')}}
-            </p>
-        </li>
-         <li>
+          <li>
             
              <h2>{{$t('message.ls.txt12')}}</h2>
             <p>
-                <strong>{{$t('message.ls.txt13')}}</strong>
+                <strong>{{$t('message.ls.txt16')}}</strong>
                 {{$t('message.ls.txt17')}}
+            </p>
+        </li>
+         <li>
+           <h2>{{$t('message.ls.txt15')}}</h2>
+            <p>
+                <strong>{{$t('message.ls.txt13')}}</strong>
+                {{$t('message.ls.txt14')}}
             </p>
         </li>
     </main>
