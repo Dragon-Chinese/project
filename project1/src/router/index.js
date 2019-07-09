@@ -119,11 +119,12 @@ let changeL = function () {
 router.beforeEach((to, from, next) => {
   window.scroll(0, 0)
   // console.log(lo)
-  if (changeL() != 'ZH') {
-    return window.location.href = 'https://www.ventitechnologies.com'
-  }else {
-    return next()
-  }
+  // if (changeL() != 'ZH') {
+  //   return window.location.href = 'https://www.ventitechnologies.com'
+  // }else {
+  //   return next()
+  // }
+  next()
 
 })
 
