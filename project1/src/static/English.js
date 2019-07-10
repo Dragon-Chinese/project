@@ -20,7 +20,7 @@ export default {
             "txt13": "Our autonomy technology benchmarked top in China and is significantly cheaper than the competition. ",
             "txt14": "Venti Technologies is focused on commercialization with powerful, strategic partners for explosive growth.",
             "txt15": "Best-of-the-Best team, more than half MIT-trained, combining AI world experts with seasoned automotive managers. ",
-            "txt16": "Powerful Leading Partners",
+            "txt16": "READ ABOUT OUR TECHNOLOGY",
             "txt17": "READ ABOUT OUR PARTNERS",
             "txt18": "READ ABOUT OUR TEAM",
             "txt19": "THE VENTI OPPORTUNITY",

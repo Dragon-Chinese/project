@@ -33,7 +33,7 @@
           <p class="title">{{$t('message.index.txt10')}}</p>
           <div class="img"></div>
           <p class="txt">{{$t('message.index.txt13')}}</p>
-          <button  @click="$router.push('/Technology')">{{$t('message.index.txt11')}}</button>
+          <button  @click="$router.push('/Technology')">{{$t('message.index.txt16')}}</button>
         </div>
         <div>
           <p class="title">{{$t('message.index.txt16')}}</p>
