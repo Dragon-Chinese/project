@@ -63,7 +63,7 @@
           <div class="right">
             <div class="top">
               <!-- <img src="../assets/123.gif" alt=""> -->
-              <img src="../assets/99.jpg" alt="">
+              <img src="../assets/che.jpeg" alt="">
             </div>
             <p>{{$t('message.index.txt23')}}</p>
           </div>
