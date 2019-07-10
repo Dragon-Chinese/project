@@ -67,7 +67,6 @@ export default {
   /* background-size: 100%; */
   position: relative;
 }
-
 .wr {
     width: 1210px;
     margin: 0 auto;
@@ -88,7 +87,6 @@ export default {
 footer{
   height: 684px;
 }
-
 .left{
   float: left;
   width: 604px;
@@ -130,7 +128,6 @@ footer{
 .rigth ul li:nth-child(1) .first{
   width: 291px;
 }
-
 .rigth ul li:nth-child(1) .first b {
   font-style: none;
   display: block;
@@ -150,7 +147,6 @@ footer{
   text-indent: 1em;
   border:1px solid rgba(167,167,167,1);
 }
-
 .rigth ul li:nth-child(1) .last b{
   font-style: none;
   display: block;
@@ -160,17 +156,14 @@ footer{
   color:rgba(10,10,10,1);
   line-height:21px;
 }
-
 .rigth ul li:nth-child(1) .last b:nth-of-type(1) {
     font-size:12px !important;
 }
-
 .rigth ul li:nth-child(1) .last{
   margin-top: 33px;
   width: 291px;
   margin-left: 11px;
 }
-
 .rigth ul li:nth-child(1) .last>input{
   width:291px;
   height:45px;
@@ -178,7 +171,6 @@ footer{
   border:1px solid rgba(167,167,167,1);
   text-indent: 1em;
 }
-
 .rigth ul li:nth-child(2)>b{
   display: block;
   margin-bottom: 11px;
@@ -195,7 +187,6 @@ footer{
   border:1px solid rgba(167,167,167,1);
   text-indent: 1em;
 }
-
 .rigth ul li:nth-child(3)>b{
   margin-top: 40px;
   display: block;
@@ -213,7 +204,6 @@ footer{
   border:1px solid rgba(167,167,167,1);
   text-indent: 1em;padding-top: 10px;
 }
-
 .rigth button {
   margin-top: 45px;
   width:146px;
@@ -229,4 +219,3 @@ footer{
   cursor: pointer;
 }
 </style>
-

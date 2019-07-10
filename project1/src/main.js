@@ -26,6 +26,13 @@ const i18n = new VueI18n({
   messages
 })
 
+Vue.prototype.rem = function () {
+  document.documentElement.style.fontSize =
+  document.documentElement.clientWidth / 7.5 + 'px'
+  document.querySelector('.wrap').style.display = 'none'
+  document.querySelector('.line9').style.display = 'none'
+}
+
 new Vue({
   el: '#app',
   router,

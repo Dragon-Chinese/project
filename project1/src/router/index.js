@@ -10,6 +10,17 @@ import Technology from '@/components/Technology';
 import Parthers from '@/components/Parthers'
 import News from '@/components/News'
 import De from '@/components/de'
+
+//H5路由
+import IndexM from '@/components/mobile/Index'
+import TeamM from '@/components/mobile/Team'
+import VentiLifeM from '@/components/mobile/VentiLife'
+import UsM from '@/components/mobile/Us'
+import CraeersM from '@/components/mobile/Craeers'
+import TechnologyM from '@/components/mobile/Technology';
+import ParthersM from '@/components/mobile/Parthers'
+import NewsM from '@/components/mobile/News'
+import DeM from '@/components/mobile/de'
 Vue.use(Router)
 
 const router = new Router({
@@ -53,71 +64,119 @@ const router = new Router({
       path:'/team-descriptions',
       name:'de',
       component:De
+    },
+
+    //H5
+    {
+      path: '/mobile',
+      name: 'mobile',
+      component: IndexM
+    },{
+      path:'/usM',
+      name:'usM',
+      component:UsM
+    },{
+      path:'/teamM',
+      name:'teamM',
+      component:TeamM
+    },{
+      path:'/ventiLifeM',
+      name:'ventiLifeM',
+      component: VentiLifeM
+    },
+    {
+      path:'/craeersM',
+      name:'craeersM',
+      component:CraeersM
+    },  {
+      path:'/technologyM',
+      name:'technologyM',
+      component:TechnologyM
+    }, {
+      path:'/parthersM',
+      name:'parthersM',
+      component:ParthersM
+    },
+    {
+      path:'/newsM',
+      name:'newsM',
+      component:NewsM
+    },
+    {
+      path:'/team-descriptionsM',
+      name:'deM',
+      component:DeM
     }
   ]
 })
 
-let changeL = function () {
-  let browser = {
-    versions: function () {
-      var u = navigator.userAgent,
-        app = navigator.appVersion;
-      return {
-        trident: u.indexOf('Trident') > -1,
-        /*IE内核*/
-        presto: u.indexOf('Presto') > -1,
-        /*opera内核*/
-        webKit: u.indexOf('AppleWebKit') > -1,
-        /*苹果、谷歌内核*/
-        gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,
-        /*火狐内核*/
-        mobile: !!u.match(/AppleWebKit.*Mobile.*/),
-        /*是否为移动终端*/
-        ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
-        /*ios终端*/
-        android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1,
-        /*android终端或者uc浏览器*/
-        iPhone: u.indexOf('iPhone') > -1,
-        /*是否为iPhone或者QQHD浏览器*/
-        iPad: u.indexOf('iPad') > -1,
-        /*是否iPad*/
-        webApp: u.indexOf('Safari') == -1,
-        /*是否web应该程序，没有头部与底部*/
-        weixin: u.toLowerCase().indexOf('micromessenger') > -1 /*是否是微信*/
-      };
-    }(),
-    language: (navigator.browserLanguage || navigator.language).toLowerCase()
-  };
+// let changeL = function () {
+//   let browser = {
+//     versions: function () {
+//       var u = navigator.userAgent,
+//         app = navigator.appVersion;
+//       return {
+//         trident: u.indexOf('Trident') > -1,
+//         /*IE内核*/
+//         presto: u.indexOf('Presto') > -1,
+//         /*opera内核*/
+//         webKit: u.indexOf('AppleWebKit') > -1,
+//         /*苹果、谷歌内核*/
+//         gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,
+//         /*火狐内核*/
+//         mobile: !!u.match(/AppleWebKit.*Mobile.*/),
+//         /*是否为移动终端*/
+//         ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
+//         /*ios终端*/
+//         android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1,
+//         /*android终端或者uc浏览器*/
+//         iPhone: u.indexOf('iPhone') > -1,
+//         /*是否为iPhone或者QQHD浏览器*/
+//         iPad: u.indexOf('iPad') > -1,
+//         /*是否iPad*/
+//         webApp: u.indexOf('Safari') == -1,
+//         /*是否web应该程序，没有头部与底部*/
+//         weixin: u.toLowerCase().indexOf('micromessenger') > -1 /*是否是微信*/
+//       };
+//     }(),
+//     language: (navigator.browserLanguage || navigator.language).toLowerCase()
+//   };
   // window.i = browser.language
   // window.alert('1' , browser.language)
-  switch(browser.language) {
-    case 'zh' : 
-    return 'ZH'
-    break;
-    case 'zh-cn' : 
-    return 'ZH' 
-    break;
-    case 'zh-hk' :
-    return 'ZH'
-    break;
-    case 'ar' : 
-    return 'AR'
-    break;
-    case 'zh-tw' :
-    return 'ZH' 
-    break;
-    case 'ko' :
-    return 'KO'
-    case 'ko-kr' :
-    return 'KO'
-    break;
-    default : 
-    return 'EN'
-  }
-}
+//   switch(browser.language) {
+//     case 'zh' : 
+//     return 'ZH'
+//     break;
+//     case 'zh-cn' : 
+//     return 'ZH' 
+//     break;
+//     case 'zh-hk' :
+//     return 'ZH'
+//     break;
+//     case 'ar' : 
+//     return 'AR'
+//     break;
+//     case 'zh-tw' :
+//     return 'ZH' 
+//     break;
+//     case 'ko' :
+//     return 'KO'
+//     case 'ko-kr' :
+//     return 'KO'
+//     break;
+//     default : 
+//     return 'EN'
+//   }
+// }
 
 router.beforeEach((to, from, next) => {
   window.scroll(0, 0)
+  if(to.path == '/'  && window.UA) {
+
+      next({
+        path : '/mobile'
+      })
+  }
   // console.log(lo)
   // if (changeL() != 'ZH') {
   //   return window.location.href = 'https://www.ventitechnologies.com'

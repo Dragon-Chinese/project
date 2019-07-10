@@ -28,13 +28,7 @@ export default {
     Header
   },
   async mounted() {
-    await axios.get(`https://dragon-chinese.github.io/project/project1/src/Vip.json?time=${+ new Date}`)
-    .then(res => {
-      this.show = res.data.show
-    })
-    .catch(err => {
-      console.log(err)
-    })
+   
   },
   methods: {
     top () {
@@ -53,6 +47,7 @@ export default {
 }
 
 html , body , #app , .index , .wrap{
+  min-height: 100%;
   height: auto;
   width: 100%;
   // min-width: 1300px;
