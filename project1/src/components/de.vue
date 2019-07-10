@@ -34,15 +34,15 @@
             </p>
         </li>
           <li>
+            <h2>{{$t('message.ls.txt15')}}</h2>
             
-             <h2>{{$t('message.ls.txt12')}}</h2>
             <p>
                 <strong>{{$t('message.ls.txt16')}}</strong>
                 {{$t('message.ls.txt17')}}
             </p>
         </li>
          <li>
-           <h2>{{$t('message.ls.txt15')}}</h2>
+            <h2>{{$t('message.ls.txt12')}}</h2>
             <p>
                 <strong>{{$t('message.ls.txt13')}}</strong>
                 {{$t('message.ls.txt14')}}
@@ -84,6 +84,7 @@ export default {
 }
 main {
     // width: 100%;
+    padding: 0 40px;
     li {
         margin-top: 61px;
         border-bottom: 1px solid rgba(210,210,210,1);
