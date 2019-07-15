@@ -26,12 +26,12 @@ export default {
             "txt19": "THE VENTI OPPORTUNITY",
             "txt20": "Moving People and Moving Goods",
             "txt21": "Our Safe Speed system is the fastest, most powerful, safest and most reliable in China and has powered 6 vehicle classes in industrial and people-moving applications.  It is fast, mature, and ready for large scale applications with a substantial cost advantage from our algorithmic power and uncompromising cost focus.",
-            "txt22": "READY FOR HIGH VOLUME DEPLOYMENT, VENTI VEHICLES REDUCE TRAFFIC AND EMISSIONS, INCREASE SAFETY, AND PROVIDE BETTER HEALTH & MORE TIME FOR YOU.",
+            "txt22": "READY FOR HIGH VOLUME DEPLOYMENT, VENTI VEHICLES REDUCE TRAFFIC AND EMISSIONS, INCREASE SAFETY, AND PROVIDE BETTER HEALTH & MORE TIME FOR YOU.",
             "txt23": "RELENTLY FOCUSED ON COSTS, VENTI HAS A 30 - 60% COST ADVANTAGE IN MOVING GOODS APPLICATIONS",
             "txt24": "VENTI IS MAKING THE WORLD A BETTER PLACE",
             "txt25": "Lives improve, Pollution decreases, Animals prosper",
             "txt26": "REDUCING POLLUTION SO THE PLANET CAN BREATHE",
-            "txt27": "IMPROVING PEOPLE’S LIVES THROUGH COST-EFFECTIVE, RELAXING TRANSPORTATION",
+            "txt27": "IMPROVING PEOPLE'S LIVES THROUGH COST-EFFECTIVE, RELAXING TRANSPORTATION",
             "txt28": "NURTURING WILD LANDS AND WILD WATERS SO ANIMALS CAN PROSPER",
             "txt29" : 'Venti Technologies'
         },
@@ -39,10 +39,10 @@ export default {
             txt0: "Cheaper. Flexible. Accurate. Reliable.",
             txt1: "WATCH OUR TECHNOLOGY IN ACTION",
             txt2: "TECHNOLOGY APPLICATIONS",
-            txt3: "Venti’s technology is universal with applications in moving people andspecialty vehicles in moving goods. For people, our reliable and safevehicles are cost-effective, comfortable, convenient and calming.They give back time, so needed in our busy world. Happy rides forhappy people!",
+            txt3: "Venti’s technology is universal with applications in moving people and specialty vehicles in moving goods. For people, our reliable and safe vehicles are cost-effective, comfortable, convenient and calming. They give back time, so needed in our busy world. Happy rides for happy people!",
             txt4: "TECHNOLOGY ADVANTAGES",
-            txt5: "Our autonomy technologies are cost-effective solutions to manylogistics and specialty vehicle applications. Venti’s vehicles arecheaper, flexible, accurate, and reliable. They adapt to complex routeconditions and decrease operations costs for a variety of industrialneeds.",
-            txt6: "We can map a new area in half a day and add autonomy to a newvehicle within a week including the drive by wire hardware conveImportantly, our autonomy solution is cheaper than the competitioncause of the maturity of the underlying system. Our algorithms, ratherthan the sensors, do the heavy lifting, enabling a less expensivehardware design and lower costs for the customer."
+            txt5: "Our autonomy technologies are cost-effective solutions to many logistics and specialty vehicle applications. Venti’s vehicles are cheaper, flexible, accurate, and reliable. They adapt to complex route conditions and decrease operations costs for a variety of industrial needs.",
+            txt6: "We can map a new area in half a day and add autonomy to a new vehicle within a week including the drive by wire hardware conversion.  Importantly, our autonomy solution is cheaper than the competition cause of the maturity of the underlying system. Our algorithms, rather than the sensors, do the heavy lifting, enabling a less expensive hardware design and lower costs for the customer."
         },
         careers : {
             txt0: "Work with Us",
@@ -84,7 +84,7 @@ export default {
             txt4: "Self-driving vehicles will revolutionize transportation for people.  In twenty years most people will not own cars; rather we will summon whatever kind of vehicle we want for each journey.  Rent a minibus for a birthday party or a shared taxi to go to work. Hire a private car for a business trip.  Venti’s vehicles are cost-effective, beautiful, comfortable, safe, and reliable.  We are working with partners to build community-wide Safe Speed robo-taxi services.   ",
             txt5: "INDUSTRIAL VEHICLES",
             txt6: "INDUSTRY",
-            txt7: "Working with the best of the best and most successful companies in China, Venti has designed and powered six vehicle classes with more to come. Our Safe Speedautonomy has benchmarked top in China and is poised to lead China’s huge urbanization-driven markets. ",
+            txt7: "Working with the best of the best-of-the-best and most successful companies in China, Venti has designed and powered six vehicle classes with more to come. Our Safe Speed autonomy has benchmarked top in China and is poised to lead China’s huge urbanization-driven markets.  ",
             txt8: " Specialty, safe speed industrial vehicles that are ready for deployment",
             txt9: "Our partners include the nation’s number one insurance company, a top 10 real estate builder, multiple leading vehicle manufacturers, and SIP, China’s best industrial park, are pathways for explosive growth and AV leadership in moving people and goods."
         },
