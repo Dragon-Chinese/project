@@ -10,7 +10,7 @@
           ></video-player> -->
           <video src="http://www.myzhangyao.com/static/Loop_Home_cover_video.webm" style="width:100%" autoplay loop muted playsinline>
           </video>
-          <div class="meng"></div>
+          <!-- <div class="meng"></div> -->
     </div>
     <main>
       <div class="wr">
@@ -36,7 +36,7 @@
           <button  @click="$router.push('/Technology')">{{$t('message.index.txt16')}}</button>
         </div>
         <div>
-          <p class="title">{{$t('message.index.txt16')}}</p>
+          <p class="title">{{$t('message.index.txt11')}}</p>
           <div class="img"></div>
           <p class="txt">{{$t('message.index.txt14')}}</p>
           <button @click="$router.push('/parthers')">{{$t('message.index.txt17')}}</button>
@@ -428,7 +428,7 @@ display: none;
           color: rgba(109, 109, 109, 1);
           line-height: 18px;
           margin-top: 21px;
-          width: 298px;
+          // width: 298px;
         }
       }
       > div:nth-child(1) {

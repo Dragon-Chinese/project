@@ -22,6 +22,8 @@
               <li>{{$t('message.us.txt9')}}</li>
               <li>{{$t('message.us.txt10')}}</li>
               <li>{{$t('message.us.txt11')}}</li>
+              <li>{{$t('message.us.txt12')}}</li>
+              <li>{{$t('message.us.txt13')}}</li>
             </ul>
           </div>
         </footer>

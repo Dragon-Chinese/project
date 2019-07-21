@@ -21,6 +21,13 @@
           <p>{{$t('message.ls.txt21')}}</p>
         </div>
       </li>
+      <li>
+        <img src="../assets/newss.png" alt>
+        <div class="txt">
+          <h4><a href="https://www.csail.mit.edu/news/autonomous-boats-can-target-and-latch-each-other">VENTI CO-FOUNDER DANIELA RUS PROGRESSED ON AUTONOMOUS BOATS</a></h4>
+
+        </div>
+      </li>
       </div>
     </main>
   </div>
@@ -107,6 +114,9 @@ main {
     }
   }
   li:nth-child(2) {
+      margin-top: 128px;
+  }
+  li:nth-child(3) {
       margin-top: 128px;
   }
 }

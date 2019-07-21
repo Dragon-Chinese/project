@@ -15,7 +15,10 @@
         </div>
         <div class="selfImg two">
           {{ $t("message.parthers.txt4") }}
-          <img src="../assets/partherRight.jpg" alt="" class="partherImg"/>
+        <div>
+          <img src="../assets/HW & Neolix CEO shaking hands.jpg" alt="">
+          <img src="../assets/HW & Neolix CEO shaking hands2.jpg" alt="">
+        </div>
         </div>
         <div>
           
@@ -145,7 +148,8 @@ main {
       width:560px;
       height:377px;
       // margin-right: 32px;
-      img {
+      
+       img {
         width: 100%;
         height: 100%;
       }
@@ -159,6 +163,25 @@ main {
     .two {
       margin-left: 80px;
       flex: 1;
+      // width: 300px;
+      >div {
+        height: 100%;
+        width: 100%;
+        display: flex;
+       img {
+         height: 214px;;
+         margin-top: 20px;
+         width: 280px;
+         flex: 1;
+         
+       }
+       img:nth-child(1) {
+         margin-right: 5px;
+       }
+       img:nth-child(2) {
+         margin-left: 5px;
+       }
+      }
     }
   }
   .mainInd {

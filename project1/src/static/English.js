@@ -15,7 +15,7 @@ export default {
             "txt8": "THE VENTI ADVANTAGE",
             "txt9": "The Power of People, Partnerships and Intelligent Science",
             "txt10": "Mature, Safe Technology",
-            "txt11": "READ ABOUT OUR TECHNOLOGY",
+            "txt11": "Powerful Leading Partners",
             "txt12": "Best in Class Team",
             "txt13": "Our autonomy technology benchmarked top in China and is significantly cheaper than the competition. ",
             "txt14": "Venti Technologies is focused on commercialization with powerful, strategic partners for explosive growth.",
@@ -42,12 +42,12 @@ export default {
             txt3: "Venti’s technology is universal with applications in moving people and specialty vehicles in moving goods. For people, our reliable and safe vehicles are cost-effective, comfortable, convenient and calming. They give back time, so needed in our busy world. Happy rides for happy people!",
             txt4: "TECHNOLOGY ADVANTAGES",
             txt5: "Our autonomy technologies are cost-effective solutions to many logistics and specialty vehicle applications. Venti’s vehicles are cheaper, flexible, accurate, and reliable. They adapt to complex route conditions and decrease operations costs for a variety of industrial needs.",
-            txt6: "We can map a new area in half a day and add autonomy to a new vehicle within a week including the drive by wire hardware conversion.  Importantly, our autonomy solution is cheaper than the competition cause of the maturity of the underlying system. Our algorithms, rather than the sensors, do the heavy lifting, enabling a less expensive hardware design and lower costs for the customer."
+            txt6: "We can map a new area in half a day and add autonomy to a new vehicle within a week including the drive by wire hardware conversion.  Importantly, our autonomy solution is cheaper than the competition because of the maturity of the underlying system. Our algorithms, rather than the sensors, do the heavy lifting, enabling a less expensive hardware design and lower costs for the customer."
         },
         careers : {
             txt0: "Work with Us",
             txt1: "Jobs",
-            txt2: "Our motto is Best-of-the-Best.  ",
+            txt2: "Best-of-the-Best.  ",
             txt3: "If you aspire to change the world through your job, if you want to work with top professionals, if excellence is your mantra—then Venti is your place.",
             txt4: "You will be challenged. You will be your best self. You will build the future today.",
             txt5: "We invite you to contact us.",
@@ -74,7 +74,8 @@ export default {
             txt9: "Venti combines the intellectual might of intelligent science and world-leading technology with the power of Asia’s huge urbanization-driven markets. Our Safe Speed autonomy has benchmarked top in China and powered six vehicle classes.  Our vehicles had zero software system disengagements in 5,000 kilometers of testing and zero incidents in nine years of development in China, US and Singapore.  Venti’s system is fast, mature, and ready for large scale applications with a significant cost advantage over the competition.",
             txt10: "Our powerful strategic partners including China’s number one insurance company, two industrial partners, a top 10 real estate builder, multiple leading vehicle manufacturers, and SIP, China’s best industrial park, are pathways for explosive growth and driverless vehicle leadership in moving people and goods.",
             txt11: "Venti has an unsurpassed team, over half of whom are MIT-trained; our best-in-class management team includes AI experts paired with seasoned automotive and business stars from leading automotive Tier-1 companies. ",
-            txt12: "Our autonomy system has a modular design, leading 3D components, and supremely powerful algorithms. These factors yield higher safety and reliability, deployment of a new vehicle class within a week, mapping of a new area in a morning, and greater flexibility for initial application and modifications."
+            txt12: "Our autonomy system has a modular design, leading 3D components, and supremely powerful algorithms. These factors yield higher safety and reliability, deployment of a new vehicle class within a week, mapping of a new area in a morning, and greater flexibility for initial application and modifications.",
+            txt13: "Come ride with us into the future. "
         },
         parthers: {
             txt0: "Partnering for Explosive Growth",
@@ -86,7 +87,7 @@ export default {
             txt6: "INDUSTRY",
             txt7: "Working with the best of the best-of-the-best and most successful companies in China, Venti has designed and powered six vehicle classes with more to come. Our Safe Speed autonomy has benchmarked top in China and is poised to lead China’s huge urbanization-driven markets.  ",
             txt8: " Specialty, safe speed industrial vehicles that are ready for deployment",
-            txt9: "Our partners include the nation’s number one insurance company, a top 10 real estate builder, multiple leading vehicle manufacturers, and SIP, China’s best industrial park, are pathways for explosive growth and AV leadership in moving people and goods."
+            txt9: "Our partners include the nation’s number one insurance company, a top 10 real estate builder, multiple leading vehicle manufacturers, and SIP, China’s best industrial park, and are pathways for explosive growth and AV leadership in moving people and goods."
         },
         team: {
             txt0: "Dedicated Team",
@@ -97,14 +98,14 @@ export default {
             txt5: "XINXIN DU, PHD., FOUNDING CHIEF TECHNOLOGY OFFICER",
             txt6: "OUR TEAM",
             txt7: "SHUYAN ZHAO, PH.D., ACTING CEO VENTI CHINA & VP, ENGINEERING",
-            txt8: " WU YANG, VP OF BUSINESS DEVELOPMENT",
+            txt8: " WU YANG, VP BUSINESS DEVELOPMENT",
             txt9: "THE VENTI TEAM"
         },
         news : {
             txt0 : 'Venti in the News',
             txt1 : 'VENTI PARTNERS WITH SIP',
             txt2 : 'Partnering with Suzhou Industrial Park to optimize innovation and entrepreneurship.',
-            txt3 : 'VENTI NAMED ONE OF 50 WOMEN-LED START UPS THAT ARE CRUSHING TECH',
+            txt3 : 'VENTI NAMED FORBES TOP 50 WOMEN-LED TECH STARTUPS 2019',
             txt4 : 'In a tech driven economy where women-led firms continue to be overlooked, CEO, Heidi Wyle, PhD. pushes the frontiers of innovation.'
         },
         ls :{
@@ -119,7 +120,7 @@ export default {
             "txt8": "is a pioneer of driverless technology and Global AI, having started work in 2008. Rus is a Professor of Electrical Engineering and Computer Science at MIT and Director of MIT’s Computer Science and Artificial Intelligence Laboratory (CSAIL), MIT”s largest lab with over 1,000 people. She is a member of the National Academy of Engineering and the American Academy of Arts and Sciences. Rus has won numerous awards and speaks globally; she has twice attended Davos and presented on AI. Prizes: 2017, Joseph Engelberger prize (the Nobel Prize in robotics science); 2002, MacArthur fellowship; 1996, NSF outstanding young professor award",
             "txt9": "Heidi Wyle, Ph.D., FOUNDER & CEO, VENTI TECHNOLOGIES; CHAIRMAN, VENTI CHINA",
             "txt10": "Heidi Wyle, Ph.D.",
-            "txt11": "has founded three companies including Computational Biology Corporation which was acquired by Agilent; she worked in venture capital with Bessemer. She is an expert in tech entrepreneurship and a sought-after speaker, mentor and advisor. Dr. Wyle holds a B.S. from Brown, a Ph.D. from MIT, and an M.B.A. from Harvard Business School as a Baker Scholar. Her Board service includes MIT, Harvard Medical School, Brown Medical School, the Brigham and Women’s Hospital Venture Advisory Board and Connors Center for Women’s Health, and MIT’s Koch Institute for Integrative Cancer Research. Board Member of the Massachusetts Women’s Forum. Fellow of the Royal Canadian Geographical Society.",
+            "txt11": "has founded three companies including Computational Biology Corporation which was acquired by Agilent; she worked in venture capital with Bessemer. She is an expert in tech entrepreneurship and a sought-after speaker, mentor and advisor. Dr. Wyle holds a B.S. from Brown, a Ph.D. from MIT, and an M.B.A. from Harvard Business School as a Baker Scholar. Her Board service includes MIT, Harvard Medical School, Brown Medical School, the Brigham and Women’s Hospital Venture Advisory Board and Connors Center for Women’s Health, and MIT’s Koch Institute for Integrative Cancer Research. Board Member of the Massachusetts Women’s Forum. Fellow of the Royal Canadian Geographical Society. 13.Forbes 50 Women Who Tech 2019",
             "txt12": "Wu Yang, VP of Business Development",
             "txt13": "Wu Yang",
             "txt14": "holds a Master of Automotive Engineering from Tsinghua University and an MBA from CEIBS. He has 12 years experience in the automotive industry and mobility in Bosch, Ford, and Byton. He led Bosch’s Park Pilot China business during which time it grew from zero to 20+ programs with 10+ OEMs. He was a founding member of Ford AP Smart Mobility and Byton Mobility in which positions he led strategy, partnership setup, and key program implementation.",

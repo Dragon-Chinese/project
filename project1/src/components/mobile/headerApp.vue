@@ -1,17 +1,18 @@
 <template>
-<div class="wrap">
+<div class="wrapm">
     <div class="header">
-        <h1 @click="go({link : '/mobile'} , 7)">
-
+        <h1 @click="showtab">
+            <img src="../../assets/dh.png" alt="">
         </h1>
-        <ul>
-            <li v-for="(item , index) in nav" :key="index" :class="index==active ? 'active' : ''" @click="go(item , index)">
+        <h4>
+            {{$t(act)}}
+        </h4>
+        <ul v-if="show">
+            <li v-for="(item , index) in nav" :key="index"  @click="go(item , index)">
                 {{$t(item.title)}}
             </li>
         </ul>
-        <!-- <div class="lang">
-            <p v-for="(item , index) in options" :key="index" v-show="item.value != label" @click="tabLang(item)">{{item.label}}</p>
-        </div> -->
+        <p v-for="(item , index) in options" :key="index" v-show="item.value != label" @click="tabLang(item)">{{item.label}}</p>
     </div>
 </div>
     
@@ -22,6 +23,10 @@ export default {
     data() {
         return {
             nav : [
+                {
+                    title : 'Venti',
+                    link : '/'
+                },
                 {
                     title : 'message.header.txt1',
                     link : '/usM'
@@ -66,22 +71,66 @@ export default {
                 }
             ],
             label : 'Eng',
-            active : 100
+            active : 100,
+            act : 'message.header.txt1',
+            show : false
         }
     },
     methods: {
         go (item , index) {
-            this.active = index
+            // this.active = index
+            // console.log(item.title)
+            this.show = false
             this.$router.push(item.link)
+            // this.act = item.title
         },
         tabLang (item) {
             this.label = item.value
             this.$i18n.locale = item.value
             localStorage.setItem('defaulti18n', item.value)
+        },
+        showtab () {
+            this.show = !this.show
         }
     },
     mounted() {
            this.label = window.localStorage.getItem('defaulti18n') ? window.localStorage.getItem('defaulti18n') : 'Eng'
+           console.log(this.$router.history.current.path)
+           let n = this.$router.history.current.path
+           switch (n) {
+               case '/usM' : 
+               this.act = 'message.header.txt1'
+               break;
+               case '/TechnologyM' : 
+               this.act = 'message.header.txt2'
+               break;
+               case '/parthersM' : 
+               this.act = 'message.header.txt3'
+               break;
+               case '/teamM' : 
+               this.act = 'message.header.txt4'
+               break;
+               case '/craeersM' : 
+               this.act = 'message.header.txt5'
+               break;
+               case '/ventiLifeM' : 
+               this.act = 'message.header.txt6'
+               break;
+                case '/newsM' : 
+               this.act = 'message.header.txt7'
+               break;
+               case '/newsM' : 
+               this.act = 'message.header.txt7'
+               break;
+               case '/team-descriptions' : 
+               this.act = ''
+               break;
+               case '/mobile' : 
+               this.act = 'Venti'
+               break;
+               
+           }
+
     },
 }
 </script>
@@ -90,13 +139,10 @@ export default {
   font-family: 'zzz';
   src: url('../../assets/bx.ttf');
 }
-.wrap {
+.wrapm {
     width: 100%;
     height: 1rem;
-    padding: 0 .4rem;
     border-bottom: 1px solid #ccc;
-    
-    // padding-top: .21rem;
 }
 .header {
     background:rgba(255,255,255,1);
@@ -104,17 +150,51 @@ export default {
     width: 100%;
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;
+    position: relative;
+    // padding: 0 .4rem;
     h1 {
-        width:.49rem;
-        height:.44rem;
-        background: url('../../assets/logo.png') no-repeat;
-        background-size: contain;
+        width:1rem;
+        height:100%;
+        // background: url('../../assets/dh.png') no-repeat center;
+        // background-size: cover;
+        margin-left: .4rem;
+        display: flex;
+        align-items: center;
+        img{
+            width:.26rem;
+            height:.32rem;
+        }
+    }
+    h4 {
+        font-size:.24rem;
+        font-family:zzz !important;
+        font-weight:800;
+        color:rgba(0,0,0,1);
+        
+    }
+    >p {
+        margin-right: .4rem;
+        width:1rem;
+        // height:.32rem;
+        white-space: nowrap;
+        font-size:.20rem;
+        font-family:zzz !important;
+        font-weight:800;
+        color:rgba(0,0,0,1);
+        
     }
     ul {
+        position: absolute;
         display: flex;
-        margin-left: .35rem;
+        flex-direction: column;
+        // margin-left: .35rem;
         flex: 1;
+        top: 1rem;
+        left: 0;
+        z-index: 9999;
+        width: 100%;
+        background: #fff;
         li {
             margin-left: .05rem;
             font-size:.12rem;
@@ -124,12 +204,14 @@ export default {
             color:rgba(156,156,156,1);
             cursor: pointer;
             white-space: nowrap;
-        }
-        li:hover {
-            color: #000;
+            text-align: center;
+            margin-top: .44rem;
         }
         li.active {
             color: #000;
+        }
+        li:nth-child(1) {
+            margin: 0;
         }
     }
     .lang {
