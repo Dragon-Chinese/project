@@ -68,7 +68,7 @@ main {
   }
   .venImg{
     width: 100%;
-    height: 895px;
+    height: 1200px;
     margin-top:95px;
     img{
       width: 100%;

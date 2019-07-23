@@ -26,7 +26,7 @@
       <div class="toMain">{{$t('message.technology.txt1')}}</div>
       <div class="content">
         <div class="right">
-           <video src="http://www.myzhangyao.com/static/Venti_Technology_Demo18.mp4" muted playsinline controls></video>
+           <video src="http://www.myzhangyao.com/static/Venti_Technology_Demo18.mp4" muted playsinline controls controlsList="nodownload"></video>
         </div>
         <div class="left">
           <div class="leftSize">{{$t('message.technology.txt2')}}</div>

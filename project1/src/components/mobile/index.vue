@@ -20,7 +20,7 @@
 
       <div class="video-index-box">
         <video class="video-index" src="http://www.myzhangyao.com/static/Venti_Chinalife_Short_Final_Version.mp4"
-               muted="muted" playsinline="" controls="controls"></video>
+               muted="muted" playsinline="" controls="controls" controlsList="nodownload"></video>
       </div>
 
       <hr/>

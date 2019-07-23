@@ -8,7 +8,10 @@ import English from './static/English'
 import Chinese from './static/Chinese'
 import VideoPlayer from 'vue-video-player'
 import 'swiper/dist/css/swiper.css';
+import Video from 'video.js'
+import 'video.js/dist/video-js.css'
 
+Vue.prototype.$video = Video
 Vue.config.productionTip = false
 Vue.use(VueI18n);
 Vue.use(VideoPlayer)

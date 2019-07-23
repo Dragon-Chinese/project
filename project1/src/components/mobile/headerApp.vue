@@ -8,7 +8,7 @@
             {{$t(act)}}
         </h4>
         <ul v-if="show">
-            <li v-for="(item , index) in nav" :key="index"  @click="go(item , index)">
+            <li v-for="(item , index) in nav" :key="index"  @click="go(item , index)" v-if="item.title != act">
                 {{$t(item.title)}}
             </li>
         </ul>

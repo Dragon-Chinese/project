@@ -18,7 +18,7 @@
           <p>{{$t('message.us.txt7')}}</p>
           <div>
             <ul>
-              <!-- <li>{{$t('message.us.txt8')}}</li> -->
+              <li>{{$t('message.us.txt8')}}</li>
               <li>{{$t('message.us.txt9')}}</li>
               <li>{{$t('message.us.txt10')}}</li>
               <li>{{$t('message.us.txt11')}}</li>

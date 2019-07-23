@@ -15,7 +15,7 @@
       <div class="title">{{ $t("message.technology.txt1") }}</div>
 
       <div class="video">
-        <video data-v-5899393c="" src="http://www.myzhangyao.com/static/Venti_Technology_Demo18.mp4" muted="muted" playsinline="" controls="controls" style="width: 100%"></video>
+        <video data-v-5899393c="" src="http://www.myzhangyao.com/static/Venti_Technology_Demo18.mp4" muted="muted" playsinline="" controls="controls" controlsList="nodownload" style="width: 100%"></video>
       </div>
 
       <div class="title">{{ $t("message.technology.txt2") }}</div>
