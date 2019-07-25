@@ -8,7 +8,7 @@
             :playsinline="true"
             :options="playerOptions1"
           ></video-player> -->
-          <video src="http://www.myzhangyao.com/static/Loop_Home_cover_video.webm" style="width:100%" autoplay loop muted playsinline>
+          <video src="http://www.myzhangyao.com/static/1563988027277423.mp4" style="width:100%" autoplay loop muted playsinline>
           </video>
           <!-- <div class="meng"></div> -->
     </div>
@@ -134,6 +134,7 @@ export default {
 }
 .banner {
   min-height: 0;
+  // margin-top: 100px;
   // background: url('../assets/indexbanner.png') no-repeat;
   // background-size: cover;
   position:relative;
@@ -153,13 +154,13 @@ export default {
     top:0;
     left: 0;
     width: 100%;
-    height:100%;
+    // height:100%;
     // background: red; 
   }
   h2 {
     position: absolute;
     font-size: 62px;
-    font-family: ProximaNova-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 400;
     color: rgba(254, 254, 254, 1);
     text-align: center;
@@ -200,12 +201,13 @@ display: none;
       //   background-size: cover;
       //  .video-js .vjs-big-play-button {
       //   }
+      // ProximaNova-aRegular
     }
     .left {
       div {
         font-size: 36px;
-        font-family: ProximaNova-Regular;
-        font-weight: 100;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 100 !important;
         color: rgba(34, 34, 34, 1);
         line-height: 54px;
         width: 596px;
@@ -231,7 +233,7 @@ display: none;
   }
   h3 {
     font-size: 36px;
-    font-family: ProximaNova-Regular;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 100;
     color: #222;
     margin-top: 60px;
@@ -239,7 +241,7 @@ display: none;
   .power {
     font-size: 28px;
     font-family: hua;
-    font-weight: 100;
+    font-weight: 100 !important;
     font-style: oblique;
     color: rgba(34, 34, 34, 1);
     margin-top: 48px;
@@ -254,7 +256,7 @@ display: none;
       width: 378px;
       .title {
         font-size: 22px;
-        font-family: ProximaNova-Regular;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight: 400;
         color: rgba(34, 34, 34, 1);
       }
@@ -266,7 +268,7 @@ display: none;
       }
       .txt {
         font-size: 14px;
-        font-family: ProximaNova-Regular;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight: 400;
         color: rgba(68, 68, 68, 1);
         margin-top: 39px;
@@ -281,7 +283,7 @@ display: none;
         outline: none;
         cursor: pointer;
         font-size: 12px;
-        font-family: ProximaNova-Regular;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight: bold;
         color: rgba(0, 0, 0, 1);
         margin-top: 44px;
@@ -320,7 +322,7 @@ display: none;
   .botMain {
     .title {
       font-size: 36px;
-      font-family: ProximaNova-Regular;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-weight: 100;
       color: rgba(34, 34, 34, 1);
       margin-top: 65px;
@@ -335,7 +337,7 @@ display: none;
     }
     .txt {
       font-size: 13px;
-      font-family: ProximaNova-Regular;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-weight: 400;
       color: rgba(68, 68, 68, 1);
       line-height: 24px;
@@ -354,7 +356,7 @@ display: none;
         }
         p {
           font-size: 12px;
-          font-family: ProximaNova-Regular;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
           font-weight: 100;
           color: rgba(68, 68, 68, 1);
           margin-top: 21px;
@@ -380,7 +382,7 @@ display: none;
         }
         p {
           font-size: 12px;
-          font-family: ProximaNova-Regular;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
           font-weight: 100;
           color: rgba(68, 68, 68, 1);
           margin-top: 21px;
@@ -397,7 +399,7 @@ display: none;
   .bottom {
     .title {
       font-size: 36px;
-      font-family: ProximaNova-Regular;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-weight: 100;
       color: rgba(34, 34, 34, 1);
       margin-top: 65px;
@@ -423,7 +425,7 @@ display: none;
         }
         p {
           font-size: 12px;
-          font-family: ProximaNova-Regular;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
           font-weight: 400;
           color: rgba(109, 109, 109, 1);
           line-height: 18px;

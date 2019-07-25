@@ -147,7 +147,7 @@ export default {
     }
     .lang {
         p {
-            font-size:15px;
+            font-size:14px;
             font-family:FZLTHK--GBK1-0;
             font-weight:400;
             color:rgba(34,34,34,1);

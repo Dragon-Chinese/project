@@ -3,7 +3,7 @@
     <Header/>
     <div class="m-banner">
       <h2>Venti Technologies</h2>
-      <video src="http://www.myzhangyao.com/static/Loop_Home_cover_video.webm" autoplay="autoplay" loop="loop"
+      <video src="http://www.myzhangyao.com/static/1563988027277423.mp4" autoplay="autoplay" loop="loop"
              muted="muted" playsinline style="width: 100%"></video>
       <div class="meng"></div>
     </div>
