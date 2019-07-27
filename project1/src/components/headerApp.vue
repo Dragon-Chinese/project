@@ -147,11 +147,13 @@ export default {
     }
     .lang {
         p {
-            font-size:14px;
-            font-family:FZLTHK--GBK1-0;
-            font-weight:400;
-            color:rgba(34,34,34,1);
+            font-size:13px;
+            font-family:zzz !important;
+            letter-spacing: 1px;
+            font-weight:800;
+            color:#000;
             cursor: pointer;
+            white-space: nowrap;
         }
     }
 }

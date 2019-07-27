@@ -106,7 +106,8 @@ export default {
             txt1 : 'VENTI PARTNERS WITH SIP',
             txt2 : 'Partnering with Suzhou Industrial Park to optimize innovation and entrepreneurship.',
             txt3 : 'VENTI NAMED FORBES TOP 50 WOMEN-LED TECH STARTUPS 2019',
-            txt4 : 'In a tech driven economy where women-led firms continue to be overlooked, CEO, Heidi Wyle, PhD. pushes the frontiers of innovation.'
+            txt4 : 'In a tech driven economy where women-led firms continue to be overlooked, CEO, Heidi Wyle, PhD. pushes the frontiers of innovation.',
+            txt5 : 'VENTI CO-FOUNDER DANIELA RUS PROGRESSED ON AUTONOMOUS BOATS'
         },
         ls :{
             "txt0": "Saman Amarasinghe, Ph.D., FOUNDER, VENTI TECHNOLOGIES",

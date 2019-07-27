@@ -160,7 +160,7 @@ main {
       .leftSize {
         width: 100%;
         font-size: 28px;
-        font-family: Bodoni-Normal-Italic;
+        font-family: jian;
         font-weight: 400;
         color: rgba(68, 68, 68, 1);
         font-style: oblique;
@@ -170,10 +170,11 @@ main {
         margin-top: 20px;
         margin-bottom: 16px;
         font-size: 16px;
-        font-family: ProximaNova-Light;
+        font-family: jian;
         font-weight: 300;
         color: rgba(68, 68, 68, 1);
         line-height: 24px;
+
       }
       .leftSizes {
         width: 100%;

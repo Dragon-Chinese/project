@@ -123,7 +123,7 @@ export default {
   width:343px;
   height:30px;
   font-size:43px;
-  font-family:ProximaNova-Light;
+  font-family:jian;
   font-weight:300;
   color:rgba(10,10,10,1);
   line-height:57px;
@@ -198,7 +198,7 @@ export default {
   width:548px;
   height:30px;
   font-size:43px;
-  font-family:ProximaNova-Light;
+  font-family:jian;
   font-weight:300;
   color:rgba(10,10,10,1);
   line-height:57px;

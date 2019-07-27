@@ -211,7 +211,7 @@ main {
       .leftWork {
         margin-top: 35px;
         font-size: 16px;
-        font-family: ProximaNova-Light;
+        font-family: jian;
         font-weight: 300;
         color: rgba(68, 68, 68, 1);
         line-height: 24px;
@@ -219,7 +219,7 @@ main {
       .lefstWork {
         margin-top: 35px;
         font-size: 16px;
-        font-family: ProximaNova-Light;
+        font-family: jian;
         font-weight: 300;
         color: rgba(68, 68, 68, 1);
         line-height: 24px;
