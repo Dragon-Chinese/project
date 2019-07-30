@@ -107,7 +107,7 @@ export default {
             txt2 : '与苏州工业园区合作，优化创新创业。',
             txt3 : 'VENTI列举了50家女性领导的初创公司，这些公司正在颠覆科技行业',
             txt4 : '在科技驱动的经济中，女性主导的公司继续被忽视。推动创新的前沿。',
-            txt5 : '风图联合创始人Daniela Rus教授在无人驾驶机器船领域取得进展'
+            txt5 : 'Daniela Rus: 无人驾驶机器船可瞄准和搭扣'
         },
         ls : {
             "txt0": "Saman Amarasinghe博士，Venti Technologies创始人",

@@ -27,7 +27,7 @@ export default {
             "txt20": "Moving People and Moving Goods",
             "txt21": "Our Safe Speed system is the fastest, most powerful, safest and most reliable in China and has powered 6 vehicle classes in industrial and people-moving applications.  It is fast, mature, and ready for large scale applications with a substantial cost advantage from our algorithmic power and uncompromising cost focus.",
             "txt22": "READY FOR HIGH VOLUME DEPLOYMENT, VENTI VEHICLES REDUCE TRAFFIC AND EMISSIONS, INCREASE SAFETY, AND PROVIDE BETTER HEALTH & MORE TIME FOR YOU.",
-            "txt23": "RELENTLY FOCUSED ON COSTS, VENTI HAS A 30 - 60% COST ADVANTAGE IN MOVING GOODS APPLICATIONS",
+            "txt23": "RELENTLESSLY FOCUSED ON COSTS, VENTI HAS A 30 - 60% COST ADVANTAGE IN MOVING GOODS APPLICATIONS",
             "txt24": "VENTI IS MAKING THE WORLD A BETTER PLACE",
             "txt25": "Lives improve, Pollution decreases, Animals prosper",
             "txt26": "REDUCING POLLUTION SO THE PLANET CAN BREATHE",
@@ -107,7 +107,7 @@ export default {
             txt2 : 'Partnering with Suzhou Industrial Park to optimize innovation and entrepreneurship.',
             txt3 : 'VENTI NAMED FORBES TOP 50 WOMEN-LED TECH STARTUPS 2019',
             txt4 : 'In a tech driven economy where women-led firms continue to be overlooked, CEO, Heidi Wyle, PhD. pushes the frontiers of innovation.',
-            txt5 : 'VENTI CO-FOUNDER DANIELA RUS PROGRESSED ON AUTONOMOUS BOATS'
+            txt5 : 'Daniela Rus: Roboats can Target & Latch On'
         },
         ls :{
             "txt0": "Saman Amarasinghe, Ph.D., FOUNDER, VENTI TECHNOLOGIES",

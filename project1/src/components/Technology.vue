@@ -26,7 +26,7 @@
       <div class="toMain">{{$t('message.technology.txt1')}}</div>
       <div class="content">
         <div class="right">
-           <video src="http://www.myzhangyao.com/static/Venti_Technology_Demo18.mp4" muted playsinline controls controlsList="nodownload"></video>
+           <video src="http://www.myzhangyao.com/static/Venti_Technology_Demo18.mp4"  playsinline controls controlsList="nodownload"></video>
         </div>
         <div class="left">
           <div class="leftSize">{{$t('message.technology.txt2')}}</div>
@@ -56,10 +56,10 @@ export default {
       new Swiper ('.swiper-container', {
         autoplay: {
           delay: 1000,
-            // stopOnLastSlide: false,
-            // disableOnInteraction: false,
+            stopOnLastSlide: false,
+            disableOnInteraction: false,
         },
-        // loop: true,
+        loop: true,
         // 如果需要分页器
         navigation: {
           nextEl: '.swiper-button-next',

@@ -41,7 +41,7 @@
         </div>
         <div class="right">
           <div class="rightVideo">
-            <video src="http://www.myzhangyao.com/static/Venti_ChinaLife_Short19.mp4" muted playsinline controls controlsList="nodownload"></video>
+            <video src="http://www.myzhangyao.com/static/Venti_ChinaLife_Short19.mp4"  playsinline controls controlsList="nodownload"></video>
           </div>
         </div>
       </div>

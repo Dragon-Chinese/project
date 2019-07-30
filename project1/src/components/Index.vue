@@ -22,7 +22,7 @@
           <p>{{$t('message.index.txt7')}}</p>
         </div>
         <div class="right" @contextmenu="false">
-           <video  src="http://www.myzhangyao.com/static/Venti_Chinalife_Short_Final_Version.mp4" muted playsinline controls controlsList="nodownload"></video>
+           <video  src="http://www.myzhangyao.com/static/Venti_Chinalife_Short_Final_Version.mp4"  playsinline controls controlsList="nodownload"></video>
         </div>
       </div>
       <div class="line"></div>

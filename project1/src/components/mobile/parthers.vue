@@ -21,7 +21,7 @@
         <p>{{ $t("message.parthers.txt4") }}</p>
         <img src="../../assets/HW & Neolix CEO shaking hands.jpg" alt="">
         <img src="../../assets/HW & Neolix CEO shaking hands2.jpg" alt="">
-        <video data-v-7988fbbe="" src="http://www.myzhangyao.com/static/Venti_ChinaLife_Short19.mp4" muted="muted" playsinline="" controlsList="nodownload" controls="controls"></video>
+        <video data-v-7988fbbe="" src="http://www.myzhangyao.com/static/Venti_ChinaLife_Short19.mp4"  playsinline="" controlsList="nodownload" controls="controls"></video>
       </div>
 
       <div class="thi">
