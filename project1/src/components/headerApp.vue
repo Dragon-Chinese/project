@@ -62,7 +62,7 @@ export default {
                 },
                 {
                     value: 'Cha',
-                    label: '简体中文'
+                    label: '中文'
                 }
             ],
             label : 'Eng',
