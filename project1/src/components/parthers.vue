@@ -41,7 +41,7 @@
         </div>
         <div class="right">
           <div class="rightVideo">
-            <video src="http://www.myzhangyao.com/static/Venti_ChinaLife_Short19.mp4"  playsinline controls controlsList="nodownload"></video>
+            <video id="videL" src="http://www.myzhangyao.com/static/Venti_ChinaLife_Short19.mp4"  playsinline controls controlsList="nodownload"></video>
           </div>
         </div>
       </div>
@@ -85,7 +85,16 @@ export default {
   },
   components: {
     Header
-  }
+  },
+  mounted() {
+    var videL = document.getElementById('videL');
+    videL.addEventListener("webkitfullscreenchange", function(e) {
+    if (!document.webkitIsFullScreen) {
+       //退出全屏关闭视频
+       videL.pause();
+     };
+    })
+  },
 };
 </script>
 

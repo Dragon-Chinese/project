@@ -28,7 +28,7 @@ export default {
     Header
   },
   async mounted() {
-   
+    
   },
   methods: {
     top () {

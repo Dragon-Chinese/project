@@ -39,7 +39,7 @@ export default {
             txt0: "Cheaper. Flexible. Accurate. Reliable.",
             txt1: "WATCH OUR TECHNOLOGY IN ACTION",
             txt2: "TECHNOLOGY APPLICATIONS",
-            txt3: "Venti’s technology is universal with applications in moving people and specialty vehicles in moving goods. For people, our reliable and safe vehicles are cost-effective, comfortable, convenient and calming. They give back time, so needed in our busy world. Happy rides for happy people!",
+            txt3: "Venti's technology is universal with applications in moving people, specialty vehicles, and moving goods. For people, our reliable and safe vehicles are cost-effective, comfortable, convenient and calming. They give back time, so needed in our busy world. Happy rides for happy people!",
             txt4: "TECHNOLOGY ADVANTAGES",
             txt5: "Our autonomy technologies are cost-effective solutions to many logistics and specialty vehicle applications. Venti’s vehicles are cheaper, flexible, accurate, and reliable. They adapt to complex route conditions and decrease operations costs for a variety of industrial needs.",
             txt6: "We can map a new area in half a day and add autonomy to a new vehicle within a week including the drive by wire hardware conversion.  Importantly, our autonomy solution is cheaper than the competition because of the maturity of the underlying system. Our algorithms, rather than the sensors, do the heavy lifting, enabling a less expensive hardware design and lower costs for the customer."

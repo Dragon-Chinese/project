@@ -26,7 +26,7 @@
       <div class="toMain">{{$t('message.technology.txt1')}}</div>
       <div class="content">
         <div class="right">
-           <video src="http://www.myzhangyao.com/static/Venti_Technology_Demo18.mp4"  playsinline controls controlsList="nodownload"></video>
+           <video id="videL"  src="http://www.myzhangyao.com/static/Venti_Technology_Demo18.mp4"  playsinline controls controlsList="nodownload"></video>
         </div>
         <div class="left">
           <div class="leftSize">{{$t('message.technology.txt2')}}</div>
@@ -52,6 +52,13 @@ export default {
     };
   },
   mounted() {
+    var videL = document.getElementById('videL');
+    videL.addEventListener("webkitfullscreenchange", function(e) {
+    if (!document.webkitIsFullScreen) {
+       //退出全屏关闭视频
+       videL.pause();
+     };
+    })
     this.$nextTick(() => {
       new Swiper ('.swiper-container', {
         autoplay: {
