@@ -136,7 +136,7 @@ main {
     font-family:Bodoni-Normal-Italic;
     font-weight:400;
     color:rgba(68,68,68,1);
-    font-style: oblique;
+    font-style: none;
     // width: 200px;;
   }
   .content {
@@ -170,7 +170,7 @@ main {
         font-family: jian;
         font-weight: 400;
         color: rgba(68, 68, 68, 1);
-        font-style: oblique;
+        font-style: none;
       }
       .leftCont {
         width: 100%;
@@ -189,7 +189,7 @@ main {
         font-family: Bodoni-Normal-Italic;
         font-weight: 400;
         color: rgba(68, 68, 68, 1);
-        font-style: oblique;
+        font-style: none;
       }
     }
   }

@@ -36,7 +36,7 @@ export default {
             "txt29" : 'Venti Technologies'
         },
         technology : {
-            txt0: "Cheaper. Flexible. Accurate. Reliable.",
+            txt0: "Cheaper Flexible  Accurate  Reliable",
             txt1: "WATCH OUR TECHNOLOGY IN ACTION",
             txt2: "TECHNOLOGY APPLICATIONS",
             txt3: "Venti's technology is universal with applications in moving people, specialty vehicles, and moving goods. For people, our reliable and safe vehicles are cost-effective, comfortable, convenient and calming. They give back time, so needed in our busy world. Happy rides for happy people!",

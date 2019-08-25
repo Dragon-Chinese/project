@@ -89,7 +89,7 @@ footer{
 }
 .left{
   float: left;
-  width: 604px;
+  width: 404px;
 }
 .left h4 {
   margin-top: 126px;
@@ -120,6 +120,7 @@ footer{
 .rigth{
   float: left;
   margin-top: 113px;
+  margin-left: 150px;
 }
 .rigth ul li:nth-child(1) {
   display: flex;
@@ -210,10 +211,11 @@ footer{
   height:53px;
   background:rgba(255,255,255,1);
   border:3px solid rgba(23,23,23,1);
+  background: #000;
   font-size:20px;
   font-family:ProximaNova-Regular;
   font-weight:300;
-  color:rgba(10,10,10,1);
+  color:#fff;
   line-height:21px;
   outline: none;
   cursor: pointer;

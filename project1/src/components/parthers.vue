@@ -7,7 +7,7 @@
     <main>
       <div class="wr">
       <div class="mainHead">{{ $t("message.parthers.txt1") }}</div>
-      <div class="mainPower">{{ $t("message.parthers.txt2") }}</div>
+      <!-- <div class="mainPower">{{ $t("message.parthers.txt2") }}</div> -->
       <div class="mainHead mainCom">{{ $t("message.parthers.txt3") }}</div>
       <div class="mainSelf">
         <div class="selfImg one">
@@ -32,12 +32,13 @@
           <div class="leftSize">
             {{ $t("message.parthers.txt8") }}
           </div>
-          <div class="leftWork">
-            {{ $t("message.parthers.txt7") }}
-          </div>
           <div class="lefstWork">
             {{ $t("message.parthers.txt9") }}
           </div>
+          <div class="leftWork">
+            {{ $t("message.parthers.txt7") }}
+          </div>
+          
         </div>
         <div class="right">
           <div class="rightVideo">

@@ -127,7 +127,7 @@ footer>p{
   margin-top: 64px;
   width: 308px;
   float: left;
-  font-size:36px;
+  font-size:26px;
   font-family:ProximaNova-Light;
   font-weight:300;
   color:rgba(68,68,68,1);
@@ -150,7 +150,7 @@ footer div ul {
 }
 footer>div ul li{
   
-  font-size:16px;
+  font-size:20px;
   font-family:jian;
   font-weight:300;
   color:rgba(68,68,68,1);

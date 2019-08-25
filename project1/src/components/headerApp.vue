@@ -129,7 +129,7 @@ export default {
         margin-left: 35px;
         flex: 1;
         li {
-            margin-left: 15px;
+            margin-left: 25px;
             font-size:12px;
             font-family:zzz !important;
             letter-spacing: 1px;

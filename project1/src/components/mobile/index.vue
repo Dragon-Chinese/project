@@ -237,14 +237,14 @@
 
   .sec-eq-bottom {
     /*width: 80%;*/
-    font-size: 0.14rem;
+    font-size: 0.2rem;
     transform: scale(.8);
     /*font-size: 8px;*/
     font-family: ProximaNova-Regular;
     font-weight: 100;
     color: #444444;
     margin: 0.39rem auto 0;
-    padding-bottom: 1rem;
+    padding-bottom: .3rem;
     line-height: 0.24rem;
     text-align: center;
     /*height: 0.37rem;*/
@@ -266,18 +266,19 @@
   .sec-eq button {
     display: block;
     margin: auto;
-    font-size: 0.12rem;
+    font-size: 0.3rem;
     transform: scale(.6);
     text-align: center;
     border: 2px solid black;
     border-radius: 3px;
-    padding: 0.1rem 0.4rem;
+    padding: 0.3rem 0.6rem;
     color: #000;
     background-color: #fff;
+    margin-top: .1rem;
   }
 
   .txt {
-    ont-size: 0.1rem;
+    font-size: 0.2rem;
     font-family: ProximaNova-Regular;
     font-weight: 100;
     color: #444444;
