@@ -93,11 +93,9 @@ footer{
 }
 .left h4 {
   margin-top: 126px;
-  font-size:36px;
-  font-family:DengXian-Regular;
-  font-weight:800;
-  color:rgba(10,10,10,1);
-  line-height:85px;
+     font-size: 36px;
+    font-family: jian;
+    font-weight: 300;
 }
 .left p{
   font-size:15px;

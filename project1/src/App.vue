@@ -83,6 +83,7 @@ html , body , #app , .index , .wrap{
   margin: 0;
   padding: 0;
   font-family: PROXIMA-NOVA;
+  font-style: normal !important;
 }
 
 @media screen and (max-width: 1200px) and (min-width: 1024px) {

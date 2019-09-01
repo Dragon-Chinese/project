@@ -6,14 +6,17 @@
       </div>
       <main>
         <div class="wr">
-        <p class="fontTxt">{{$t('message.us.txt1')}}</p>
+          <div class="a">
+           <p class="fontTxt">{{$t('message.us.txt1')}}</p>
         <ul class="font">
           <li class="fontTxt">{{$t('message.us.txt2')}}</li>
           <li class="fontTxt">{{$t('message.us.txt3')}} </li>
           <li class="fontTxt">{{$t('message.us.txt4')}}</li>
           <li class="fontTxt">{{$t('message.us.txt5')}} </li>
           <li class="fontTxt">{{$t('message.us.txt6')}}</li>
-        </ul>
+        </ul> 
+          </div>
+        
         <footer>
           <p>{{$t('message.us.txt7')}}</p>
           <div>
@@ -73,7 +76,10 @@ export default {
   height: 100%;
 }
 .fontTxt{
-  font-family: Bodoni-Normal-Italic;
+      font-size: 16px;
+    font-family: jian;
+    font-weight: 300;
+    color: #444444;
 }
 .Up{
   position: absolute;
@@ -87,9 +93,24 @@ export default {
 .wr {
     width: 1210px;
     margin: 0 auto;
+   
   }
-main .wr>p {
-  margin-top: 134px;
+  .a {
+    display: flex;
+  }
+  .a ul {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .a ul li {
+    margin-left: 20px;
+  }
+  .a ul li:nth-child(1) {
+    margin-left: 0;
+  }
+main .wr .a>p {
+  /* margin-top: 134px; */
   margin-bottom: 35px;
   font-size:28px;
   font-family:Bodoni-Normal-Italic;

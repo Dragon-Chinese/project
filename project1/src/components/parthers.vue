@@ -217,6 +217,7 @@ main {
         line-height: 42px;
         font-style: oblique;
         margin-top: 30px;
+            font-style: normal;
       }
       .leftWork {
         margin-top: 35px;
