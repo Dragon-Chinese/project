@@ -118,7 +118,7 @@
       <hr />
 
       <div class="footer">
-        <p>&copy;Venti Tevhnologies,Inc.</p>
+        <p>&copy;Venti Technologies,Inc.</p>
         <p>info@ventitechnologies.com</p>
       </div>
 
