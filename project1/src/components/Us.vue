@@ -7,8 +7,9 @@
       <main>
         <div class="wr">
           <div class="a">
-           <p class="fontTxt">{{$t('message.us.txt1')}}</p>
+          
         <ul class="font">
+           <p class="fontTxt">{{$t('message.us.txt1')}}</p>
           <li class="fontTxt">{{$t('message.us.txt2')}}</li>
           <li class="fontTxt">{{$t('message.us.txt3')}} </li>
           <li class="fontTxt">{{$t('message.us.txt4')}}</li>
@@ -65,6 +66,7 @@ export default {
   padding: 0;
   width: 100%;
   height: 100%;
+  padding-bottom: 100px;
 }
 .banner{
   position: relative;
@@ -97,19 +99,22 @@ export default {
   }
   .a {
     display: flex;
+    /* align-items: center; */
+    /* font-size: 10px; */
+    padding-top: 60px;
   }
   .a ul {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     margin-left: 20px;
   }
   .a ul li {
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
   .a ul li:nth-child(1) {
     margin-left: 0;
   }
-main .wr .a>p {
+main .wr .a p {
   /* margin-top: 134px; */
   margin-bottom: 35px;
   font-size:28px;
@@ -140,7 +145,7 @@ li:nth-last-child() {
 
 footer {
   border-top: 1px solid #E8E8E8;
-   margin-top: 68px;
+   margin-top: 38px;
   height: 447px;
 }
 
@@ -158,7 +163,7 @@ footer>div{
   margin-top: 55px;
   float: left;
   width:890px;
-  height:350px;
+  /* height:350px; */
   font-size:16px;
   font-family:ProximaNova-Light;
   font-weight:300;
@@ -167,7 +172,7 @@ footer>div{
 }
 footer div ul {
   width:890px;
-  height:350px;
+  /* height:350px; */
 }
 footer>div ul li{
   

@@ -21,26 +21,26 @@
         <div class="must">{{ $t("message.careers.txt6") }}</div>
         <div class="name clearfix">
           <div class="name-eq">
-            <input type="text">
+            <input type="text" v-model="m">
             <p>{{ $t("message.careers.txt7") }}</p>
           </div>
           <div class="name-eq">
-            <input type="text">
+            <input type="text" v-model="x">
             <p>{{ $t("message.careers.txt8") }}</p>
           </div>
         </div>
 
         <div class="email">
           <div class="must">{{ $t("message.careers.txt9") }}</div>
-          <input type="text">
+          <input v-model="y" type="text">
         </div>
 
         <div class="tell">
           <div class="must">{{ $t("message.careers.txt10") }}</div>
-          <input type="text">
+          <input v-model="j" type="text">
         </div>
 
-        <button>{{ $t("message.careers.txt11") }}</button>
+        <button @click="submit">{{ $t("message.careers.txt11") }}</button>
 
         <br />
         <br />
@@ -54,14 +54,43 @@
 </template>
 <script>
   import Header from './headerApp.vue'
-
+  import axios from 'axios'
   export default {
+    data () {
+    return {
+      msg: 'Welcome to Your Vue.js App',
+      x : '',
+      m : '',
+      j : '',
+      y : ''
+    }
+  },
     mounted() {
       this.rem()
     },
     components: {
       Header
+    },
+    methods: {
+      submit () {
+      if(!this.x || !this.m || !this.j || !this.y) {
+        return 
+      } 
+      axios.get(`https://www.yiweisandu.com/submit_email?lastName=${this.x}&firstName=${this.m}&email_=${this.y}&info_=${this.j}`)
+      .then(res => {
+        console.log(res)
+        if(!res.data.error) {
+          alert('Successful delivery')
+          this.x = ''
+          this.y = ''
+          this.j = ''
+          this.m = ''
+        }else {
+          alert('error')
+        }
+      })
     }
+    },
   }
 </script>
 <style lang="scss" scoped>

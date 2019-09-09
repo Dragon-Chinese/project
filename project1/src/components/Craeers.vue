@@ -22,24 +22,24 @@
                 <li>
                   <div class="first">
                     <b style="margin-bottom:12px;">{{$t('message.careers.txt6')}}</b>
-                    <input type="text">
+                    <input type="text" v-model="m">
                     <b style="margin-top:5px;">{{$t('message.careers.txt7')}}</b>
                   </div>
                   <div class="last">
-                    <input type="text">
+                    <input type="text" v-model="x">
                     <b style="margin-top:5px;">{{$t('message.careers.txt8')}}</b>
                   </div>
                 </li>
                 <li>
                   <b>{{$t('message.careers.txt9')}}</b>
-                  <input type="text">
+                  <input type="text" v-model="y">
                 </li>
                 <li>
                   <b>{{$t('message.careers.txt10')}}</b>
-                  <textarea></textarea>
+                  <textarea v-model="j"></textarea>
                 </li>
               </ul>
-              <button>{{$t('message.careers.txt11')}}</button>
+              <button @click="submit">{{$t('message.careers.txt11')}}</button>
             </form>
           </div>
         </footer>
@@ -49,13 +49,39 @@
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   name: 'craeers',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      x : '',
+      m : '',
+      j : '',
+      y : ''
     }
-  }
+  },
+  methods: {
+    
+    submit () {
+      if(!this.x || !this.m || !this.j || !this.y) {
+        return 
+      } 
+      axios.get(`https://www.yiweisandu.com/submit_email?lastName=${this.x}&firstName=${this.m}&email_=${this.y}&info_=${this.j}`)
+      .then(res => {
+        console.log(res)
+        if(!res.data.error) {
+          alert('Successful delivery')
+          this.x = ''
+          this.y = ''
+          this.j = ''
+          this.m = ''
+        }else {
+          alert('error')
+        }
+      })
+    }
+  },
 }
 </script>
 
