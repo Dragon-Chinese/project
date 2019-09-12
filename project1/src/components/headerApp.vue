@@ -123,6 +123,7 @@ export default {
         height:84px;
         background: url('../assets/logo.png') no-repeat;
         background-size: contain;
+        cursor: pointer;
     }
     ul {
         display: flex;

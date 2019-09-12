@@ -288,7 +288,7 @@ display: none;
         border-radius: 3px;
         outline: none;
         cursor: pointer;
-        font-size: 12px;
+        font-size: 15px;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-weight: bold;
         color: rgba(0, 0, 0, 1);
@@ -342,7 +342,7 @@ display: none;
       font-size: 28px;
     }
     .txt {
-      font-size: 14px;
+      font-size: 16px;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-weight: 400;
       color: rgba(68, 68, 68, 1);
